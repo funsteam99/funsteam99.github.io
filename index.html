@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>社子文教基金會 - 根植社子，培育未來</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background: url('https://placehold.co/800x400/4f46e5/ffffff?text=社子文教基金會') center center / cover;
+    }
+    .fade-in {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .fade-in.active {
+      opacity: 1;
+    }
+    .slide-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: rgba(255,255,255,0.5);
+      display: inline-block;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .slide-dot.active {
+      background-color: white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+            <span class="text-white font-bold text-xl">社</span>
+          </div>
+          <div>
+            <h1 class="text-xl font-bold text-gray-900">社子文教基金會</h1>
+            <p class="text-sm text-gray-600">財團法人台北市社子文教基金會</p>
+          </div>
+        </div>
+        
+        <nav class="hidden md:flex space-x-8">
+          <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">關於我們</a>
+          <a href="#services" class="text-gray-700 hover:text-blue-600 transition-colors">服務項目</a>
+          <a href="#resources" class="text-gray-700 hover:text-blue-600 transition-colors">學習資源</a>
+          <a href="#donate" class="text-gray-700 hover:text-blue-600 transition-colors">支持我們</a>
+        </nav>
+
+        <button id="menuToggle" class="md:hidden p-2">
+          <i class="fas fa-bars text-gray-700"></i>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="md:hidden bg-white border-t py-4 hidden">
+        <a href="#about" class="block py-2 text-gray-700 pl-4">關於我們</a>
+        <a href="#services" class="block py-2 text-gray-700 pl-4">服務項目</a>
+        <a href="#resources" class="block py-2 text-gray-700 pl-4">學習資源</a>
+        <a href="#donate" class="block py-2 text-gray-700 pl-4">支持我們</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-96 overflow-hidden">
+    <div class="absolute inset-0 hero-image"></div>
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+      <div class="text-white">
+        <h2 class="text-4xl md:text-6xl font-bold mb-4">社子文教基金會</h2>
+        <p class="text-xl md:text-2xl mb-8 opacity-90">根植社子，培育未來</p>
+        <div class="flex space-x-4">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+            立即捐款
+          </button>
+          <button class="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-colors">
+            活動報名
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <span class="slide-dot active" data-slide="0"></span>
+      <span class="slide-dot" data-slide="1"></span>
+      <span class="slide-dot" data-slide="2"></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">關於我們</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          財團法人台北市社子文教基金會成立於1993年，以「響應社會公益，回饋鄉里」為宗旨，
+          長期致力於社子地區的文化傳承與教育發展。
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img 
+            src="https://placehold.co/500x400/f59e0b/ffffff?text=社子社區" 
+            alt="社子社區"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">我們的願景</h3>
+            <p class="text-gray-700 leading-relaxed">
+              成為社子在地文化教育創新的典範，培育新世代人才，促進地方永續發展。
+            </p>
+          </div>
+          
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">核心使命</h3>
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                深耕在地文化與教育
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                支持弱勢學童成長
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                推動數位學習平權
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                促進社區文化交流
+              </li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h4 class="font-bold text-gray-900 mb-2">聯絡資訊</h4>
+            <p class="text-gray-700">📍 台北市士林區倫等街54巷25號二樓</p>
+            <p class="text-gray-700">📞 (02) 1234-5678</p>
+            <p class="text-gray-700">📧 service@shezifoundation.org.tw</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">核心服務</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          我們提供多元化的教育與文化服務，全面支持社子地區的發展
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🎓</div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">獎學金計畫</h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">資助社子地區清寒學生，鼓勵向學進修</p>
+          <div class="text-sm text-blue-600 font-semibold">年度發放 50+ 份</div>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🧒</div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">優質幼教</h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">提供弱勢家庭學前兒童早期教育支持</p>
+          <div class="text-sm text-blue-600 font-semibold">服務 100+ 孩童</div>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🎭</div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">文化活動</h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">舉辦地方導覽、工作坊與文藝展演</p>
+          <div class="text-sm text-blue-600 font-semibold">年度 12+ 場次</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Resources Section -->
+  <section id="resources" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">學習資源中心</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          整合優質學習資源，包含本會及合作機構提供的教育內容
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">📚</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">數學教育</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">均一平台 - 數學基礎課程</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">系統化的數學學習資源，適合國小至高中學生</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：均一平台教育基金會</div>
+          <a 
+            href="https://www.junyiacademy.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">🏆</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">競賽培訓</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">九九文教 - 數學競賽培訓</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">ARML、TRML等數學競賽選手培訓資料</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：九九文教基金會</div>
+          <a 
+            href="https://99cef.org.tw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">📖</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">弱勢關懷</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">博幼基金會 - 英數教材</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">免費英語與數學自編教材，因材施教</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：博幼社會福利基金會</div>
+          <a 
+            href="https://www.boyo.org.tw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">📰</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">地方文史</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">社子在地文化專刊</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">深度記錄社子地區歷史與人文故事</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：社子文教基金會</div>
+          <a 
+            href="#"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">📘</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">閱讀推廣</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">社區圖書館資源</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">線上借閱系統與電子書庫</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：社子文教基金會</div>
+          <a 
+            href="#"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow">
+          <div class="flex items-start justify-between mb-4">
+            <div class="text-3xl">🎯</div>
+            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">課業輔導</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">課後輔導課程</h3>
+          <p class="text-gray-700 mb-4 leading-relaxed">國中小課業輔導與學習支援</p>
+          <div class="text-sm text-gray-600 mb-3">提供單位：社子文教基金會</div>
+          <a 
+            href="#"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            前往學習
+            <i class="fas fa-external-link-alt ml-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white">
+        <div class="text-center">
+          <h3 class="text-2xl font-bold mb-4">社子數位學習網 即將上線！</h3>
+          <p class="text-lg mb-6 opacity-90">
+            整合各類學習資源，打造專屬社子居民的數位學習平台
+          </p>
+          <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            加入候補名單
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section id="donate" class="py-20 bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">支持我們</h2>
+        <p class="text-xl opacity-90 max-w-3xl mx-auto">
+          您的每一分捐助，都將用於支持社子地區的教育與文化發展
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img 
+            src="https://placehold.co/500x400/10b981/ffffff?text=孩子學習" 
+            alt="孩子學習"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">您的捐助將用於：</h3>
+            <ul class="space-y-3">
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                提供弱勢學童獎助學金
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                發行在地文化刊物
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                推動數位學習平權
+              </li>
+              <li class="flex items-center">
+                <span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                舉辦社區文化活動
+              </li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h4 class="font-bold text-lg mb-4">捐款方式</h4>
+            <div class="grid grid-cols-2 gap-4">
+              <button class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                信用卡捐款
+              </button>
+              <button class="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                銀行轉帳
+              </button>
+              <button class="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                小額定期定額
+              </button>
+              <button class="bg-yellow-600 hover:bg-yellow-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                下載捐款單
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold">社</span>
+            </div>
+            <span class="font-bold">社子文教基金會</span>
+          </div>
+          <p class="text-gray-400 text-sm">
+            根植社子，培育未來 —— 在地文化與教育的創新推手
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">快速連結</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#about" class="hover:text-white transition-colors">關於我們</a></li>
+            <li><a href="#services" class="hover:text-white transition-colors">服務項目</a></li>
+            <li><a href="#resources" class="hover:text-white transition-colors">學習資源</a></li>
+            <li><a href="#donate" class="hover:text-white transition-colors">支持我們</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">聯絡資訊</h4>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>台北市士林區倫等街54巷25號二樓</li>
+            <li>(02) 1234-5678</li>
+            <li>service@shezifoundation.org.tw</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">追蹤我們</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <i class="fab fa-facebook-f text-sm"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
+              <i class="fab fa-instagram text-sm"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors">
+              <i class="fab fa-youtube text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+        <p>© 2025 財團法人台北市社子文教基金會｜統一編號：12345678</p>
+        <p class="mt-2 text-xs">
+          本會資訊依《財團法人法》第25條主動公開，歡迎各界監督
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Interactivity -->
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Hero Slider
+    const dots = document.querySelectorAll('.slide-dot');
+    const heroSection = document.querySelector('.hero-image');
+    const images = [
+      'https://placehold.co/800x400/4f46e5/ffffff?text=社子文教基金會',
+      'https://placehold.co/800x400/059669/ffffff?text=社子文化',
+      'https://placehold.co/800x400/dc2626/ffffff?text=教育支持'
+    ];
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      heroSection.style.backgroundImage = `url('${images[index]}')`;
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        currentSlide = index;
+        showSlide(currentSlide);
+      });
+    });
+
+    // Auto-rotate slider
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % images.length;
+      showSlide(currentSlide);
+    }, 5000);
+  </script>
+</body>
+</html>
