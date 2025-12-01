@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main # 請確認您的 Github 分支是 main 還是 master
+
+media_folder: "pics/uploads"
+public_folder: "/pics/uploads"
+
+collections:
+  # 最新消息
+  - name: "posts"
+    label: "最新消息"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "發布日期", name: "date", widget: "datetime"}
+      - {label: "封面圖片", name: "image", widget: "image", required: false}
+      - {label: "內文", name: "body", widget: "markdown"}
+
+  # 首頁內容編輯
+  - name: "pages"
+    label: "頁面內容管理"
+    files:
+      - name: "homepage"
+        label: "首頁設定"
+        file: "_data/homepage.yml"
+        fields:
+          - label: "【Hero區塊】主標題"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "大標題", name: "title", widget: "string"}
+              - {label: "副標題", name: "subtitle", widget: "string"}
+              - {label: "輪播圖片", name: "images", widget: "list", field: {label: "圖片", name: "image", widget: "image"}}
+          
+          - label: "【關於我們】"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "標題", name: "title", widget: "string"}
+              - {label: "內容", name: "content", widget: "text"}
+              - {label: "願景", name: "vision", widget: "text"}
+              - {label: "核心使命列表", name: "mission_list", widget: "list", field: {label: "項目", name: "item", widget: "string"}}
+
+          - label: "【服務項目】"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "圖示(Emoji)", name: "icon", widget: "string"}
+              - {label: "標題", name: "title", widget: "string"}
+              - {label: "描述", name: "desc", widget: "text"}
+              - {label: "小標籤", name: "badge", widget: "string"}
+
+          - label: "【學習資源】"
+            name: "resources"
+            widget: "list"
+            fields:
+              - {label: "圖示(Emoji)", name: "icon", widget: "string"}
+              - {label: "分類標籤", name: "tag", widget: "string"}
+              - {label: "資源標題", name: "title", widget: "string"}
+              - {label: "資源描述", name: "desc", widget: "text"}
+              - {label: "提供單位", name: "provider", widget: "string"}
+              - {label: "連結網址", name: "link", widget: "string"}
