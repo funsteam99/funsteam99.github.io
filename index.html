@@ -1,0 +1,252 @@
+---
+layout: default
+title: 首頁
+---
+
+<section class="relative h-96 overflow-hidden">
+  <div id="heroBg" class="absolute inset-0 hero-bg bg-gray-900"></div>
+  <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+  
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+    <div class="text-white">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">{{ site.data.homepage.hero.title }}</h2>
+      <p class="text-xl md:text-2xl mb-8 opacity-90">{{ site.data.homepage.hero.subtitle }}</p>
+      <div class="flex space-x-4">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          立即捐款
+        </button>
+        <button class="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-colors">
+          活動報名
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2" id="slideDots">
+    </div>
+</section>
+
+<section id="about" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">{{ site.data.homepage.about.title }}</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        {{ site.data.homepage.about.content }}
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <figure style="margin-top:1.25rem">
+          <img loading="lazy" src="/pics/20251030.jpg" alt="歷史照片1" class="rounded shadow w-full" />
+          <figcaption style="font-size:.9rem; color:#6b7280; margin-top:.25rem">▲ 1994年(民83)成立附設圖書館照片</figcaption>
+        </figure>
+      </div>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">我們的願景</h3>
+          <p class="text-gray-700 leading-relaxed">{{ site.data.homepage.about.vision }}</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">核心使命</h3>
+          <ul class="space-y-3 text-gray-700">
+            {% for mission in site.data.homepage.about.mission_list %}
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+              {{ mission }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">核心服務</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        我們提供多元化的教育與文化服務，全面支持社子地區的發展
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {% for service in site.data.homepage.services %}
+      <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <div class="text-4xl mb-4">{{ service.icon }}</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">{{ service.title }}</h3>
+        <p class="text-gray-700 mb-6 leading-relaxed">{{ service.desc }}</p>
+        {% if service.badge %}
+        <div class="text-sm text-blue-600 font-semibold">{{ service.badge }}</div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="news" class="py-20 bg-white border-t border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">最新消息</h2>
+      <p class="text-xl text-gray-600">基金會的最新動態與公告</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts limit:3 %}
+      <div class="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col">
+        {% if post.image %}
+        <div class="h-48 overflow-hidden">
+             <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
+        </div>
+        {% endif %}
+        <div class="p-6 flex-grow">
+          <p class="text-sm text-blue-600 mb-2">{{ post.date | date: "%Y-%m-%d" }}</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{{ post.title }}</h3>
+          <p class="text-gray-600 text-sm mb-4 line-clamp-3">
+            {{ post.content | strip_html | truncatewords: 20 }}
+          </p>
+        </div>
+        <div class="px-6 pb-6 mt-auto">
+            <a href="{{ post.url }}" class="text-blue-600 font-semibold hover:text-blue-800">閱讀更多 →</a>
+        </div>
+      </div>
+      {% else %}
+      <div class="col-span-3 text-center text-gray-500 py-10 border-2 border-dashed border-gray-200 rounded-lg">
+        <p>目前沒有最新消息，請至後台新增文章。</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="resources" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">學習資源中心</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        整合優質學習資源，包含本會及合作機構提供的教育內容
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for resource in site.data.homepage.resources %}
+      <div class="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="text-3xl">{{ resource.icon }}</div>
+          <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">{{ resource.tag }}</span>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">{{ resource.title }}</h3>
+        <p class="text-gray-700 mb-4 leading-relaxed text-sm">{{ resource.desc }}</p>
+        <div class="text-sm text-gray-600 mb-3">提供單位：{{ resource.provider }}</div>
+        <a 
+          href="{{ resource.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
+        >
+          前往學習 <i class="fas fa-external-link-alt ml-1"></i>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white text-center">
+        <h3 class="text-2xl font-bold mb-4">社子數位學習網 即將上線！</h3>
+        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          加入候補名單
+        </button>
+    </div>
+  </div>
+</section>
+
+<section id="donate" class="py-20 bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold mb-4">支持我們</h2>
+      <p class="text-xl opacity-90 max-w-3xl mx-auto">
+        您的每一分捐助，都將用於支持社子地區的教育與文化發展
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img 
+          src="/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png" 
+          alt="孩子學習"
+          class="rounded-lg shadow-lg w-full"
+        />
+      </div>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-2xl font-bold mb-4">您的捐助將用於：</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center"><span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>提供弱勢學童獎助學金</li>
+            <li class="flex items-center"><span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>發行在地文化刊物</li>
+            <li class="flex items-center"><span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>推動數位學習平權</li>
+            <li class="flex items-center"><span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>舉辦社區文化活動</li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <h4 class="font-bold text-lg mb-4">捐款方式</h4>
+          <div class="grid grid-cols-2 gap-4">
+             <button class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold">信用卡捐款</button>
+             <button class="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg font-semibold">銀行轉帳</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // 從 Jekyll 資料中讀取圖片路徑列表
+  const heroImages = [
+    {% for img in site.data.homepage.hero.images %}
+      "{{ img }}",
+    {% endfor %}
+  ];
+  
+  const heroBg = document.getElementById('heroBg');
+  const dotContainer = document.getElementById('slideDots');
+  let currentSlide = 0;
+
+  // 初始化圓點
+  if (heroImages.length > 0 && dotContainer) {
+    heroImages.forEach((_, index) => {
+      const dot = document.createElement('span');
+      dot.className = `slide-dot w-3 h-3 rounded-full bg-white bg-opacity-50 inline-block mx-1 cursor-pointer transition-all duration-300`;
+      dot.onclick = () => { currentSlide = index; showSlide(index); };
+      dotContainer.appendChild(dot);
+    });
+    showSlide(0);
+  }
+
+  function showSlide(index) {
+    if(!heroBg) return;
+    heroBg.style.backgroundImage = `url('${heroImages[index]}')`;
+    
+    // Update dots
+    const dots = document.querySelectorAll('#slideDots span');
+    dots.forEach((dot, i) => {
+      if(i === index) {
+        dot.classList.remove('bg-opacity-50');
+        dot.classList.add('bg-white', 'scale-125');
+      } else {
+        dot.classList.add('bg-opacity-50');
+        dot.classList.remove('bg-white', 'scale-125');
+      }
+    });
+  }
+
+  // 自動輪播
+  if (heroImages.length > 1) {
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % heroImages.length;
+      showSlide(currentSlide);
+    }, 5000);
+  }
+</script>
