@@ -1,0 +1,26 @@
+navbar:
+  logo: "/pics/777274059.086824.png"
+  title: "社子文教基金會"
+  subtitle: "財團法人台北市社子文教基金會"
+  links:
+    - label: "關於我們"
+      url: "/#about"
+    - label: "服務項目"
+      url: "/#services"
+    - label: "最新消息"
+      url: "/#news"
+    - label: "學習資源"
+      url: "/#resources"
+    - label: "支持我們"
+      url: "/#donate"
+
+footer:
+  description: "財團法人台北市社子文教基金會成立於1993年，以「響應社會公益，回饋鄉里」為宗旨，長期致力於社子地區的文化傳承與教育發展。"
+  address: "台北市士林區倫等街54巷25號二樓"
+  email: "contact@funsteam99.org.tw"
+  copyright: "© 2025 財團法人台北市社子文教基金會｜統一編號：12345678"
+  legal_note: "本會資訊依《財團法人法》第25條主動公開"
+  social_links:
+    facebook: "#"
+    instagram: "#"
+    youtube: "#"
