@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    .fade-in { opacity: 0; transition: opacity 1s ease-in-out; }
+    .fade-in.active { opacity: 1; }
+    /* 確保 Hero 區塊的樣式正確 */
+    .hero-bg {
+      background-position: center center;
+      background-size: cover;
+      transition: background-image 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800 flex flex-col min-h-screen">
+
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center overflow-hidden">
+             <img src="/pics/777274059.086824.png" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'text-white font-bold\'>社</span>'" class="w-full h-full object-cover" />
+          </div>
+          
+          <div>
+            <h1 class="text-xl font-bold text-gray-900">{{ site.title }}</h1>
+            <p class="text-sm text-gray-600">財團法人台北市社子文教基金會</p>
+          </div>
+        </div>
+        
+        <nav class="hidden md:flex space-x-8">
+          <a href="/#about" class="text-gray-700 hover:text-blue-600 transition-colors">關於我們</a>
+          <a href="/#services" class="text-gray-700 hover:text-blue-600 transition-colors">服務項目</a>
+          <a href="/#news" class="text-gray-700 hover:text-blue-600 transition-colors">最新消息</a>
+          <a href="/#resources" class="text-gray-700 hover:text-blue-600 transition-colors">學習資源</a>
+          <a href="/#donate" class="text-gray-700 hover:text-blue-600 transition-colors">支持我們</a>
+        </nav>
+
+        <button id="menuToggle" class="md:hidden p-2">
+          <i class="fas fa-bars text-gray-700"></i>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="md:hidden bg-white border-t py-4 hidden">
+        <a href="/#about" class="block py-2 text-gray-700 pl-4">關於我們</a>
+        <a href="/#services" class="block py-2 text-gray-700 pl-4">服務項目</a>
+        <a href="/#news" class="block py-2 text-gray-700 pl-4">最新消息</a>
+        <a href="/#resources" class="block py-2 text-gray-700 pl-4">學習資源</a>
+        <a href="/#donate" class="block py-2 text-gray-700 pl-4">支持我們</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    {{ content }}
+  </main>
+
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold">社</span>
+            </div>
+            <span class="font-bold">{{ site.title }}</span>
+          </div>
+          <p class="text-gray-400 text-sm">
+            {{ site.description }}
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">快速連結</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="/#about" class="hover:text-white transition-colors">關於我們</a></li>
+            <li><a href="/#services" class="hover:text-white transition-colors">服務項目</a></li>
+            <li><a href="/#news" class="hover:text-white transition-colors">最新消息</a></li>
+            <li><a href="/#donate" class="hover:text-white transition-colors">支持我們</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">聯絡資訊</h4>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>台北市士林區倫等街54巷25號二樓</li>
+            <li>📧 {{ site.email }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">追蹤我們</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><i class="fab fa-facebook-f text-sm"></i></a>
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors"><i class="fab fa-instagram text-sm"></i></a>
+            <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors"><i class="fab fa-youtube text-sm"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+        <p>© 2025 財團法人台北市社子文教基金會｜統一編號：12345678</p>
+        <p class="mt-2 text-xs">本會資訊依《財團法人法》第25條主動公開</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if(menuToggle && mobileMenu){
+      menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    // Netlify Identity Redirect
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
