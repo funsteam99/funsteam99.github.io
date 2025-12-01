@@ -1,0 +1,58 @@
+hero:
+  title: "社子文教基金會"
+  subtitle: "根植社子，培育未來"
+  # 這裡是可以輪播的圖片列表
+  images:
+    - "/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png"
+    - "/pics/3ce5eac1-6c23-4fb9-8ead-6d8c1b323263.png"
+    - "/pics/d4dbc371-288a-4ea4-ab27-17043da0b4a7.png"
+
+about:
+  title: "關於我們"
+  content: "財團法人台北市社子文教基金會成立於1993年，以「響應社會公益，回饋鄉里」為宗旨，長期致力於社子地區的文化傳承與教育發展。"
+  vision: "成為社子在地文化教育創新的典範，培育新世代人才，促進地方永續發展。"
+  mission_list:
+    - "深耕在地文化與教育"
+    - "支持弱勢學童成長"
+    - "推動數位學習平權"
+    - "促進社區文化交流"
+
+services:
+  - icon: "🧒"
+    title: "優質幼教"
+    desc: "提供弱勢家庭學前兒童早期教育支持"
+    badge: "服務 100+ 孩童"
+  - icon: "🎭"
+    title: "文化活動"
+    desc: "舉辦地方導覽、工作坊與文藝展演"
+    badge: "年度 12+ 場次"
+  - icon: "🎓"
+    title: "獎學金計畫"
+    desc: "資助社子地區清寒學生，鼓勵向學進修"
+    badge: "年度發放 50+ 份"
+
+resources:
+  - icon: "📚"
+    tag: "數學教育"
+    title: "均一平台 - 數學基礎課程"
+    desc: "系統化的數學學習資源，適合國小至高中學生"
+    provider: "均一平台教育基金會"
+    link: "https://www.junyiacademy.org/"
+  - icon: "🏆"
+    tag: "競賽培訓"
+    title: "九九文教 - 數學競賽培訓"
+    desc: "ARML、TRML等數學競賽選手培訓資料"
+    provider: "九九文教基金會"
+    link: "https://99cef.org.tw/"
+  - icon: "📖"
+    tag: "弱勢關懷"
+    title: "博幼基金會 - 英數教材"
+    desc: "免費英語與數學自編教材，因材施教"
+    provider: "博幼社會福利基金會"
+    link: "https://www.boyo.org.tw/"
+  - icon: "📰"
+    tag: "地方文史"
+    title: "社子在地文化專刊"
+    desc: "深度記錄社子地區歷史與人文故事"
+    provider: "社子文教基金會"
+    link: "#"
