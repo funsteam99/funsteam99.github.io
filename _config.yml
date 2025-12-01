@@ -1,0 +1,19 @@
+title: 社子文教基金會
+email: shezi.org.tw@gmail.com
+description: >-
+  根植社子，培育未來 —— 在地文化與教育的創新推手
+baseurl: "" 
+url: "" 
+
+# Markdown 設定
+markdown: kramdown
+
+# 排除不需要發布的檔案
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
