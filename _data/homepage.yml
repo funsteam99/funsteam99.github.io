@@ -56,3 +56,10 @@ resources:
     desc: "深度記錄社子地區歷史與人文故事"
     provider: "社子文教基金會"
     link: "#"
+
+
+featured_news:
+  - title: "現在加入會員，可享免費線上圖書館借閱服務"
+    date: "2026-03-01"
+    excerpt: "即日起加入社子文教基金會會員，即可享有免費線上圖書館借閱服務。"
+    link: "https://forms.gle/your-google-form-id"
