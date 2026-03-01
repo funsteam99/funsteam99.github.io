@@ -7,6 +7,8 @@ navbar:
       url: /#about
     - label: 服務項目
       url: /#services
+    - label: 加入會員
+      url: "https://forms.gle/your-google-form-id"
     - label: 最新消息
       url: /#news
     - label: 學習資源
