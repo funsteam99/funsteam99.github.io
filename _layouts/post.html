@@ -13,12 +13,18 @@ layout: default
 <section class="py-10 md:py-14 bg-gray-50">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <article class="article-content bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-10">
+      {% if page.image %}
+      <figure class="mb-8">
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full rounded-xl shadow-sm" loading="lazy" />
+      </figure>
+      {% endif %}
+
       {{ content }}
     </article>
 
     <div class="mt-8">
       <a href="/#news" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
-        ← 回到最新消息
+        ← 回到新消息
       </a>
     </div>
   </div>
