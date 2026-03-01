@@ -95,8 +95,26 @@ title: 首頁
     </div>
 
     <div class="grid md:grid-cols-3 gap-8">
+      {% assign featured_news = site.data.homepage.featured_news | default: empty %}
+      {% assign featured_count = featured_news | size %}
       {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-      {% for post in sorted_posts limit:3 %}
+      {% assign post_limit = 3 | minus: featured_count %}
+      {% if post_limit < 0 %}{% assign post_limit = 0 %}{% endif %}
+
+      {% for item in featured_news limit:3 %}
+      <div class="bg-blue-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col border border-blue-100">
+        <div class="p-6 flex-grow">
+          <p class="text-sm text-blue-600 mb-2">{{ item.date }}</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{{ item.title }}</h3>
+          <p class="text-gray-600 text-sm mb-4 line-clamp-3">{{ item.excerpt }}</p>
+        </div>
+        <div class="px-6 pb-6 mt-auto">
+          <a href="{{ item.link }}" class="text-blue-600 font-semibold hover:text-blue-800" target="_blank" rel="noopener noreferrer">立即加入 →</a>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% for post in sorted_posts limit:post_limit %}
       <div class="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col">
         {% if post.image %}
         <div class="h-48 overflow-hidden">
@@ -114,11 +132,13 @@ title: 首頁
             <a href="{{ post.url }}" class="text-blue-600 font-semibold hover:text-blue-800">閱讀更多 →</a>
         </div>
       </div>
-      {% else %}
+      {% endfor %}
+
+      {% if featured_count == 0 and sorted_posts.size == 0 %}
       <div class="col-span-3 text-center text-gray-500 py-10 border-2 border-dashed border-gray-200 rounded-lg">
         <p>目前沒有最新消息，請至後台新增文章。</p>
       </div>
-      {% endfor %}
+      {% endif %}
     </div>
   </div>
 </section>
