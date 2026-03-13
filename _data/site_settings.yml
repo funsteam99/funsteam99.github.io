@@ -11,6 +11,8 @@ navbar:
       url: "https://forms.gle/your-google-form-id"
     - label: 最新消息
       url: /#news
+    - label: 歷年回顧
+      url: /#history
     - label: 學習資源
       url: /#resources
     - label: 支持我們
