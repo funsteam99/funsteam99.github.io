@@ -103,18 +103,13 @@ title: 首頁
 
       {% for item in featured_news limit:3 %}
       <div class="bg-blue-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col border border-blue-100">
-        {% if item.image %}
-        <div class="h-48 overflow-hidden">
-          <img src="{{ item.image }}" alt="{{ item.title }}" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
-        </div>
-        {% endif %}
         <div class="p-6 flex-grow">
           <p class="text-sm text-blue-600 mb-2">{{ item.date }}</p>
           <h3 class="text-xl font-bold text-gray-900 mb-2">{{ item.title }}</h3>
           <p class="text-gray-600 text-sm mb-4 line-clamp-3">{{ item.excerpt }}</p>
         </div>
         <div class="px-6 pb-6 mt-auto">
-          <a href="{{ item.link }}" class="text-blue-600 font-semibold hover:text-blue-800" target="_blank" rel="noopener noreferrer">查看詳情 →</a>
+          <a href="{{ item.link }}" class="text-blue-600 font-semibold hover:text-blue-800" target="_blank" rel="noopener noreferrer">立即加入 →</a>
         </div>
       </div>
       {% endfor %}
@@ -144,36 +139,6 @@ title: 首頁
         <p>目前沒有最新消息，請至後台新增文章。</p>
       </div>
       {% endif %}
-    </div>
-  </div>
-</section>
-
-<section id="history" class="py-20 bg-gray-50 border-t border-gray-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-4xl font-bold text-gray-900 mb-4">歷年回顧</h2>
-      <p class="text-xl text-gray-600">Maker Faire Taipei 歷屆頁面與活動紀錄</p>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow p-6 mb-8 border border-gray-100">
-      <p class="text-gray-700 leading-relaxed">
-        依官方歷屆頁面可見，<span class="font-semibold text-blue-700">2014 年頁面明確標示「主辦單位：財團法人台北市社子文教基金會」</span>。
-        其餘年度可由以下歷屆連結進一步查閱活動內容與影像紀錄。
-      </p>
-    </div>
-
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/home-2024/">2024 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/home-2023/">2023 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/home-2022/">2022 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/2021-home/">2021 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/home-page/">2019 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/maker-faire-taipei-2018%e5%9c%93%e6%bb%bf%e7%b5%90%e6%9d%9f/">2018 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/more/%e6%ad%b7%e5%b1%86%e5%9b%9e%e9%a1%a7/2017%e5%9b%9e%e9%a1%a7/">2017 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/more/%e6%ad%b7%e5%b1%86%e5%9b%9e%e9%a1%a7/2016%e5%9b%9e%e9%a1%a7/">2016 回顧</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/more/%e6%ad%b7%e5%b1%86%e5%9b%9e%e9%a1%a7/2015%e5%9b%9e%e9%a1%a7/">2015 回顧</a>
-      <a class="block bg-blue-50 rounded-xl border border-blue-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/more/%e6%ad%b7%e5%b1%86%e5%9b%9e%e9%a1%a7/2014%e5%9b%9e%e9%a1%a7/">2014 回顧（主辦單位：社子文教基金會）</a>
-      <a class="block bg-white rounded-xl border border-gray-200 p-4 hover:shadow transition" target="_blank" rel="noopener noreferrer" href="https://taipei.makerfaire.com/more/%e6%ad%b7%e5%b1%86%e5%9b%9e%e9%a1%a7/2013%e5%9b%9e%e9%a1%a7/">2013 回顧</a>
     </div>
   </div>
 </section>
