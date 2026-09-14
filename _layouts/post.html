@@ -4,9 +4,14 @@ layout: default
 
 <section class="bg-white py-12 md:py-16 border-b border-gray-100">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    {% if page.section == 'articles' %}
+    <p class="text-sm font-medium text-blue-600 mb-3"><a href="{{ '/articles/' | relative_url }}">文章專區</a> ＞ {{ page.category | escape }}</p>
+    {% else %}
     <p class="text-sm font-medium text-blue-600 mb-3">最新消息</p>
+    {% endif %}
     <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{{ page.title }}</h1>
-    <p class="text-gray-500 mt-4">{{ page.date | date: "%Y-%m-%d" }}</p>
+    {% if page.subtitle %}<p class="text-xl text-gray-700 mt-4">{{ page.subtitle | escape }}</p>{% endif %}
+    <p class="text-gray-500 mt-4"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>{% if page.author %}｜{{ page.author | escape }}{% endif %}</p>
   </div>
 </section>
 
@@ -23,9 +28,13 @@ layout: default
     </article>
 
     <div class="mt-8">
+      {% if page.section == 'articles' %}
+      <a href="{{ '/articles/' | relative_url }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">← 回到文章專區</a>
+      {% else %}
       <a href="/#news" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
-        ← 回到新消息
+        ← 回到最新消息
       </a>
+      {% endif %}
     </div>
   </div>
 </section>

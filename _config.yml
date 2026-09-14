@@ -10,6 +10,7 @@ markdown: kramdown
 
 # 排除不需要發布的檔案
 exclude:
+  - scripts
   - Gemfile
   - Gemfile.lock
   - node_modules
