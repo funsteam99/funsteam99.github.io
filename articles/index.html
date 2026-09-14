@@ -1,0 +1,13 @@
+---
+layout: default
+title: 文章專區｜教育・學習・親子
+---
+<section class="py-12 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="mb-8"><a href="{{ '/' | relative_url }}" class="text-blue-600 hover:text-blue-800">← 回到首頁</a></p>
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">文章專區｜教育・學習・親子</h1>
+    <p class="text-xl text-gray-600 mb-12">實用的學習方法、教育觀點與親子陪伴資源</p>
+    {% assign education_posts = site.posts | where: 'section', 'articles' | sort: 'date' | reverse %}
+    {% include article-list.html posts=education_posts %}
+  </div>
+</section>
