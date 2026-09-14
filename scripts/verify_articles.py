@@ -1,6 +1,7 @@
 """Validate the actual GitHub Pages build without deploying it."""
 from pathlib import Path
 import re
+from urllib.parse import unquote
 
 root = Path("_site")
 home = (root / "index.html").read_text(encoding="utf-8")
@@ -22,6 +23,6 @@ assert "每天 60 分鐘" in post and "考前倒數 7 天" in post
 assert "此篇改由首頁" not in home + archive
 for html in (home, archive, post):
     for url in re.findall(r'(?:href|src)="(/[^"#?]*)', html):
-        path = root / url.lstrip("/")
+        path = root / unquote(url).lstrip("/")
         assert path.exists() or (path / "index.html").exists(), f"Missing local URL: {url}"
 print("PASS: Pages build, article routes, retained news, complete content, local links")
