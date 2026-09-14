@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}" />{% endif %}
+  {% if page.extra_css %}<link rel="stylesheet" href="{{ page.extra_css | relative_url }}" />{% endif %}
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -99,18 +101,18 @@
           </div>
         </div>
 
-        <nav class="hidden md:flex space-x-8">
+        <nav class="hidden lg:flex lg:space-x-4 xl:space-x-8" aria-label="主要導覽">
           {% for link in site.data.site_settings.navbar.links %}
           <a href="{{ link.url }}" class="text-gray-700 hover:text-blue-600 transition-colors">{{ link.label }}</a>
           {% endfor %}
         </nav>
 
-        <button id="menuToggle" class="md:hidden p-2">
+        <button id="menuToggle" class="lg:hidden p-2" aria-label="開啟導覽選單" aria-controls="mobileMenu" aria-expanded="false">
           <i class="fas fa-bars text-gray-700"></i>
         </button>
       </div>
 
-      <div id="mobileMenu" class="md:hidden bg-white border-t py-4 hidden">
+      <div id="mobileMenu" class="lg:hidden bg-white border-t py-4 hidden">
         {% for link in site.data.site_settings.navbar.links %}
         <a href="{{ link.url }}" class="block py-2 text-gray-700 pl-4">{{ link.label }}</a>
         {% endfor %}
@@ -185,6 +187,9 @@
     if (menuToggle && mobileMenu) {
       menuToggle.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
+        const expanded = !mobileMenu.classList.contains('hidden');
+        menuToggle.setAttribute('aria-expanded', String(expanded));
+        menuToggle.setAttribute('aria-label', expanded ? '關閉導覽選單' : '開啟導覽選單');
       });
     }
 
