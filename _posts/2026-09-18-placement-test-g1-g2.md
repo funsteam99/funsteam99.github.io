@@ -1,14 +1,14 @@
 ---
 layout: post
 extra_css: /assets/css/articles.css
-title: "【自學資源】國小低年級（G1/G2）起點檢測卷（IVS優化版）與家長指引開放下載"
+title: "【自學資源】國小低年級（G1/G2）起點檢測卷與家長指引開放下載"
 subtitle: "社子數位學習網｜陪伴孩子找到學習起點，無壓力適性自學"
 date: 2026-09-18 10:00:00 +0800
 section: articles
 category: 自主學習
 author: 社子文教基金會
 permalink: /articles/placement-test-g1-g2/
-description: "社子文教基金會推動「社子數位學習網」，特別釋出國小一、二年級數學起點定位測驗（IVS 標準字形試用版）與家長解答指引，協助家庭無壓力診斷先備概念，繪製自學地圖。"
+description: "社子文教基金會推動「社子數位學習網」，特別釋出國小一、二年級數學起點定位測驗（低年級好讀排版試用版）與家長解答指引，協助家庭無壓力診斷先備概念，繪製自學地圖。"
 ---
 
 陪伴低年級孩子展開自學，最關鍵的第一步不是「做大量的題目」，而是**「找到合適的學習起點」**。
@@ -19,8 +19,8 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
 
 ## 💡 本套測驗的核心特色
 
-### 1. IVS 標準字形與低年級友善視讀
-本次釋出的試用卷特別針對國小低年級學童的視覺認知進行了排版升級，採用**教育部標準國字字形（IVS）**與大字距、舒朗版面，避免傳統考卷密密麻麻的壓迫感，讓低年級孩子讀題輕鬆不疲憊。
+### 1. 標準字形與低年級友善大字排版
+本次釋出的試用卷特別針對國小低年級學童的視覺認知進行了排版設計，採用**教育部標準國字字形**、適度放大的字距與舒朗版面，避免傳統考卷密密麻麻的壓迫感，讓低年級孩子讀題輕鬆不疲憊。
 
 ### 2. 「適性定位」而非排名打分數
 本測驗並非學校用來排名競爭的考試，而是自學路徑上的**「起點導航儀」**。
@@ -41,7 +41,7 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
   <p style="color: #4b5563; font-size: 0.95rem; margin-bottom: 16px;">涵蓋數量順序、個位與十位進位、加減情境、生活數錢換錢、長度與日常時間等 15 個核心概念。</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
     <a href="/assets/pdf/placement/g1-placement-ivs-child.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
-      📄 下載 G1 學生作答卷 (IVS 版 PDF)
+      📄 下載 G1 學生作答卷 (PDF)
     </a>
     <a href="/assets/pdf/placement/g1-placement-parent.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #ffffff; color: #1e40af; border: 1.5px solid #93c5fd; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
       📘 下載 G1 家長解答與評估手冊 (PDF)
@@ -54,7 +54,7 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
   <p style="color: #4b5563; font-size: 0.95rem; margin-bottom: 16px;">涵蓋千以內數數、直式加減、乘法與倍數意義、十十乘法、分裝平分、公分公尺長度與兩步驟應用等 21 個核心概念。</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
     <a href="/assets/pdf/placement/g2-placement-ivs-child.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
-      📄 下載 G2 學生作答卷 (IVS 版 PDF)
+      📄 下載 G2 學生作答卷 (PDF)
     </a>
     <a href="/assets/pdf/placement/g2-placement-parent.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #ffffff; color: #1e40af; border: 1.5px solid #93c5fd; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
       📘 下載 G2 家長解答與評估手冊 (PDF)
@@ -66,7 +66,7 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
 
 ## 💬 歡迎填寫「試卷體驗回饋問卷」
 
-孩子在施測時的反應如何？題量是否合適？字形閱讀是否順利？
+孩子在施測時的反應如何？題量是否合適？閱讀排版是否順利？
 
 您的真實回饋是我們優化教材與持續開發「社子數位學習網」最重要的動力。歡迎使用完畢的家長撥空 2 分鐘填寫體驗問卷：
 
