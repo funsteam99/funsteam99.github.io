@@ -32,6 +32,12 @@ services:
     badge: "年度發放 50+ 份"
 
 resources:
+  - icon: "📝"
+    tag: "自主學習起點"
+    title: "國小低年級起點檢測卷 (G1/G2 IVS 版)"
+    desc: "108課綱數學全年起點定位測驗，採教育部標準字形排版，附完整家長指引手冊。"
+    provider: "社子文教基金會・社子數位學習網"
+    link: "/articles/placement-test-g1-g2/"
   - icon: "📚"
     tag: "數學教育"
     title: "均一平台 - 數學基礎課程"

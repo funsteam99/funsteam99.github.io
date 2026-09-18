@@ -186,11 +186,30 @@ title: 首頁
       {% endfor %}
     </div>
 
-    <div class="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white text-center">
-        <h3 class="text-2xl font-bold mb-4">社子數位學習網 即將上線！</h3>
-        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          加入候補名單
-        </button>
+    <div class="mt-12 bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 rounded-2xl p-8 md:p-10 text-white shadow-xl text-center">
+        <div class="inline-block bg-white bg-opacity-20 text-blue-100 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full mb-3 backdrop-blur-sm">
+          🚀 社子數位學習網・低年級自主學習試辦計畫
+        </div>
+        <h3 class="text-2xl md:text-3xl font-bold mb-3">國小低年級（G1/G2）起點檢測卷 IVS 版 正式開放！</h3>
+        <p class="text-blue-100 text-base md:text-lg max-w-2xl mx-auto mb-6 leading-relaxed">
+          採用教育部標準字形優化排版，搭配專業家長評估指引手冊。誠摯邀請體驗試卷並填寫回饋，搶先取得未來數位自學最新教材！
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe-sample-form-link/viewform" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-gray-950 px-8 py-3.5 rounded-xl font-bold transition-all transform hover:-translate-y-0.5 shadow-lg flex items-center justify-center gap-2"
+          >
+            <span>📝</span> 填寫試卷體驗問卷（優先候補）
+          </a>
+          <a 
+            href="{{ '/articles/placement-test-g1-g2/' | relative_url }}" 
+            class="w-full sm:w-auto bg-white bg-opacity-15 hover:bg-opacity-25 border border-white border-opacity-40 text-white px-8 py-3.5 rounded-xl font-semibold transition-all flex items-center justify-center gap-2"
+          >
+            <span>📄</span> 查看詳情與下載 PDF →
+          </a>
+        </div>
     </div>
   </div>
 </section>
