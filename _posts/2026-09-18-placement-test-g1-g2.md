@@ -40,7 +40,7 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
   <h3 style="margin-top: 0; color: #1e3a8a; font-size: 1.3rem;">📘 國小一年級 (G1) 起點定位測驗</h3>
   <p style="color: #4b5563; font-size: 0.95rem; margin-bottom: 16px;">涵蓋數量順序、個位與十位進位、加減情境、生活數錢換錢、長度與日常時間等 15 個核心概念。</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-    <a href="/assets/pdf/placement/g1-placement-ivs-child.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
+    <a href="/assets/pdf/placement/g1-placement-ivs-child.pdf?v=20260918-layout" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
       📄 下載 G1 學生作答卷 (PDF)
     </a>
     <a href="/assets/pdf/placement/g1-placement-parent.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #ffffff; color: #1e40af; border: 1.5px solid #93c5fd; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
@@ -53,7 +53,7 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
   <h3 style="margin-top: 0; color: #1e3a8a; font-size: 1.3rem;">📙 國小二年級 (G2) 起點定位測驗</h3>
   <p style="color: #4b5563; font-size: 0.95rem; margin-bottom: 16px;">涵蓋千以內數數、直式加減、乘法與倍數意義、十十乘法、分裝平分、公分公尺長度與兩步驟應用等 21 個核心概念。</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-    <a href="/assets/pdf/placement/g2-placement-ivs-child.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
+    <a href="/assets/pdf/placement/g2-placement-ivs-child.pdf?v=20260918-layout" target="_blank" style="display: inline-flex; align-items: center; background: #2563eb; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
       📄 下載 G2 學生作答卷 (PDF)
     </a>
     <a href="/assets/pdf/placement/g2-placement-parent.pdf" target="_blank" style="display: inline-flex; align-items: center; background: #ffffff; color: #1e40af; border: 1.5px solid #93c5fd; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
