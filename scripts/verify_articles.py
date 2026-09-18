@@ -16,8 +16,9 @@ articles = home.split('<section id="articles"')[1].split("</section>")[0]
 assert title not in news, "Education article displaced news"
 assert "2025年10月 最新消息" in news
 assert "親子春聯 DIY" in news and "現在加入會員" in news
-assert articles.count('aria-label="閱讀全文：') == 1
+assert articles.count('aria-label="閱讀全文：') >= 1
 assert "/articles/exam-review-guide/" in articles and "/articles/exam-review-guide/" in archive
+assert "/articles/placement-test-g1-g2/" in articles and "/articles/placement-test-g1-g2/" in archive
 assert "2026.09.14" in articles and "2026-09-14" in post, "Publication date must use Taiwan timezone"
 assert "給家長的三個陪伴方法" in post and "考前準備 Check 卡" in post
 assert "每天 60 分鐘" in post and "考前倒數 7 天" in post
