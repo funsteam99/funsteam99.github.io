@@ -68,10 +68,10 @@ description: "社子文教基金會推動「社子數位學習網」，特別釋
 
 孩子在施測時的反應如何？題量是否合適？閱讀排版是否順利？
 
-您的真實回饋是我們優化教材與持續開發「社子數位學習網」最重要的動力。歡迎使用完畢的家長撥空 2 分鐘填寫體驗問卷：
+您的真實回饋是我們優化教材與持續開發「社子數位學習網」最重要的動力。歡迎使用完畢的家長撥空約 2–3 分鐘填寫體驗問卷：
 
 <div style="text-align: center; margin: 32px 0;">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-sample-form-link/viewform" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: linear-gradient(135deg, #16a34a, #15803d); color: white; padding: 14px 32px; border-radius: 10px; font-weight: bold; font-size: 1.1rem; text-decoration: none; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI-eca-dm-1LWccbz7m8uW-b2V3QVRH_TU0hK614Jq3NufdQ/viewform" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: linear-gradient(135deg, #16a34a, #15803d); color: white; padding: 14px 32px; border-radius: 10px; font-weight: bold; font-size: 1.1rem; text-decoration: none; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);">
     📝 填寫「試卷體驗回饋問卷」（優先獲取新教材）
   </a>
 </div>
