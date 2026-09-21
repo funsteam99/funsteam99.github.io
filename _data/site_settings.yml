@@ -13,6 +13,10 @@ navbar:
       url: /#news
     - label: 文章專區
       url: /articles/
+    - label: 科學天地
+      url: /science/
+    - label: 親子漫畫
+      url: /family-comics/
     - label: 學習資源
       url: /#resources
     - label: 支持我們
