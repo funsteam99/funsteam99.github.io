@@ -15,7 +15,7 @@ navbar:
       url: /articles/
     - label: 科學天地
       url: /science/
-    - label: 親子漫畫
+    - label: 漫畫專區
       url: /family-comics/
     - label: 學習資源
       url: /#resources
