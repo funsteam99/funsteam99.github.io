@@ -7,7 +7,7 @@ date: 2026-09-22 00:00:00 +0800
 section: articles
 category: 學習方法
 author: 社子文教基金會
-permalink: /articles/exam-review-guide/
+permalink: /articles/exam-review-battle/
 description: "考前複習不必只是從第一頁重新讀到最後一頁。透過確認範圍、找出弱點、實際做題與分析錯誤，讓每一次複習更有方向。"
 image: /pics/uploads/exam-review-guide.png
 image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
@@ -335,4 +335,3 @@ image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
 - Dunlosky, J. et al. (2013). *Improving Students’ Learning With Effective Learning Techniques*. Psychological Science in the Public Interest.
 - Karpicke, J. D., & Roediger, H. L. (2008). *The Critical Importance of Retrieval for Learning*. Science.
 - Rowland, C. A. (2014). *The Effect of Testing Versus Restudy on Retention*. Psychological Bulletin.
-
