@@ -11,9 +11,27 @@
 .review-map p { margin: .5rem 0; }
 .review-check { margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: .75rem; }
 .review-check h2:first-child { margin-top: 0; }
+.article-content table {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  -webkit-overflow-scrolling: touch;
+}
+.article-content th,
+.article-content td {
+  min-width: 7rem;
+  padding: .65rem .75rem;
+  border: 1px solid #d1d5db;
+  text-align: left;
+  vertical-align: top;
+}
+.article-content th { background: #eff6ff; color: #1f2937; }
 @media (max-width: 639px) {
   .review-map { grid-template-columns: 1fr; }
   .review-check { padding: 1rem; }
+  .article-content table { font-size: .875rem; }
 }
 @media print {
   header, footer, main > section:first-child, main > section:last-child > div > div { display: none; }

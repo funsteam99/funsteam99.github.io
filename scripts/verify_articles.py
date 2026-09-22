@@ -8,7 +8,7 @@ home = (root / "index.html").read_text(encoding="utf-8")
 archive = (root / "articles/index.html").read_text(encoding="utf-8")
 post = (root / "articles/exam-review-guide/index.html").read_text(encoding="utf-8")
 placement = (root / "articles/placement-test-g1-g2/index.html").read_text(encoding="utf-8")
-title = "考前不再從第一頁讀到最後一頁：中小學生高效複習指南"
+title = "考前複習大作戰｜找出弱點、做對練習，讓複習更有效"
 for html in (home, archive, post, placement):
     assert "{{" not in html and "{%" not in html, "Unrendered Liquid"
 for html in (home, archive, post):
@@ -21,9 +21,9 @@ assert "親子春聯 DIY" in news and "現在加入會員" in news
 assert articles.count('aria-label="閱讀全文：') >= 1
 assert "/articles/exam-review-guide/" in articles and "/articles/exam-review-guide/" in archive
 assert "/articles/placement-test-g1-g2/" in articles and "/articles/placement-test-g1-g2/" in archive
-assert "2026.09.14" in articles and "2026-09-14" in post, "Publication date must use Taiwan timezone"
-assert "給家長的三個陪伴方法" in post and "考前準備 Check 卡" in post
-assert "每天 60 分鐘" in post and "考前倒數 7 天" in post
+assert "2026.09.22" in articles and "2026-09-22" in post, "Publication date must use Taiwan timezone"
+assert "考前 7 天作戰計畫" in post and "考前終極檢查表" in post
+assert "60 分鐘" in post and "不要只用「粗心」" in post
 assert "國小一至六年級（G1–G6）" in placement
 homepage = (root / "index.html").read_text(encoding="utf-8")
 homepage_data = (root / "_data/homepage.yml").read_text(encoding="utf-8")

@@ -20,7 +20,7 @@ layout: default
     <article class="article-content bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-10">
       {% if page.image %}
       <figure class="mb-8">
-        <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full rounded-xl shadow-sm" loading="lazy" />
+        <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" class="w-full rounded-xl shadow-sm" loading="lazy" />
       </figure>
       {% endif %}
 
