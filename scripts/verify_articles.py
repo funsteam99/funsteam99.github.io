@@ -25,6 +25,10 @@ assert "2026.09.14" in articles and "2026-09-14" in post, "Publication date must
 assert "給家長的三個陪伴方法" in post and "考前準備 Check 卡" in post
 assert "每天 60 分鐘" in post and "考前倒數 7 天" in post
 assert "國小一至六年級（G1–G6）" in placement
+homepage = (root / "index.html").read_text(encoding="utf-8")
+homepage_data = (root / "_data/homepage.yml").read_text(encoding="utf-8")
+assert "國小一至六年級（G1–G6）起點檢測卷" in homepage
+assert "國小一至六年級起點檢測卷 (G1–G6)" in homepage_data
 for grade in range(1, 7):
     assert f"下載 G{grade} 學生作答卷" in placement
     assert f"下載 G{grade} 家長解答與評估手冊" in placement
