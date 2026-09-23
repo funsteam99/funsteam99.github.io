@@ -40,6 +40,7 @@ image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
   </div>
   <p class="comic-guide__hint" aria-hidden="true">← 左右滑動閱讀 →</p>
 </section>
+<script src="{{ '/assets/js/comic-guide.js' | relative_url }}" defer></script>
 
 有些同學會從課本第一頁一直看到最後一頁。看了很久，覺得自己好像都懂了，可是題目一出現，卻發現不知道該怎麼做。
 
