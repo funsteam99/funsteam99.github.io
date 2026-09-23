@@ -17,6 +17,30 @@ image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
 
 > 「這麼多東西，到底要從哪裡開始複習？」
 
+<section class="comic-guide" aria-labelledby="comic-guide-title">
+  <div class="comic-guide__intro">
+    <p class="comic-guide__eyebrow">圖解專題・繁體中文版</p>
+    <h2 id="comic-guide-title">先用 10 張漫畫，找到最該複習的地方</h2>
+    <p>在手機上左右滑動，依序完成確認範圍、判斷熟練度、實際解題、訂正錯誤、重複練習與考前檢查。這六個操作步驟，是把文章原有的四項核心原則拆得更具體。</p>
+    <p class="comic-guide__actions">
+      <a class="comic-guide__download" href="{{ '/assets/downloads/exam-review-comic-traditional-chinese.zip' | relative_url }}" download>下載完整圖卡 ZIP</a>
+      <span>共 10 張・適合親子共讀與課堂引導</span>
+    </p>
+  </div>
+  <div class="comic-guide__rail" aria-label="考前複習大作戰圖卡；可左右滑動">
+    {% for number in (1..10) %}
+      {% capture padded %}{% if number < 10 %}0{% endif %}{{ number }}{% endcapture %}
+      <figure class="comic-guide__page" id="comic-page-{{ padded }}">
+        <a href="{{ '/assets/images/articles/exam-review/' | append: padded | append: '.png' | relative_url }}" aria-label="開啟第 {{ number }} 張完整圖卡">
+          <img src="{{ '/assets/images/articles/exam-review/' | append: padded | append: '.png' | relative_url }}" alt="考前複習大作戰第 {{ number }} 張圖卡" width="1024" height="1536" {% if number > 1 %}loading="lazy"{% endif %} decoding="async">
+        </a>
+        <figcaption>{{ number }} / 10</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+  <p class="comic-guide__hint" aria-hidden="true">← 左右滑動閱讀 →</p>
+</section>
+
 有些同學會從課本第一頁一直看到最後一頁。看了很久，覺得自己好像都懂了，可是題目一出現，卻發現不知道該怎麼做。
 
 有效的複習不是比誰讀得久，而是要知道：
