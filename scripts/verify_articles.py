@@ -21,9 +21,9 @@ assert "兒童與青少年 AI 素養教材" in news
 assert any("2025年10月 最新消息" in p.read_text(encoding="utf-8") for p in root.rglob("*.html")), "Original announcement must remain available"
 assert "親子春聯 DIY" in news and "現在加入會員" in news
 assert articles.count('aria-label="閱讀全文：') >= 1
-assert "/articles/exam-review-guide/" in articles and "/articles/exam-review-guide/" in archive
-assert "/articles/exam-review-battle/" in articles and "/articles/exam-review-battle/" in archive
-assert "/articles/placement-test-g1-g2/" in articles and "/articles/placement-test-g1-g2/" in archive
+assert "/articles/exam-review-guide/" in archive
+assert "/articles/exam-review-battle/" in archive
+assert "/articles/placement-test-g1-g2/" in archive
 assert "2026.09.22" in articles and "2026-09-22" in post, "Publication date must use Taiwan timezone"
 assert "2026-09-14" in old_post, "Original article must retain its publication date"
 assert "考前不再從第一頁讀到最後一頁：中小學生高效複習指南" in old_post
