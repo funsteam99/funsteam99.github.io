@@ -16,7 +16,9 @@ jobs:
           source: ./
           destination: ./_site
       - name: Check generated pages
-        run: python3 scripts/verify_articles.py
+        run: |
+          python3 scripts/verify_articles.py
+          python3 scripts/verify_ai_literacy.py
       - uses: actions/upload-artifact@v4
         with:
           name: site-preview
