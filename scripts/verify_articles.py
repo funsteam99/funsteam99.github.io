@@ -31,7 +31,7 @@ assert "考前 7 天作戰計畫" in post and "考前終極檢查表" in post
 assert "60 分鐘" in post and "不要只用「粗心」" in post
 assert "國小一至六年級（G1–G6）" in placement
 homepage = (root / "index.html").read_text(encoding="utf-8")
-homepage_data = (root / "_data/homepage.yml").read_text(encoding="utf-8")
+homepage_data = Path("_data/homepage.yml").read_text(encoding="utf-8")
 assert "國小一至六年級（G1–G6）起點檢測卷" in homepage
 assert "國小一至六年級起點檢測卷 (G1–G6)" in homepage_data
 for grade in range(1, 7):
