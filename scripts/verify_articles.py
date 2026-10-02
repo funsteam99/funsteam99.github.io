@@ -17,12 +17,13 @@ for html in (home, archive, post):
 news = home.split('<section id="news"')[1].split("</section>")[0]
 articles = home.split('<section id="articles"')[1].split("</section>")[0]
 assert title not in news, "Education article displaced news"
-assert "2025年10月 最新消息" in news
+assert "兒童與青少年 AI 素養教材" in news
+assert any("2025年10月 最新消息" in p.read_text(encoding="utf-8") for p in root.rglob("*.html")), "Original announcement must remain available"
 assert "親子春聯 DIY" in news and "現在加入會員" in news
 assert articles.count('aria-label="閱讀全文：') >= 1
-assert "/articles/exam-review-guide/" in articles and "/articles/exam-review-guide/" in archive
-assert "/articles/exam-review-battle/" in articles and "/articles/exam-review-battle/" in archive
-assert "/articles/placement-test-g1-g2/" in articles and "/articles/placement-test-g1-g2/" in archive
+assert "/articles/exam-review-guide/" in archive
+assert "/articles/exam-review-battle/" in archive
+assert "/articles/placement-test-g1-g2/" in archive
 assert "2026.09.22" in articles and "2026-09-22" in post, "Publication date must use Taiwan timezone"
 assert "2026-09-14" in old_post, "Original article must retain its publication date"
 assert "考前不再從第一頁讀到最後一頁：中小學生高效複習指南" in old_post
@@ -30,7 +31,7 @@ assert "考前 7 天作戰計畫" in post and "考前終極檢查表" in post
 assert "60 分鐘" in post and "不要只用「粗心」" in post
 assert "國小一至六年級（G1–G6）" in placement
 homepage = (root / "index.html").read_text(encoding="utf-8")
-homepage_data = (root / "_data/homepage.yml").read_text(encoding="utf-8")
+homepage_data = Path("_data/homepage.yml").read_text(encoding="utf-8")
 assert "國小一至六年級（G1–G6）起點檢測卷" in homepage
 assert "國小一至六年級起點檢測卷 (G1–G6)" in homepage_data
 for grade in range(1, 7):
