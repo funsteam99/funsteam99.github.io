@@ -17,7 +17,8 @@ for html in (home, archive, post):
 news = home.split('<section id="news"')[1].split("</section>")[0]
 articles = home.split('<section id="articles"')[1].split("</section>")[0]
 assert title not in news, "Education article displaced news"
-assert "2025年10月 最新消息" in news
+assert "兒童與青少年 AI 素養教材" in news
+assert any("2025年10月 最新消息" in p.read_text(encoding="utf-8") for p in root.rglob("*.html")), "Original announcement must remain available"
 assert "親子春聯 DIY" in news and "現在加入會員" in news
 assert articles.count('aria-label="閱讀全文：') >= 1
 assert "/articles/exam-review-guide/" in articles and "/articles/exam-review-guide/" in archive
