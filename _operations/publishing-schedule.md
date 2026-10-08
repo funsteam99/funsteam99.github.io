@@ -35,7 +35,7 @@ https://shezi.org.tw/science/sound-transmission/
 | 預定發佈時間 | 集數 | 內容 | 素材路徑 | 狀態 | 執行端 |
 |---|---|---|---|---|---|
 | 2026-10-01 09:00 | 02 | 悟空去岡山佛光山朝聖 | serial-assets/episode-02.png | 已發布；main已存在weekly-journey-ep02 | Codex本機排程 |
-| 2026-10-08 09:00 | 03 | 悟空夜闖故宮 | serial-assets/episode-03.png | 待發布 | Codex本機排程 |
+| 2026-10-08 09:00 | 03 | 悟空夜闖故宮 | serial-assets/episode-03.png | 已發布；實際台灣時間 2026-10-08 09:08；https://shezi.org.tw/modern-journey/#weekly-journey-ep03 | Codex本機排程 |
 | 2026-10-15 09:00 | 04 | 悟空迷路九份！ | serial-assets/episode-04.png | 待發布 | Codex本機排程 |
 | 2026-10-22 09:00 | 05 | 八戒決戰台南小吃！ | serial-assets/episode-05.png | 待發布 | Codex本機排程 |
 | 2026-10-29 09:00 | 06 | 悟空搭高鐵大冒險！ | serial-assets/episode-06.png | 待發布 | Codex本機排程 |
