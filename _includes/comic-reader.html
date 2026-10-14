@@ -1,0 +1,13 @@
+{% assign comic = site.data.comic_panels[include.id] %}
+<section class="panel-reader" aria-label="{{ comic.title | escape }}分格閱讀">
+  <p class="panel-reader__intro">往下滑，依序閱讀。點選圖片可放大。</p>
+  {% for item in comic.items %}
+  <figure class="panel-reader__item{% if item.kind == 'header' %} panel-reader__header{% endif %}">
+    {% if item.show_number %}<figcaption class="panel-reader__number">{{ item.number }}</figcaption>{% endif %}
+    <a href="{{ item.png | relative_url }}" target="_blank" rel="noopener" aria-label="放大：{{ item.alt | escape }}">
+      <picture><source srcset="{{ item.webp | relative_url }} {{ item.width }}w" sizes="(max-width: 704px) calc(100vw - 24px), 680px" type="image/webp"><img src="{{ item.png | relative_url }}" width="{{ item.width }}" height="{{ item.height }}" alt="{{ item.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" decoding="async"></picture>
+    </a>
+  </figure>
+  {% endfor %}
+  <p class="panel-reader__original"><a href="{{ comic.source | relative_url }}" target="_blank" rel="noopener">查看完整原圖</a></p>
+</section>

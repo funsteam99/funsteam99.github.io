@@ -3,6 +3,7 @@ layout: default
 title: 現代西遊記連載漫畫
 description: 跟著悟空、八戒和悟淨展開台灣冒險，每週四更新連載漫畫。
 extra_css: /assets/css/discovery.css
+extra_reader_css: /assets/css/comic-reader.css
 permalink: /modern-journey/
 ---
 <section class="py-16 md:py-24 bg-amber-50 border-b border-amber-100">
@@ -20,24 +21,14 @@ permalink: /modern-journey/
         <p class="text-sm font-bold text-amber-700 tracking-widest">現代西遊大冒險・第 3 集・2026-10-08</p>
         <h2 class="text-3xl md:text-4xl font-black text-slate-900 mt-3">《悟空夜闖故宮》</h2>
       </header>
-      <figure class="comic-page">
-        <a href="{{ '/assets/images/comics/weekly-journey-ep03.png' | relative_url }}" aria-label="開啟第 3 集完整漫畫">
-          <picture style="display: contents">{% include image-sources.html src='/assets/images/comics/weekly-journey-ep03.png' sizes="(max-width: 768px) 100vw, 1200px" %}<img src="{{ '/assets/images/comics/weekly-journey-ep03.png' | relative_url }}" alt="現代西遊大冒險第 3 集：悟空夜闖故宮" width="1024" height="1536" loading="eager" fetchpriority="high" decoding="async" /></picture>
-        </a>
-        <figcaption>每週四連載・點選漫畫可開啟完整大圖</figcaption>
-      </figure>
+      {% include comic-reader.html id='journey-03' %}
     </article>
     <article class="comic-feature" id="weekly-journey-ep02">
       <header class="comic-feature__header">
         <p class="text-sm font-bold text-amber-700 tracking-widest">現代西遊大冒險・第 2 集・2026-10-01</p>
         <h2 class="text-3xl md:text-4xl font-black text-slate-900 mt-3">《悟空去岡山佛光山朝聖》</h2>
       </header>
-      <figure class="comic-page">
-        <a href="{{ '/assets/images/comics/weekly-journey-ep02.png' | relative_url }}" aria-label="開啟第 2 集完整漫畫">
-          <picture style="display: contents">{% include image-sources.html src='/assets/images/comics/weekly-journey-ep02.png' sizes="(max-width: 768px) 100vw, 1200px" %}<img src="{{ '/assets/images/comics/weekly-journey-ep02.png' | relative_url }}" alt="現代西遊大冒險第 2 集：悟空去岡山佛光山朝聖" width="1536" height="1024" loading="lazy" decoding="async" /></picture>
-        </a>
-        <figcaption>每週四連載・點選漫畫可開啟完整大圖</figcaption>
-      </figure>
+      {% include comic-reader.html id='journey-02' %}
     </article>
     <article class="comic-feature">
       <header class="comic-feature__header">
@@ -45,12 +36,7 @@ permalink: /modern-journey/
         <h2 class="text-3xl md:text-4xl font-black text-slate-900 mt-3">《現代西遊大冒險：悟空今天又闖禍了！》</h2>
         <p class="text-lg text-slate-700 leading-relaxed mt-4">校園裡流傳著神祕的天宮體育館，悟空、八戒和悟淨決定偷偷一探究竟；沒想到一顆金色籃球，竟然啟動了警報……</p>
       </header>
-      <figure class="comic-page">
-        <a href="{{ '/assets/images/comics/modern-journey-ep01.jpg' | relative_url }}" aria-label="開啟《現代西遊大冒險》第一集完整大圖">
-          <picture style="display: contents">{% include image-sources.html src='/assets/images/comics/modern-journey-ep01.jpg' sizes="(max-width: 768px) 100vw, 1200px" %}<img src="{{ '/assets/images/comics/modern-journey-ep01.jpg' | relative_url }}" alt="漫畫《現代西遊大冒險》第一集：悟空今天又闖禍了，共十二格" width="1024" height="1536" decoding="async" /></picture>
-        </a>
-        <figcaption>點選漫畫可開啟完整大圖</figcaption>
-      </figure>
+      {% include comic-reader.html id='journey-01' %}
     </article>
 
   </div>
