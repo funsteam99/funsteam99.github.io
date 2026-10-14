@@ -11,15 +11,21 @@ class Reader(HTMLParser):
     def __init__(self):
         super().__init__()
         self.images, self.numbers, self.originals = [], [], []
+        self.in_reader = False
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        if tag == 'img' and '/assets/images/panels/' in attrs.get('src', ''):
+        if tag == 'section' and attrs.get('class') == 'panel-reader':
+            self.in_reader = True
+        if self.in_reader and tag == 'img' and '/assets/images/panels/' in attrs.get('src', ''):
             self.images.append((attrs['src'], int(attrs['width']), int(attrs['height'])))
             assert attrs.get('alt') and attrs.get('loading') in ('eager','lazy')
         if tag == 'figcaption' and attrs.get('class') == 'panel-reader__number':
             self.numbers.append(True)
         if tag == 'a':
             self.originals.append(attrs.get('href'))
+    def handle_endtag(self, tag):
+        if tag == 'section':
+            self.in_reader = False
 
 pages = {'modern-journey':['journey-03','journey-02','journey-01'],
          'science/sound-transmission':['sound'], 'science/butterfly-life-cycle':['butterfly'],

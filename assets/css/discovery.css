@@ -40,6 +40,9 @@
 }
 
 .comic-feature { margin-bottom: clamp(2.5rem, 7vw, 5rem); }
+.comic-feature[id] { scroll-margin-top: 7rem; }
+.journey-index { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.25rem; list-style:none; padding:0; }
+.journey-index .science-card__body h3 { color:var(--ink); font-weight:800; font-size:1.2rem; line-height:1.5; }
 .comic-feature__header { max-width: 48rem; margin-bottom: 1.5rem; }
 .comic-page { margin: 0; }
 .comic-page a {
@@ -62,6 +65,7 @@
 
 @media (max-width: 760px) {
   .science-grid { grid-template-columns: 1fr; }
+  .journey-index { grid-template-columns: 1fr; }
   .comic-chapters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
