@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "journey-01",
+    "title": "現代西遊第一集",
+    "source": "/assets/images/comics/modern-journey-ep01.jpg",
+    "sha256": "c3f4e1cfbd0fb042867790ed21085d287bdd27b91dac5fcfb74735984099a97c",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          218
+        ],
+        "alt": "現代西遊大冒險第一集刊頭與人物介紹"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          218,
+          351,
+          550
+        ],
+        "alt": "發現天宮體育館",
+        "number": 1,
+        "show_number": false
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          351,
+          218,
+          688,
+          550
+        ],
+        "alt": "分享重大發現",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          688,
+          218,
+          1024,
+          550
+        ],
+        "alt": "討論作戰計畫",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          550,
+          351,
+          897
+        ],
+        "alt": "偷偷進入體育館",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          351,
+          550,
+          688,
+          897
+        ],
+        "alt": "發現金色籃球",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          688,
+          550,
+          1024,
+          897
+        ],
+        "alt": "金箍棒啟動",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          897,
+          351,
+          1218
+        ],
+        "alt": "警報響起",
+        "number": 7,
+        "show_number": false
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          351,
+          897,
+          688,
+          1218
+        ],
+        "alt": "風紀隊包圍",
+        "number": 8,
+        "show_number": false
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          688,
+          897,
+          1024,
+          1218
+        ],
+        "alt": "悟空逃跑",
+        "number": 9,
+        "show_number": false
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1218,
+          317,
+          1536
+        ],
+        "alt": "唐老師出現",
+        "number": 10,
+        "show_number": false
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          317,
+          1218,
+          682,
+          1536
+        ],
+        "alt": "反省報告",
+        "number": 11,
+        "show_number": false
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          682,
+          1218,
+          1024,
+          1536
+        ],
+        "alt": "故事待續",
+        "number": 12,
+        "show_number": false
+      }
+    ]
+  },
+  {
+    "id": "journey-02",
+    "title": "現代西遊第二集",
+    "source": "/assets/images/comics/weekly-journey-ep02.png",
+    "sha256": "084a3304f8ac33419f47888732be6aa7b8300ec171de06c253ef2c0b69898369",
+    "size": [
+      1536,
+      1024
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1536,
+          148
+        ],
+        "alt": "悟空去岡山佛光山朝聖刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          148,
+          385,
+          468
+        ],
+        "alt": "出發前往高雄",
+        "number": 1,
+        "show_number": false
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          385,
+          148,
+          714,
+          468
+        ],
+        "alt": "抵達佛光山",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          714,
+          148,
+          1108,
+          468
+        ],
+        "alt": "參觀大佛",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          1108,
+          148,
+          1536,
+          468
+        ],
+        "alt": "體驗佛館文化",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          468,
+          350,
+          734
+        ],
+        "alt": "抄經體驗",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          350,
+          468,
+          663,
+          734
+        ],
+        "alt": "法師開示",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          663,
+          468,
+          914,
+          734
+        ],
+        "alt": "佛光山美景",
+        "number": 7,
+        "show_number": false
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          914,
+          468,
+          1240,
+          734
+        ],
+        "alt": "素食午餐",
+        "number": 8,
+        "show_number": false
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          1240,
+          468,
+          1536,
+          734
+        ],
+        "alt": "做好事的小任務",
+        "number": 9,
+        "show_number": false
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          734,
+          412,
+          1024
+        ],
+        "alt": "帶著收穫回家",
+        "number": 10,
+        "show_number": false
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          412,
+          734,
+          801,
+          1024
+        ],
+        "alt": "神秘地圖",
+        "number": 11,
+        "show_number": false
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          801,
+          734,
+          1536,
+          1024
+        ],
+        "alt": "台灣冒險地圖",
+        "number": 12,
+        "show_number": false
+      }
+    ]
+  },
+  {
+    "id": "journey-03",
+    "title": "現代西遊第三集",
+    "source": "/assets/images/comics/weekly-journey-ep03.png",
+    "sha256": "aa4be01ced5d62485add24c7d1288420fa988a26d61bf76f8e92a16f3c50ddcf",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          359,
+          211
+        ],
+        "alt": "悟空夜闖故宮刊頭",
+        "edits": [
+          {
+            "box": [
+              6,
+              5,
+              59,
+              43
+            ],
+            "color": "#102d48"
+          }
+        ]
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          211,
+          359,
+          449
+        ],
+        "alt": "冒險地圖與故宮求知印線索",
+        "number": 1,
+        "show_number": true
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          359,
+          0,
+          713,
+          449
+        ],
+        "alt": "抵達故宮",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          713,
+          0,
+          1024,
+          449
+        ],
+        "alt": "神秘線索與翠玉白菜",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          449,
+          359,
+          768
+        ],
+        "alt": "發現古怪紙條",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          359,
+          449,
+          688,
+          768
+        ],
+        "alt": "夜晚的故宮",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          688,
+          449,
+          1024,
+          768
+        ],
+        "alt": "文物動起來",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          768,
+          359,
+          1123
+        ],
+        "alt": "聽文物說故事",
+        "number": 7,
+        "show_number": false
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          359,
+          768,
+          713,
+          1123
+        ],
+        "alt": "小小考驗",
+        "number": 8,
+        "show_number": false
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          713,
+          768,
+          1024,
+          1123
+        ],
+        "alt": "使用 AI 查資料",
+        "number": 9,
+        "show_number": false
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1123,
+          355,
+          1536
+        ],
+        "alt": "提交答案",
+        "number": 10,
+        "show_number": false
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          355,
+          1123,
+          705,
+          1536
+        ],
+        "alt": "獲得求知印",
+        "number": 11,
+        "show_number": false
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          705,
+          1123,
+          1024,
+          1536
+        ],
+        "alt": "下一站預告",
+        "number": 12,
+        "show_number": false
+      }
+    ]
+  },
+  {
+    "id": "sound",
+    "title": "聲音是怎麼傳播的？",
+    "source": "/assets/images/science/sound-transmission.png",
+    "sha256": "45ee9f15aacc67919679ee158ccc7ba337abe2366e68551cb7aa5f724f0824b0",
+    "size": [
+      1312,
+      1199
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          352,
+          221
+        ],
+        "alt": "自然小探險隊：聲音是怎麼傳播的刊頭",
+        "edits": [
+          {
+            "box": [
+              3,
+              2,
+              80,
+              51
+            ],
+            "color": "#12584e"
+          }
+        ]
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          221,
+          352,
+          670
+        ],
+        "alt": "探索聲音如何傳到耳朵",
+        "number": 1,
+        "show_number": true
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          352,
+          0,
+          659,
+          670
+        ],
+        "alt": "聲音由振動產生",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          659,
+          0,
+          971,
+          670
+        ],
+        "alt": "聲波在空氣中的傳遞",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          971,
+          0,
+          1312,
+          670
+        ],
+        "alt": "不同介質中的聲音",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          670,
+          494,
+          1199
+        ],
+        "alt": "摸喉嚨與橡皮筋振動實驗",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          494,
+          670,
+          891,
+          1199
+        ],
+        "alt": "杯子電話實驗",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          891,
+          670,
+          1312,
+          1199
+        ],
+        "alt": "聲音知識總結與挑戰",
+        "number": 7,
+        "show_number": false
+      }
+    ]
+  },
+  {
+    "id": "butterfly",
+    "title": "蝴蝶的生命循環",
+    "source": "/assets/images/science/butterfly-life-cycle.jpg",
+    "sha256": "51fa168854080237be6a17ddceac2c4238b8f34c8781722659afc66ba59e2020",
+    "size": [
+      1215,
+      1295
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          389,
+          224
+        ],
+        "alt": "自然小探險隊：蝴蝶的生命循環刊頭",
+        "edits": [
+          {
+            "box": [
+              3,
+              2,
+              75,
+              47
+            ],
+            "color": "#155541"
+          }
+        ]
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          224,
+          389,
+          701
+        ],
+        "alt": "探索蝴蝶的成長過程",
+        "number": 1,
+        "show_number": true
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          389,
+          0,
+          636,
+          701
+        ],
+        "alt": "卵：新生命的開始",
+        "number": 2,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "2",
+            "font_size": 31
+          }
+        ],
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          636,
+          0,
+          914,
+          701
+        ],
+        "alt": "幼蟲：努力吃與快速長大",
+        "number": 3,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "3",
+            "font_size": 31
+          }
+        ],
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          914,
+          0,
+          1215,
+          701
+        ],
+        "alt": "蛹：安靜變身",
+        "number": 4,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "4",
+            "font_size": 31
+          }
+        ],
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          701,
+          397,
+          1244
+        ],
+        "alt": "羽化成蝶",
+        "number": 5,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "5",
+            "font_size": 31
+          }
+        ],
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          397,
+          701,
+          793,
+          1244
+        ],
+        "alt": "成蝶的生活",
+        "number": 6,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "6",
+            "font_size": 31
+          }
+        ],
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          793,
+          701,
+          1215,
+          1244
+        ],
+        "alt": "生命循環",
+        "number": 7,
+        "edits": [
+          {
+            "box": [
+              3,
+              3,
+              77,
+              49
+            ],
+            "color": "#155541",
+            "text": "7",
+            "font_size": 31
+          }
+        ],
+        "pieces": [
+          {
+            "box": [
+              793,
+              701,
+              1215,
+              1244
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              891,
+              1244,
+              1215,
+              1295
+            ],
+            "at": [
+              98,
+              543
+            ]
+          }
+        ],
+        "canvas_size": [
+          422,
+          594
+        ],
+        "reason": "保留右下告示牌完整文字，底部共同標語另存補充圖",
+        "show_number": false
+      },
+      {
+        "key": "footer",
+        "kind": "supplement",
+        "box": [
+          0,
+          1244,
+          891,
+          1295
+        ],
+        "alt": "觀察、尊重、守護，讓更多生命繼續飛翔"
+      }
+    ]
+  },
+  {
+    "id": "seasons",
+    "title": "為什麼會有四季？",
+    "source": "/assets/images/science/why-four-seasons.jpg",
+    "sha256": "700d5f1316ab8dda5aa542f8ec1dbab2c5ea5db4cc3f9df5411768a0c03a1b24",
+    "size": [
+      1254,
+      1254
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          726,
+          393
+        ],
+        "alt": "為什麼會有四季：故事引言"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          726,
+          0,
+          1254,
+          393
+        ],
+        "alt": "地球的自轉軸傾斜",
+        "number": 1,
+        "show_number": false
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          0,
+          393,
+          624,
+          745
+        ],
+        "alt": "地球繞太陽公轉",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          624,
+          393,
+          1254,
+          745
+        ],
+        "alt": "不同季節的照射角度與時間",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          745,
+          624,
+          1182
+        ],
+        "alt": "手電筒與球的小實驗",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          624,
+          745,
+          918,
+          1182
+        ],
+        "alt": "四季的美麗變化",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          918,
+          745,
+          1254,
+          1182
+        ],
+        "alt": "四季知識與總結",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "footer",
+        "kind": "supplement",
+        "box": [
+          0,
+          1182,
+          1254,
+          1254
+        ],
+        "alt": "同一顆太陽，不同季節的風景"
+      }
+    ]
+  },
+  {
+    "id": "battery",
+    "title": "電池＋燈泡的冒險故事",
+    "source": "/assets/images/science/battery-lightbulb-adventure.webp",
+    "sha256": "0bcea2fe791afee2fae1d76219c47cbc5c6372516cade5f0512e85894cce01f4",
+    "size": [
+      1254,
+      1254
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1254,
+          408
+        ],
+        "alt": "電池與燈泡：電路故事與刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          408,
+          330,
+          961
+        ],
+        "alt": "電壓",
+        "number": 1,
+        "show_number": false
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          330,
+          408,
+          641,
+          961
+        ],
+        "alt": "電流",
+        "number": 2,
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          641,
+          408,
+          939,
+          961
+        ],
+        "alt": "電阻",
+        "number": 3,
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          939,
+          408,
+          1254,
+          961
+        ],
+        "alt": "功率",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "recap",
+        "kind": "supplement",
+        "box": [
+          0,
+          961,
+          495,
+          1170
+        ],
+        "alt": "四個電學概念複習"
+      },
+      {
+        "key": "formula",
+        "kind": "supplement",
+        "box": [
+          495,
+          961,
+          748,
+          1170
+        ],
+        "alt": "電壓乘電流等於功率"
+      },
+      {
+        "key": "analogy",
+        "kind": "supplement",
+        "box": [
+          748,
+          961,
+          1254,
+          1170
+        ],
+        "alt": "水管比喻"
+      },
+      {
+        "key": "footer",
+        "kind": "supplement",
+        "box": [
+          0,
+          1170,
+          1254,
+          1254
+        ],
+        "alt": "電路與水管比喻的限制及補充"
+      }
+    ]
+  },
+  {
+    "id": "airplanes",
+    "title": "飛機是怎麼飛的？",
+    "source": "/assets/images/science/how-airplanes-fly.webp",
+    "sha256": "d7c1c602c521ee5def85b3d83b7077b4600655cfef6f8b1af9ab26a8ebfadb82",
+    "size": [
+      1225,
+      1284
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1225,
+          175
+        ],
+        "alt": "飛機是怎麼飛的刊頭與引言"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          175,
+          473,
+          635
+        ],
+        "alt": "飛機受到的四種力量",
+        "number": 1,
+        "show_number": false
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          473,
+          175,
+          858,
+          635
+        ],
+        "alt": "機翼如何產生升力",
+        "number": 2,
+        "pieces": [
+          {
+            "box": [
+              473,
+              175,
+              858,
+              635
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              858,
+              517,
+              964,
+              635
+            ],
+            "at": [
+              385,
+              342
+            ]
+          }
+        ],
+        "canvas_size": [
+          491,
+          460
+        ],
+        "reason": "保留機翼格跨界對話框；右上新增白色留白，不縮改原圖像素",
+        "show_number": false
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          858,
+          175,
+          1225,
+          635
+        ],
+        "alt": "引擎的作用",
+        "number": 3,
+        "pieces": [
+          {
+            "box": [
+              858,
+              175,
+              1225,
+              517
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              964,
+              517,
+              1225,
+              635
+            ],
+            "at": [
+              106,
+              342
+            ]
+          }
+        ],
+        "canvas_size": [
+          367,
+          460
+        ],
+        "reason": "跨界對話歸屬前一格，左下保留白色留白",
+        "show_number": false
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          635,
+          762,
+          962
+        ],
+        "alt": "起飛的過程",
+        "number": 4,
+        "show_number": false
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          762,
+          635,
+          1225,
+          962
+        ],
+        "alt": "穩定巡航",
+        "number": 5,
+        "show_number": false
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          0,
+          962,
+          724,
+          1284
+        ],
+        "alt": "降落的過程",
+        "number": 6,
+        "show_number": false
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          724,
+          962,
+          1225,
+          1284
+        ],
+        "alt": "飛行原理總結",
+        "number": 7,
+        "show_number": false
+      }
+    ]
+  }
+]
