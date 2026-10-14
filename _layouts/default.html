@@ -89,9 +89,9 @@
         <div class="flex items-center space-x-3">
           <div
             class="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center overflow-hidden">
-            <img src="{{ site.data.site_settings.navbar.logo }}"
+            <picture style="display: contents">{% include image-sources.html src=site.data.site_settings.navbar.logo sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 400px" %}<img src="{{ site.data.site_settings.navbar.logo }}"
               onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'text-white font-bold\'>社</span>'"
-              class="w-full h-full object-cover" />
+              class="w-full h-full object-cover" /></picture>
           </div>
 
           <div>

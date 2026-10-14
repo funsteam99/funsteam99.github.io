@@ -32,7 +32,7 @@ image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
       {% capture padded %}{% if number < 10 %}0{% endif %}{{ number }}{% endcapture %}
       <figure class="comic-guide__page" id="comic-page-{{ padded }}">
         <a href="{{ '/assets/images/articles/exam-review/' | append: padded | append: '.png' | relative_url }}" aria-label="開啟第 {{ number }} 張完整圖卡">
-          <img src="{{ '/assets/images/articles/exam-review/' | append: padded | append: '.png' | relative_url }}" alt="考前複習大作戰第 {{ number }} 張圖卡" width="1024" height="1536" {% if number > 1 %}loading="lazy"{% endif %} decoding="async">
+          {% assign responsive_src = '/assets/images/articles/exam-review/' | append: padded | append: '.png' %}<picture style="display: contents">{% include image-sources.html src=responsive_src sizes="(max-width: 768px) 100vw, 1200px" %}<img src="{{ '/assets/images/articles/exam-review/' | append: padded | append: '.png' | relative_url }}" alt="考前複習大作戰第 {{ number }} 張圖卡" width="1024" height="1536" {% if number > 1 %}loading="lazy"{% endif %} decoding="async"></picture>
         </a>
         <figcaption>{{ number }} / 10</figcaption>
       </figure>
@@ -163,8 +163,8 @@ image_alt: "考前複習大作戰：找到不會的地方才是關鍵"
 - □ 確認所有考試範圍
 - □ 找出最需要加強的三個地方
 
-我的第一弱點：____________  
-我的第二弱點：____________  
+我的第一弱點：____________
+我的第二弱點：____________
 我的第三弱點：____________
 
 ### Day 2｜攻下第一弱點

@@ -1,0 +1,521 @@
+{
+  "/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 1179158,
+    "variants": [
+      {
+        "url": "/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce-640.webp",
+        "width": 640,
+        "bytes": 24182
+      },
+      {
+        "url": "/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce-1024.webp",
+        "width": 1024,
+        "bytes": 49986
+      }
+    ],
+    "full": "/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce-1024.webp"
+  },
+  "/pics/20250917.jpg": {
+    "width": 1749,
+    "height": 1239,
+    "original_bytes": 179917,
+    "variants": [
+      {
+        "url": "/pics/20250917-640.webp",
+        "width": 640,
+        "bytes": 48720
+      },
+      {
+        "url": "/pics/20250917-1280.webp",
+        "width": 1280,
+        "bytes": 109666
+      },
+      {
+        "url": "/pics/20250917-1749.webp",
+        "width": 1749,
+        "bytes": 159202
+      }
+    ],
+    "full": "/pics/20250917-1749.webp"
+  },
+  "/pics/20250917_001.jpg": {
+    "width": 1771,
+    "height": 1170,
+    "original_bytes": 160635,
+    "variants": [
+      {
+        "url": "/pics/20250917_001-640.webp",
+        "width": 640,
+        "bytes": 39062
+      },
+      {
+        "url": "/pics/20250917_001-1280.webp",
+        "width": 1280,
+        "bytes": 90484
+      },
+      {
+        "url": "/pics/20250917_001-1771.webp",
+        "width": 1771,
+        "bytes": 136330
+      }
+    ],
+    "full": "/pics/20250917_001-1771.webp"
+  },
+  "/pics/20251030.jpg": {
+    "width": 3551,
+    "height": 2386,
+    "original_bytes": 523288,
+    "variants": [
+      {
+        "url": "/pics/20251030-640.webp",
+        "width": 640,
+        "bytes": 53990
+      },
+      {
+        "url": "/pics/20251030-1280.webp",
+        "width": 1280,
+        "bytes": 138018
+      },
+      {
+        "url": "/pics/20251030-3551.webp",
+        "width": 3551,
+        "bytes": 535008
+      }
+    ],
+    "full": "/pics/20251030-3551.webp"
+  },
+  "/pics/3ce5eac1-6c23-4fb9-8ead-6d8c1b323263.png": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 1345658,
+    "variants": [
+      {
+        "url": "/pics/3ce5eac1-6c23-4fb9-8ead-6d8c1b323263-640.webp",
+        "width": 640,
+        "bytes": 45224
+      },
+      {
+        "url": "/pics/3ce5eac1-6c23-4fb9-8ead-6d8c1b323263-1024.webp",
+        "width": 1024,
+        "bytes": 140314
+      }
+    ],
+    "full": "/pics/3ce5eac1-6c23-4fb9-8ead-6d8c1b323263-1024.webp"
+  },
+  "/pics/777274059.086824.png": {
+    "width": 434,
+    "height": 393,
+    "original_bytes": 230267,
+    "variants": [
+      {
+        "url": "/pics/777274059.086824-434.webp",
+        "width": 434,
+        "bytes": 25628
+      }
+    ],
+    "full": "/pics/777274059.086824-434.webp"
+  },
+  "/pics/a5ae972a-5a93-455e-b3bf-ae7221ad2e30.png": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 1796278,
+    "variants": [
+      {
+        "url": "/pics/a5ae972a-5a93-455e-b3bf-ae7221ad2e30-640.webp",
+        "width": 640,
+        "bytes": 81700
+      },
+      {
+        "url": "/pics/a5ae972a-5a93-455e-b3bf-ae7221ad2e30-1024.webp",
+        "width": 1024,
+        "bytes": 211686
+      }
+    ],
+    "full": "/pics/a5ae972a-5a93-455e-b3bf-ae7221ad2e30-1024.webp"
+  },
+  "/pics/d4dbc371-288a-4ea4-ab27-17043da0b4a7.png": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 1653168,
+    "variants": [
+      {
+        "url": "/pics/d4dbc371-288a-4ea4-ab27-17043da0b4a7-640.webp",
+        "width": 640,
+        "bytes": 74132
+      },
+      {
+        "url": "/pics/d4dbc371-288a-4ea4-ab27-17043da0b4a7-1024.webp",
+        "width": 1024,
+        "bytes": 160504
+      }
+    ],
+    "full": "/pics/d4dbc371-288a-4ea4-ab27-17043da0b4a7-1024.webp"
+  },
+  "/pics/uploads/exam-review-guide.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3206792,
+    "variants": [
+      {
+        "url": "/pics/uploads/exam-review-guide-640.webp",
+        "width": 640,
+        "bytes": 91952
+      },
+      {
+        "url": "/pics/uploads/exam-review-guide-1280.webp",
+        "width": 1280,
+        "bytes": 232602
+      },
+      {
+        "url": "/pics/uploads/exam-review-guide-1536.webp",
+        "width": 1536,
+        "bytes": 291564
+      }
+    ],
+    "full": "/pics/uploads/exam-review-guide-1536.webp"
+  },
+  "/pics/uploads/螢幕擷取畫面-2025-12-01-101648.png": {
+    "width": 472,
+    "height": 450,
+    "original_bytes": 248405,
+    "variants": [
+      {
+        "url": "/pics/uploads/螢幕擷取畫面-2025-12-01-101648-472.webp",
+        "width": 472,
+        "bytes": 36578
+      }
+    ],
+    "full": "/pics/uploads/螢幕擷取畫面-2025-12-01-101648-472.webp"
+  },
+  "/pics/螢幕擷取畫面 2025-07-24 110757.png": {
+    "width": 290,
+    "height": 260,
+    "original_bytes": 123566,
+    "variants": [
+      {
+        "url": "/pics/螢幕擷取畫面 2025-07-24 110757-290.webp",
+        "width": 290,
+        "bytes": 12364
+      }
+    ],
+    "full": "/pics/螢幕擷取畫面 2025-07-24 110757-290.webp"
+  },
+  "/assets/images/articles/ai-career-future.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3026661,
+    "variants": [
+      {
+        "url": "/assets/images/articles/ai-career-future-640.webp",
+        "width": 640,
+        "bytes": 74956
+      },
+      {
+        "url": "/assets/images/articles/ai-career-future-1280.webp",
+        "width": 1280,
+        "bytes": 192988
+      },
+      {
+        "url": "/assets/images/articles/ai-career-future-1536.webp",
+        "width": 1536,
+        "bytes": 249852
+      }
+    ],
+    "full": "/assets/images/articles/ai-career-future-1536.webp"
+  },
+  "/assets/images/articles/exam-review/01.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2298395,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/01-640.webp",
+        "width": 640,
+        "bytes": 165718
+      },
+      {
+        "url": "/assets/images/articles/exam-review/01-1024.webp",
+        "width": 1024,
+        "bytes": 301568
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/01-1024.webp"
+  },
+  "/assets/images/articles/exam-review/02.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2249483,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/02-640.webp",
+        "width": 640,
+        "bytes": 162048
+      },
+      {
+        "url": "/assets/images/articles/exam-review/02-1024.webp",
+        "width": 1024,
+        "bytes": 288082
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/02-1024.webp"
+  },
+  "/assets/images/articles/exam-review/03.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2125366,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/03-640.webp",
+        "width": 640,
+        "bytes": 148974
+      },
+      {
+        "url": "/assets/images/articles/exam-review/03-1024.webp",
+        "width": 1024,
+        "bytes": 267940
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/03-1024.webp"
+  },
+  "/assets/images/articles/exam-review/04.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2275482,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/04-640.webp",
+        "width": 640,
+        "bytes": 173982
+      },
+      {
+        "url": "/assets/images/articles/exam-review/04-1024.webp",
+        "width": 1024,
+        "bytes": 318332
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/04-1024.webp"
+  },
+  "/assets/images/articles/exam-review/05.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2050954,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/05-640.webp",
+        "width": 640,
+        "bytes": 147668
+      },
+      {
+        "url": "/assets/images/articles/exam-review/05-1024.webp",
+        "width": 1024,
+        "bytes": 272508
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/05-1024.webp"
+  },
+  "/assets/images/articles/exam-review/06.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2046413,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/06-640.webp",
+        "width": 640,
+        "bytes": 140912
+      },
+      {
+        "url": "/assets/images/articles/exam-review/06-1024.webp",
+        "width": 1024,
+        "bytes": 255080
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/06-1024.webp"
+  },
+  "/assets/images/articles/exam-review/07.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2121781,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/07-640.webp",
+        "width": 640,
+        "bytes": 150960
+      },
+      {
+        "url": "/assets/images/articles/exam-review/07-1024.webp",
+        "width": 1024,
+        "bytes": 278074
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/07-1024.webp"
+  },
+  "/assets/images/articles/exam-review/08.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2187403,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/08-640.webp",
+        "width": 640,
+        "bytes": 162704
+      },
+      {
+        "url": "/assets/images/articles/exam-review/08-1024.webp",
+        "width": 1024,
+        "bytes": 296842
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/08-1024.webp"
+  },
+  "/assets/images/articles/exam-review/09.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2209338,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/09-640.webp",
+        "width": 640,
+        "bytes": 166304
+      },
+      {
+        "url": "/assets/images/articles/exam-review/09-1024.webp",
+        "width": 1024,
+        "bytes": 307238
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/09-1024.webp"
+  },
+  "/assets/images/articles/exam-review/10.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2222781,
+    "variants": [
+      {
+        "url": "/assets/images/articles/exam-review/10-640.webp",
+        "width": 640,
+        "bytes": 167580
+      },
+      {
+        "url": "/assets/images/articles/exam-review/10-1024.webp",
+        "width": 1024,
+        "bytes": 313628
+      }
+    ],
+    "full": "/assets/images/articles/exam-review/10-1024.webp"
+  },
+  "/assets/images/comics/mamas-time-bank-cover.png": {
+    "width": 1055,
+    "height": 1491,
+    "original_bytes": 2094416,
+    "variants": [
+      {
+        "url": "/assets/images/comics/mamas-time-bank-cover-640.webp",
+        "width": 640,
+        "bytes": 97784
+      },
+      {
+        "url": "/assets/images/comics/mamas-time-bank-cover-1055.webp",
+        "width": 1055,
+        "bytes": 190952
+      }
+    ],
+    "full": "/assets/images/comics/mamas-time-bank-cover-1055.webp"
+  },
+  "/assets/images/comics/modern-journey-ep01.jpg": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 826098,
+    "variants": [
+      {
+        "url": "/assets/images/comics/modern-journey-ep01-640.webp",
+        "width": 640,
+        "bytes": 258392
+      },
+      {
+        "url": "/assets/images/comics/modern-journey-ep01-1024.webp",
+        "width": 1024,
+        "bytes": 558090
+      }
+    ],
+    "full": "/assets/images/comics/modern-journey-ep01-1024.webp"
+  },
+  "/assets/images/comics/weekly-journey-ep02.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3576053,
+    "variants": [
+      {
+        "url": "/assets/images/comics/weekly-journey-ep02-640.webp",
+        "width": 640,
+        "bytes": 134306
+      },
+      {
+        "url": "/assets/images/comics/weekly-journey-ep02-1280.webp",
+        "width": 1280,
+        "bytes": 421674
+      },
+      {
+        "url": "/assets/images/comics/weekly-journey-ep02-1536.webp",
+        "width": 1536,
+        "bytes": 560856
+      }
+    ],
+    "full": "/assets/images/comics/weekly-journey-ep02-1536.webp"
+  },
+  "/assets/images/comics/weekly-journey-ep03.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 3363578,
+    "variants": [
+      {
+        "url": "/assets/images/comics/weekly-journey-ep03-640.webp",
+        "width": 640,
+        "bytes": 242500
+      },
+      {
+        "url": "/assets/images/comics/weekly-journey-ep03-1024.webp",
+        "width": 1024,
+        "bytes": 481210
+      }
+    ],
+    "full": "/assets/images/comics/weekly-journey-ep03-1024.webp"
+  },
+  "/assets/images/science/butterfly-life-cycle.jpg": {
+    "width": 1215,
+    "height": 1295,
+    "original_bytes": 444180,
+    "variants": [
+      {
+        "url": "/assets/images/science/butterfly-life-cycle-640.webp",
+        "width": 640,
+        "bytes": 188244
+      },
+      {
+        "url": "/assets/images/science/butterfly-life-cycle-1215.webp",
+        "width": 1215,
+        "bytes": 504498
+      }
+    ],
+    "full": "/assets/images/science/butterfly-life-cycle-1215.webp"
+  },
+  "/assets/images/science/why-four-seasons.jpg": {
+    "width": 1254,
+    "height": 1254,
+    "original_bytes": 327659,
+    "variants": [
+      {
+        "url": "/assets/images/science/why-four-seasons-640.webp",
+        "width": 640,
+        "bytes": 119370
+      },
+      {
+        "url": "/assets/images/science/why-four-seasons-1254.webp",
+        "width": 1254,
+        "bytes": 323748
+      }
+    ],
+    "full": "/assets/images/science/why-four-seasons-1254.webp"
+  }
+}

@@ -6,7 +6,7 @@ title: 首頁
 <section class="relative h-96 overflow-hidden">
   <div id="heroBg" class="absolute inset-0 hero-bg bg-gray-900"></div>
   <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-  
+
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
     <div class="text-white">
       <h2 class="text-4xl md:text-6xl font-bold mb-4">{{ site.data.homepage.hero.title }}</h2>
@@ -38,7 +38,7 @@ title: 首頁
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <div>
         <figure style="margin-top:1.25rem">
-          <img loading="lazy" src="/pics/20251030.jpg" alt="歷史照片1" class="rounded shadow w-full" />
+          <picture style="display: contents">{% include image-sources.html src='/pics/20251030.jpg' sizes="(max-width: 768px) 100vw, 1200px" %}<img loading="lazy" src="/pics/20251030.jpg" alt="歷史照片1" class="rounded shadow w-full" /></picture>
           <figcaption style="font-size:.9rem; color:#6b7280; margin-top:.25rem">▲ 1994年(民83)成立附設圖書館照片</figcaption>
         </figure>
       </div>
@@ -118,7 +118,7 @@ title: 首頁
       <div class="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col">
         {% if post.image %}
         <div class="h-48 overflow-hidden">
-             <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
+             <picture style="display: contents">{% include image-sources.html src=post.image sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 400px" %}<img src="{{ post.image }}" alt="{{ post.title }}" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"></picture>
         </div>
         {% endif %}
         <div class="p-6 flex-grow">
@@ -168,7 +168,7 @@ title: 首頁
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
       <a href="{{ '/articles/exam-review-battle/' | relative_url }}" class="group bg-amber-50 overflow-hidden rounded-2xl shadow-sm hover:shadow-xl transition-all border border-amber-200">
         <div class="aspect-[16/9] overflow-hidden bg-amber-100">
-          <img src="{{ '/assets/images/articles/exam-review/01.png' | relative_url }}" alt="考前複習大作戰繁體中文圖卡封面" class="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+          <picture style="display: contents">{% include image-sources.html src='/assets/images/articles/exam-review/01.png' sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 400px" %}<img src="{{ '/assets/images/articles/exam-review/01.png' | relative_url }}" alt="考前複習大作戰繁體中文圖卡封面" class="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500" loading="lazy"></picture>
         </div>
         <div class="p-6 md:p-8">
           <p class="text-sm font-bold text-amber-700 mb-2">學習方法・10 張圖卡</p>
@@ -179,7 +179,7 @@ title: 首頁
 
       <a href="{{ '/science/' | relative_url }}" class="group bg-white overflow-hidden rounded-2xl shadow-sm hover:shadow-xl transition-all border border-sky-100">
         <div class="aspect-[16/9] overflow-hidden bg-sky-100">
-          <img src="{{ '/assets/images/science/sound-transmission.png' | relative_url }}" alt="自然小探險隊：聲音是怎麼傳播的？" class="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+          <picture style="display: contents">{% include image-sources.html src='/assets/images/science/sound-transmission.png' sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 400px" %}<img src="{{ '/assets/images/science/sound-transmission.png' | relative_url }}" alt="自然小探險隊：聲音是怎麼傳播的？" class="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500" loading="lazy"></picture>
         </div>
         <div class="p-6 md:p-8">
           <p class="text-sm font-bold text-sky-700 mb-2">科學天地</p>
@@ -220,7 +220,7 @@ title: 首頁
         <h3 class="text-xl font-bold text-gray-900 mb-2">{{ resource.title }}</h3>
         <p class="text-gray-700 mb-4 leading-relaxed text-sm">{{ resource.desc }}</p>
         <div class="text-sm text-gray-600 mb-3">提供單位：{{ resource.provider }}</div>
-        <a 
+        <a
           href="{{ resource.link }}"
           target="_blank"
           rel="noopener noreferrer"
@@ -241,16 +241,16 @@ title: 首頁
           G1–G6 各年級均採用教育部標準字形優化排版，搭配專業家長解答與評估手冊。歡迎下載體驗並填寫回饋！
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdI-eca-dm-1LWccbz7m8uW-b2V3QVRH_TU0hK614Jq3NufdQ/viewform" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdI-eca-dm-1LWccbz7m8uW-b2V3QVRH_TU0hK614Jq3NufdQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-gray-950 px-8 py-3.5 rounded-xl font-bold transition-all transform hover:-translate-y-0.5 shadow-lg flex items-center justify-center gap-2"
           >
             <span>📝</span> 填寫試卷體驗問卷（優先候補）
           </a>
-          <a 
-            href="{{ '/articles/placement-test-g1-g2/' | relative_url }}" 
+          <a
+            href="{{ '/articles/placement-test-g1-g2/' | relative_url }}"
             class="w-full sm:w-auto bg-white bg-opacity-15 hover:bg-opacity-25 border border-white border-opacity-40 text-white px-8 py-3.5 rounded-xl font-semibold transition-all flex items-center justify-center gap-2"
           >
             <span>📄</span> 查看詳情與下載 PDF →
@@ -271,11 +271,11 @@ title: 首頁
 
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <img 
-          src="/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png" 
+        <picture style="display: contents">{% include image-sources.html src='/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png' sizes="(max-width: 768px) 100vw, 1200px" %}<img
+          src="/pics/1b01177f-6ef2-41eb-a93b-a64dfe6a40ce.png"
           alt="孩子學習"
           class="rounded-lg shadow-lg w-full"
-        />
+        /></picture>
       </div>
       <div class="space-y-6">
         <div>
@@ -306,10 +306,10 @@ title: 首頁
   // 從 Jekyll 資料中讀取圖片路徑列表
   const heroImages = [
     {% for img in site.data.homepage.hero.images %}
-      "{{ img }}",
+      "{{ site.data.image_variants[img].full | default: img | relative_url }}",
     {% endfor %}
   ];
-  
+
   const heroBg = document.getElementById('heroBg');
   const dotContainer = document.getElementById('slideDots');
   let currentSlide = 0;
@@ -328,7 +328,7 @@ title: 首頁
   function showSlide(index) {
     if(!heroBg) return;
     heroBg.style.backgroundImage = `url('${heroImages[index]}')`;
-    
+
     // Update dots
     const dots = document.querySelectorAll('#slideDots span');
     dots.forEach((dot, i) => {
