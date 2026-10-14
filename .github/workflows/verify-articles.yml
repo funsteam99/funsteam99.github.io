@@ -19,6 +19,7 @@ jobs:
         run: |
           python3 scripts/verify_articles.py
           python3 scripts/verify_ai_literacy.py
+          python3 scripts/verify_image_variants.py
       - uses: actions/upload-artifact@v4
         with:
           name: site-preview

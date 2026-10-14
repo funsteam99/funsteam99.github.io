@@ -2,7 +2,7 @@
   {% for post in include.posts limit:include.limit %}
   <article class="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow flex flex-col">
     {% if post.image %}
-    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="w-full h-48 object-cover" loading="lazy" />
+    <picture style="display: contents">{% include image-sources.html src=post.image sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 400px" %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="w-full h-48 object-cover" loading="lazy" /></picture>
     {% endif %}
     <div class="p-6 flex-grow">
       <p class="text-sm text-blue-600 mb-3">{{ post.category | default: '教育學習' | escape }}｜<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time></p>

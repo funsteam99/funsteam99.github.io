@@ -1,5 +1,13 @@
 # 社子文教基金會正式官網
 
+## 圖片壓縮與手機瀏覽
+
+保留原始圖檔與原圖連結，頁面透過 `picture` 優先載入 WebP，依顯示寬度選擇 640、1280 或原始寬度；不支援 WebP 時使用原圖。漫畫原有文字及圖片內容不變。
+
+新增 PNG/JPG 後，安裝 Pillow 並在程式庫根目錄執行 `python scripts/optimize_images.py`，連同產生的 WebP 和 `_data/image_variants.json` 提交。圖片以 `<picture style="display: contents">{% include image-sources.html src='/圖片路徑.png' %}<img ...></picture>` 使用；未產生衍生圖的新增素材會繼續正常使用原圖。原圖連結維持 PNG/JPG。
+
+2026-10-14 檢查發現 `assets/images/science/sound-transmission.png` 原始檔解碼失敗，正式站與本機 SHA256 相同，瀏覽器下半部顯示空白。此圖暫不壓縮，需要完整定稿原圖替換；不得將不完整解碼產生的黑色區域當作新圖發布。
+
 正式程式庫：https://github.com/funsteam99/funsteam99.github.io
 正式網域：https://shezi.org.tw （根目錄 CNAME）
 
