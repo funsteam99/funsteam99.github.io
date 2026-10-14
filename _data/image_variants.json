@@ -500,6 +500,29 @@
     ],
     "full": "/assets/images/science/butterfly-life-cycle-1215.webp"
   },
+  "/assets/images/science/sound-transmission.png": {
+    "width": 1312,
+    "height": 1199,
+    "original_bytes": 3334150,
+    "variants": [
+      {
+        "url": "/assets/images/science/sound-transmission-640.webp",
+        "width": 640,
+        "bytes": 166266
+      },
+      {
+        "url": "/assets/images/science/sound-transmission-1280.webp",
+        "width": 1280,
+        "bytes": 447990
+      },
+      {
+        "url": "/assets/images/science/sound-transmission-1312.webp",
+        "width": 1312,
+        "bytes": 462246
+      }
+    ],
+    "full": "/assets/images/science/sound-transmission-1312.webp"
+  },
   "/assets/images/science/why-four-seasons.jpg": {
     "width": 1254,
     "height": 1254,
