@@ -3,9 +3,31 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 import json
+import struct
+import zlib
 
 root = Path('_site')
 manifest = json.loads(Path('_data/image_variants.json').read_text(encoding='utf-8'))
+# A previous sound illustration returned HTTP 200 but its PNG stream was corrupt.
+sound = (root / 'assets/images/science/sound-transmission.png').read_bytes()
+assert sound[:8] == b'\x89PNG\r\n\x1a\n'
+offset = 8
+compressed = bytearray()
+ended = False
+while offset < len(sound):
+    size = struct.unpack('>I', sound[offset:offset + 4])[0]
+    kind = sound[offset + 4:offset + 8]
+    data = sound[offset + 8:offset + 8 + size]
+    crc = struct.unpack('>I', sound[offset + 8 + size:offset + 12 + size])[0]
+    assert zlib.crc32(kind + data) == crc, f'Corrupt sound PNG chunk: {kind}'
+    if kind == b'IDAT':
+        compressed.extend(data)
+    if kind == b'IEND':
+        ended = True
+        break
+    offset += size + 12
+assert ended and zlib.decompress(compressed), 'Incomplete sound PNG'
+assert '/assets/images/science/sound-transmission.png' in manifest
 for original, record in manifest.items():
     assert (root / original.lstrip('/')).is_file(), original
     widths = [v['width'] for v in record['variants']]
