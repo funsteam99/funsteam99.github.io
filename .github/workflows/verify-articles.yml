@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Verify scheduled panel publishing in isolation
+        run: |
+          python3 -m pip install Pillow
+          python3 scripts/test_scheduled_comic.py
       - name: Build with GitHub Pages Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

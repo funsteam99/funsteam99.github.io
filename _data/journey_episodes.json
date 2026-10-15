@@ -1,0 +1,26 @@
+[
+  {
+    "id": "journey-01",
+    "number": 1,
+    "title": "悟空今天又闖禍了！",
+    "anchor": "weekly-journey-ep01"
+  },
+  {
+    "id": "journey-02",
+    "number": 2,
+    "title": "悟空去岡山佛光山朝聖",
+    "anchor": "weekly-journey-ep02"
+  },
+  {
+    "id": "journey-03",
+    "number": 3,
+    "title": "悟空夜闖故宮",
+    "anchor": "weekly-journey-ep03"
+  },
+  {
+    "id": "journey-04",
+    "number": 4,
+    "title": "悟空迷路九份！",
+    "anchor": "weekly-journey-ep04"
+  }
+]

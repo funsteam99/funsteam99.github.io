@@ -18,18 +18,12 @@ permalink: /modern-journey/
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 id="journey-index-title" class="text-2xl font-black text-slate-900 mb-5">集數索引</h2>
     <ol class="journey-index">
+      {% for episode in site.data.journey_episodes %}
       <li class="science-card">
-        <a href="#weekly-journey-ep01">{% include comic-header.html id='journey-01' eager=true %}</a>
-        <div class="science-card__body"><p>第一集</p><h3>悟空今天又闖禍了！</h3><a class="science-card__link" href="#weekly-journey-ep01">閱讀第一集 →</a></div>
+        <a href="#{{ episode.anchor }}">{% include comic-header.html id=episode.id %}</a>
+        <div class="science-card__body"><p>第 {{ episode.number }} 集</p><h3>{{ episode.title | escape }}</h3><a class="science-card__link" href="#{{ episode.anchor }}">閱讀第 {{ episode.number }} 集 →</a></div>
       </li>
-      <li class="science-card">
-        <a href="#weekly-journey-ep02">{% include comic-header.html id='journey-02' %}</a>
-        <div class="science-card__body"><p>第二集</p><h3>悟空去岡山佛光山朝聖</h3><a class="science-card__link" href="#weekly-journey-ep02">閱讀第二集 →</a></div>
-      </li>
-      <li class="science-card">
-        <a href="#weekly-journey-ep03">{% include comic-header.html id='journey-03' %}</a>
-        <div class="science-card__body"><p>第三集</p><h3>悟空夜闖故宮</h3><a class="science-card__link" href="#weekly-journey-ep03">閱讀第三集 →</a></div>
-      </li>
+      {% endfor %}
     </ol>
   </div>
 </section>
@@ -40,12 +34,7 @@ permalink: /modern-journey/
         <p class="text-sm font-bold text-amber-700 tracking-widest">現代西遊大冒險・第 4 集・2026-10-15</p>
         <h2 class="text-3xl md:text-4xl font-black text-slate-900 mt-3">《悟空迷路九份！》</h2>
       </header>
-      <figure class="comic-page">
-        <a href="{{ '/assets/images/comics/weekly-journey-ep04.png' | relative_url }}" aria-label="開啟第 4 集完整漫畫">
-          <img src="{{ '/assets/images/comics/weekly-journey-ep04.png' | relative_url }}" alt="現代西遊大冒險第 4 集：悟空迷路九份！" width="1024" height="1536" loading="lazy" decoding="async" />
-        </a>
-        <figcaption>每週四連載・點選漫畫可開啟完整大圖</figcaption>
-      </figure>
+      {% include comic-reader.html id='journey-04' %}
     </article>
     <article class="comic-feature" id="weekly-journey-ep03">
       <header class="comic-feature__header">

@@ -55,9 +55,15 @@ def verify_crop(source, crop, item):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--verify', action='store_true')
+    parser.add_argument('--only', help='Build or verify one work; retain all other manifest entries')
     args = parser.parse_args()
     specs = json.loads(SPEC.read_text(encoding='utf-8'))
-    manifest, report = {}, []
+    manifest_path = ROOT / '_data/comic_panels.json'
+    saved = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
+    manifest, report = (dict(saved) if args.only else {}), []
+    if args.only:
+        specs = [w for w in specs if w['id'] == args.only]
+        assert len(specs) == 1, 'Missing or duplicate work specification: ' + args.only
     qa = ROOT.parent / 'output/comic-panels/qa'
     qa.mkdir(parents=True, exist_ok=True)
     for work in specs:
@@ -94,7 +100,8 @@ def main():
                 draw = ImageDraw.Draw(frame)
                 for x0,y0,x1,y1 in boxes:
                     draw.rectangle((x0,y0,x1-1,y1-1), outline='#ff0066', width=3)
-                    draw.text((x0+8,y0+50), item['key'], font=ImageFont.truetype('C:/Windows/Fonts/arialbd.ttf',30), fill='#ff0066', stroke_width=1, stroke_fill='white')
+                    qa_font = 'C:/Windows/Fonts/arialbd.ttf' if Path('C:/Windows/Fonts/arialbd.ttf').exists() else 'DejaVuSans.ttf'
+                    draw.text((x0+8,y0+50), item['key'], font=ImageFont.truetype(qa_font,30), fill='#ff0066', stroke_width=1, stroke_fill='white')
             entries.append({**{k:v for k,v in item.items() if k not in ('box','edits','pieces','canvas_size','reason')}, 'width':crop.width, 'height':crop.height,
                             'png_sha256':digest(target), 'png':'/' + target.relative_to(ROOT).as_posix(),
                             'webp':'/' + target.with_suffix('.webp').relative_to(ROOT).as_posix()})
@@ -106,7 +113,6 @@ def main():
         report.append({'id':work['id'], 'source_sha256':work['sha256'], 'panels':len(panels), 'all_source_pixels_covered':True,
                        'png_pixels_verified':True,'lossless_webp_verified':True,'outside_edit_regions_unchanged':True})
     if args.verify:
-        saved = json.loads((ROOT / '_data/comic_panels.json').read_text(encoding='utf-8'))
         assert manifest == saved, 'Asset hashes or metadata changed; rebuild and inspect before accepting'
     else:
         (ROOT / '_data/comic_panels.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
