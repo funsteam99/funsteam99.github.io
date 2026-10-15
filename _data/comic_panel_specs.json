@@ -1323,5 +1323,184 @@
         "show_number": false
       }
     ]
+  },
+  {
+    "id": "journey-04",
+    "title": "現代西遊第4集：悟空迷路九份！",
+    "source": "/assets/images/comics/weekly-journey-ep04.png",
+    "sha256": "32f9daff9a8aa9f5b58a447c6740389989a92c01aeafc1ffd5b5377d380f96e7",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          174
+        ],
+        "alt": "悟空迷路九份！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          174,
+          350,
+          477
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空迷路九份！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          350,
+          174,
+          690,
+          477
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空迷路九份！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          690,
+          174,
+          1024,
+          477
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空迷路九份！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          477,
+          357,
+          799
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空迷路九份！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          357,
+          477,
+          685,
+          799
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空迷路九份！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          685,
+          477,
+          1024,
+          799
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空迷路九份！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          799,
+          333,
+          1157
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空迷路九份！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          333,
+          799,
+          651,
+          1157
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空迷路九份！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          651,
+          799,
+          1024,
+          1157
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空迷路九份！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1157,
+          361,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空迷路九份！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          361,
+          1157,
+          692,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空迷路九份！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          692,
+          1157,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空迷路九份！第12格"
+      }
+    ]
   }
 ]

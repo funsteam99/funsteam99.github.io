@@ -27,7 +27,9 @@ class Reader(HTMLParser):
         if tag == 'section':
             self.in_reader = False
 
-pages = {'modern-journey':['journey-03','journey-02','journey-01'],
+episodes = json.loads(Path('_data/journey_episodes.json').read_text(encoding='utf-8'))
+assert [i['number'] for i in episodes] == sorted(set(i['number'] for i in episodes))
+pages = {'modern-journey':[i['id'] for i in reversed(episodes)],
          'science/sound-transmission':['sound'], 'science/butterfly-life-cycle':['butterfly'],
          'science/why-four-seasons':['seasons'], 'science/battery-lightbulb':['battery'],
          'science/how-airplanes-fly':['airplanes']}
@@ -44,5 +46,12 @@ for page, ids in pages.items():
         assert hashlib.sha256((root / i['png'].lstrip('/')).read_bytes()).hexdigest() == i['png_sha256']
         assert (root / i['webp'].lstrip('/')).is_file()
     assert 'comic-reader.css' in text
+    if page == 'modern-journey':
+        for episode in episodes:
+            assert f'href="#{episode["anchor"]}"' in text
+            assert f'id="{episode["anchor"]}"' in text
+        import re
+        article_ids = re.findall(r'<article class="comic-feature" id="weekly-journey-ep(\d+)"', text)
+        assert sorted(map(int, article_ids)) == [i['number'] for i in episodes], 'Every published episode must have an index and a panel reader'
 assert '親子一起動手做' in (root / 'science/sound-transmission/index.html').read_text(encoding='utf-8')
 print(f'PASS: {len(data)} comics; rendered order, numbers, asset hashes, originals and supplementary text')

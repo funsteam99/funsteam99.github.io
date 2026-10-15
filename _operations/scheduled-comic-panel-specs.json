@@ -1,0 +1,971 @@
+[
+  {
+    "id": "journey-04",
+    "title": "現代西遊第4集：悟空迷路九份！",
+    "source": "/assets/images/comics/weekly-journey-ep04.png",
+    "sha256": "32f9daff9a8aa9f5b58a447c6740389989a92c01aeafc1ffd5b5377d380f96e7",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          174
+        ],
+        "alt": "悟空迷路九份！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          174,
+          350,
+          477
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空迷路九份！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          350,
+          174,
+          690,
+          477
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空迷路九份！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          690,
+          174,
+          1024,
+          477
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空迷路九份！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          477,
+          357,
+          799
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空迷路九份！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          357,
+          477,
+          685,
+          799
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空迷路九份！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          685,
+          477,
+          1024,
+          799
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空迷路九份！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          799,
+          333,
+          1157
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空迷路九份！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          333,
+          799,
+          651,
+          1157
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空迷路九份！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          651,
+          799,
+          1024,
+          1157
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空迷路九份！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1157,
+          361,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空迷路九份！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          361,
+          1157,
+          692,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空迷路九份！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          692,
+          1157,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空迷路九份！第12格"
+      }
+    ]
+  },
+  {
+    "id": "journey-05",
+    "title": "現代西遊第5集：八戒決戰台南小吃！",
+    "source": "/assets/images/comics/weekly-journey-ep05.png",
+    "sha256": "69c971ef850c5ba18d15e437f05f3efeaf1329ca2cc3365e3dbbf3a7089d962f",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          173
+        ],
+        "alt": "八戒決戰台南小吃！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          173,
+          341,
+          496
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          341,
+          173,
+          688,
+          496
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          688,
+          173,
+          1024,
+          496
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          496,
+          347,
+          798
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          347,
+          496,
+          684,
+          798
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          684,
+          496,
+          1024,
+          798
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          798,
+          349,
+          1105
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          349,
+          798,
+          682,
+          1105
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          682,
+          798,
+          1024,
+          1105
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1105,
+          349,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          349,
+          1105,
+          682,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          682,
+          1105,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第12格"
+      }
+    ]
+  },
+  {
+    "id": "journey-06",
+    "title": "現代西遊第6集：悟空搭高鐵大冒險！",
+    "source": "/assets/images/comics/weekly-journey-ep06.png",
+    "sha256": "1d1c4ba333a996cc00367b0516978f20fbf3183fc964ff6ab271c4b76aed5572",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          180
+        ],
+        "alt": "悟空搭高鐵大冒險！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          180,
+          385,
+          499
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          385,
+          180,
+          699,
+          499
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          699,
+          180,
+          1024,
+          499
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          499,
+          380,
+          808
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          380,
+          499,
+          692,
+          808
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          692,
+          499,
+          1024,
+          808
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          808,
+          347,
+          1118
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          347,
+          808,
+          669,
+          1118
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          669,
+          808,
+          1024,
+          1118
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1118,
+          345,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          345,
+          1118,
+          678,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第11格",
+        "pieces": [
+          {
+            "box": [
+              345,
+              1118,
+              678,
+              1536
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              678,
+              1305,
+              695,
+              1395
+            ],
+            "at": [
+              333,
+              187
+            ]
+          }
+        ],
+        "canvas_size": [
+          350,
+          418
+        ],
+        "reason": "保留跨至地圖邊緣的完整對話框"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          678,
+          1118,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第12格",
+        "pieces": [
+          {
+            "box": [
+              678,
+              1118,
+              1024,
+              1305
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              695,
+              1305,
+              1024,
+              1395
+            ],
+            "at": [
+              17,
+              187
+            ]
+          },
+          {
+            "box": [
+              678,
+              1395,
+              1024,
+              1536
+            ],
+            "at": [
+              0,
+              277
+            ]
+          }
+        ],
+        "canvas_size": [
+          346,
+          418
+        ],
+        "reason": "跨界對話歸前一格，地圖其餘像素完整保留"
+      }
+    ]
+  },
+  {
+    "id": "journey-07",
+    "title": "現代西遊第7集：悟空與AI的奇妙體驗！",
+    "source": "/assets/images/comics/weekly-journey-ep07.png",
+    "sha256": "7f918e49126a63e1459905d23006861d21d77d4df2c749af33f5a60b59ca6dd8",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          179
+        ],
+        "alt": "悟空與AI的奇妙體驗！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          179,
+          346,
+          502
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          346,
+          179,
+          681,
+          502
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          681,
+          179,
+          1024,
+          502
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          502,
+          346,
+          833
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          346,
+          502,
+          681,
+          833
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          681,
+          502,
+          1024,
+          833
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          833,
+          345,
+          1165
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          345,
+          833,
+          681,
+          1165
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          681,
+          833,
+          1024,
+          1165
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1165,
+          347,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          347,
+          1165,
+          680,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          680,
+          1165,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第12格"
+      }
+    ]
+  },
+  {
+    "id": "journey-08",
+    "title": "現代西遊第8集：悟空守護海洋大作戰！",
+    "source": "/assets/images/comics/weekly-journey-ep08.png",
+    "sha256": "d45d38818c3d8d6fa308a4996d5d54a081f1d055fa0ff179b326868d519f7c1b",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          174
+        ],
+        "alt": "悟空守護海洋大作戰！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          174,
+          346,
+          499
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          346,
+          174,
+          680,
+          499
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          680,
+          174,
+          1024,
+          499
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          499,
+          346,
+          833
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          346,
+          499,
+          680,
+          833
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          680,
+          499,
+          1024,
+          833
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          833,
+          346,
+          1156
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          346,
+          833,
+          680,
+          1156
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          680,
+          833,
+          1024,
+          1156
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1156,
+          346,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          346,
+          1156,
+          680,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          680,
+          1156,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第12格"
+      }
+    ]
+  }
+]

@@ -990,5 +990,165 @@
         "show_number": false
       }
     ]
+  },
+  "journey-04": {
+    "title": "現代西遊第4集：悟空迷路九份！",
+    "source": "/assets/images/comics/weekly-journey-ep04.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "alt": "悟空迷路九份！刊頭",
+        "width": 1024,
+        "height": 174,
+        "png_sha256": "50d311f53244b4a790b78cb701794988403c001a20b65a6c5e5ea61039faef78",
+        "png": "/assets/images/panels/journey-04/header.png",
+        "webp": "/assets/images/panels/journey-04/header.webp"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空迷路九份！第1格",
+        "width": 350,
+        "height": 303,
+        "png_sha256": "241da1ae86fedbbd0d60ad4b4debe3817db810f24e172c0343d2ebf834158504",
+        "png": "/assets/images/panels/journey-04/panel-01.png",
+        "webp": "/assets/images/panels/journey-04/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空迷路九份！第2格",
+        "width": 340,
+        "height": 303,
+        "png_sha256": "611ea4b22faebf8318c8fb5ed0c95f6634f9b4eca6883c00a56936227a6727fd",
+        "png": "/assets/images/panels/journey-04/panel-02.png",
+        "webp": "/assets/images/panels/journey-04/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空迷路九份！第3格",
+        "width": 334,
+        "height": 303,
+        "png_sha256": "394f86b741979f75f7acd0b12fc71553532376d82dc40eea0f04183bc9bf141e",
+        "png": "/assets/images/panels/journey-04/panel-03.png",
+        "webp": "/assets/images/panels/journey-04/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空迷路九份！第4格",
+        "width": 357,
+        "height": 322,
+        "png_sha256": "b87d485e03024d3423c6f125526dcef5818405cba34b1424a4d1b23638dea96f",
+        "png": "/assets/images/panels/journey-04/panel-04.png",
+        "webp": "/assets/images/panels/journey-04/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空迷路九份！第5格",
+        "width": 328,
+        "height": 322,
+        "png_sha256": "296ecb3587b185d86444370c0153fd59ae14517b5f931c2ead080884d2b9527a",
+        "png": "/assets/images/panels/journey-04/panel-05.png",
+        "webp": "/assets/images/panels/journey-04/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空迷路九份！第6格",
+        "width": 339,
+        "height": 322,
+        "png_sha256": "c6559c3ddf02912b007ad6c3ea37407efbfabea60a066a5ad8e47543a6816f88",
+        "png": "/assets/images/panels/journey-04/panel-06.png",
+        "webp": "/assets/images/panels/journey-04/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空迷路九份！第7格",
+        "width": 333,
+        "height": 358,
+        "png_sha256": "a9db876379d8c66413f72d00e2046e93561dcacf31c6e8fa65379f4eae932ca7",
+        "png": "/assets/images/panels/journey-04/panel-07.png",
+        "webp": "/assets/images/panels/journey-04/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空迷路九份！第8格",
+        "width": 318,
+        "height": 358,
+        "png_sha256": "86481b36c0d6ad8331e29b157ca22a7b723f88c3750d0e0ae2bac01116bd8bf8",
+        "png": "/assets/images/panels/journey-04/panel-08.png",
+        "webp": "/assets/images/panels/journey-04/panel-08.webp"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空迷路九份！第9格",
+        "width": 373,
+        "height": 358,
+        "png_sha256": "1ed99895e10d3ad76dcabcac593653a94ca66e04e2b7ad201bd183b90220bfbb",
+        "png": "/assets/images/panels/journey-04/panel-09.png",
+        "webp": "/assets/images/panels/journey-04/panel-09.webp"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空迷路九份！第10格",
+        "width": 361,
+        "height": 379,
+        "png_sha256": "b0d7ece0b1581d7ac235d6e94d2631cd91308a1ebb00d5dfdfbcd2c6575f75b0",
+        "png": "/assets/images/panels/journey-04/panel-10.png",
+        "webp": "/assets/images/panels/journey-04/panel-10.webp"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空迷路九份！第11格",
+        "width": 331,
+        "height": 379,
+        "png_sha256": "0cc79539272d6049c22dc37d0d2f3bcecd5a54109aff5bd329ece4b154faa89c",
+        "png": "/assets/images/panels/journey-04/panel-11.png",
+        "webp": "/assets/images/panels/journey-04/panel-11.webp"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空迷路九份！第12格",
+        "width": 332,
+        "height": 379,
+        "png_sha256": "722e6d621e1fd7df641064ea19f8764dd8d933ffc212e53cd4054d4271720f3a",
+        "png": "/assets/images/panels/journey-04/panel-12.png",
+        "webp": "/assets/images/panels/journey-04/panel-12.webp"
+      }
+    ]
   }
 }
