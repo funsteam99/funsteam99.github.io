@@ -33,6 +33,12 @@ services:
 
 resources:
   - icon: "💡"
+    tag: "中小學 AI 教育"
+    title: "AI 素養教師手冊｜幼兒園大班至小二"
+    desc: "八堂低設備 AI 素養課程，含教學流程、遊戲、學習單與評量，提供 Word 手冊下載。"
+    provider: "社子文教基金會"
+    link: "/articles/k2-ai-teacher-handbook/"
+  - icon: "💡"
     tag: "AI 素養"
     title: "兒童與青少年 AI 素養｜六堂入門教案"
     desc: "三個年齡層各兩堂，從遊戲、提問到查核與隱私，含教師總覽、練習答案與離線活動。"

@@ -1,0 +1,22 @@
+---
+layout: default
+title: 中小學 AI 教育
+description: 分享 AI 素養教案、教師教材、親子共學與教育文章，陪伴孩子學會思考、查證與負責任地使用科技。
+permalink: /ai-education/
+---
+<section class="py-12 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="mb-8"><a href="{{ '/articles/' | relative_url }}" class="text-blue-600 hover:text-blue-800">← 文章專區</a></p>
+    <p class="text-blue-600 font-semibold mb-3">社子文教基金會・教育專欄</p>
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">中小學 AI 教育</h1>
+    <p class="text-xl text-gray-600 mb-6 leading-relaxed">從幼小銜接到中小學，分享 AI 素養教案、教師教材與親子共學文章，陪伴孩子學會思考、查證，並負責任地使用科技。</p>
+    <p class="text-gray-600 mb-10">教師可依年齡與學習需要選用；教材下載格式與使用方式請見各篇介紹。</p>
+    {% assign ai_posts = site.posts | where: 'category', '中小學 AI 教育' | sort: 'date' | reverse %}
+    {% include article-list.html posts=ai_posts %}
+    <section class="mt-12 pt-8 border-t border-gray-200" aria-labelledby="ai-related-title">
+      <h2 id="ai-related-title" class="text-2xl font-bold text-gray-900 mb-4">延伸教學資源</h2>
+      <a href="{{ '/ai-literacy/' | relative_url }}" class="text-blue-600 hover:text-blue-800 font-semibold">兒童與青少年 AI 素養｜六堂入門教案 →</a>
+      <p class="text-gray-600 mt-3">依三個年齡層選課，提供完整教案 PDF、練習與答案。</p>
+    </section>
+  </div>
+</section>

@@ -13,6 +13,8 @@ navbar:
       url: /#news
     - label: 文章專區
       url: /articles/
+    - label: 中小學 AI 教育
+      url: /ai-education/
     - label: 科學天地
       url: /science/
     - label: 漫畫專區
