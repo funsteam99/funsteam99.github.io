@@ -149,6 +149,7 @@ title: 首頁
       <h2 id="articles-title" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">文章專區｜教育・學習・親子</h2>
       <p class="text-xl text-gray-600">分享實用的學習方法與教育觀點，陪伴孩子一起成長</p>
     </div>
+    <p class="text-center mb-8"><a href="{{ "/ai-education/" | relative_url }}" class="inline-block rounded-full bg-blue-50 text-blue-700 px-5 py-3 font-semibold">中小學 AI 教育專欄 →</a></p>
     {% assign education_posts = site.posts | where: 'section', 'articles' | sort: 'date' | reverse %}
     {% include article-list.html posts=education_posts limit=3 %}
     <p class="text-center mt-10"><a href="{{ '/articles/' | relative_url }}" class="text-blue-600 hover:text-blue-800 font-semibold">瀏覽所有文章 →</a></p>
