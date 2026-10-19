@@ -51,4 +51,3 @@
 未到期文章僅存於 `_operations/science-pages/`，蝴蝶10/26只更新舊頁；彩虹、密度已由PR #27補發並正式驗證；主日期表已依驗證結果更新。每次發布依 `science-publishing-runbook.md`，既有主排程不另新增。
 
 素材同步與文章部署commit：`9b57d1b1066803b61c5839630e5f3dd9dc72dd62`；PR：https://github.com/funsteam99/funsteam99.github.io/pull/27 。正式驗收證據：`science-verification-20261019.json`。後續四篇的素材核定已完成，僅待原排時間到期執行，不需重新要求人工審核。
-
