@@ -33,6 +33,11 @@ pages = {'modern-journey':[i['id'] for i in reversed(episodes)],
          'science/sound-transmission':['sound'], 'science/butterfly-life-cycle':['butterfly'],
          'science/why-four-seasons':['seasons'], 'science/battery-lightbulb':['battery'],
          'science/how-airplanes-fly':['airplanes']}
+state_path = Path('_operations/science-release-state.json')
+if state_path.exists():
+    for comic_id, release in json.loads(state_path.read_text(encoding='utf-8')).items():
+        page = release['url'].split('https://shezi.org.tw/',1)[1].rstrip('/')
+        pages[page] = [comic_id]
 for page, ids in pages.items():
     text = (root / page / 'index.html').read_text(encoding='utf-8')
     parser = Reader()

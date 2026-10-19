@@ -1,0 +1,68 @@
+[
+  {
+    "id": "rainbow",
+    "title": "彩虹為什麼會出現？",
+    "scheduled_date": "2026-10-12",
+    "slug": "rainbow",
+    "source": "/assets/images/science-approved/rainbow.png",
+    "source_sha256": "6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14",
+    "template": "_operations/science-pages/rainbow.html",
+    "template_sha256": "5a5b782fdfa2adbc6cc3d85b18b72a5b163f71cc043aa33befcebf4d31080b3b",
+    "card": "    <article class=\"science-card\" data-science-id=\"rainbow\">\n      <a href=\"{{ '/science/rainbow/' | relative_url }}\">{% include comic-header.html id='rainbow' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>彩虹為什麼會出現？</h2><p>從陽光與水滴出發，認識折射、反射與彩虹。</p><a class=\"science-card__link\" href=\"{{ '/science/rainbow/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "density",
+    "title": "密度是什麼？一樣大，不一定一樣重！",
+    "scheduled_date": "2026-10-19",
+    "slug": "density",
+    "source": "/assets/images/science-approved/density.png",
+    "source_sha256": "a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a",
+    "template": "_operations/science-pages/density.html",
+    "template_sha256": "eea8d880ea84dea8eb71135c059245cbf83aa882253ed193f825db8c07250a0d",
+    "card": "    <article class=\"science-card\" data-science-id=\"density\">\n      <a href=\"{{ '/science/density/' | relative_url }}\">{% include comic-header.html id='density' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>密度是什麼？一樣大，不一定一樣重！</h2><p>從一樣大的物品到浮沉實驗，認識質量、體積與密度。</p><a class=\"science-card__link\" href=\"{{ '/science/density/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "butterfly-2026",
+    "title": "蝴蝶生命循環",
+    "scheduled_date": "2026-10-26",
+    "slug": "butterfly-life-cycle",
+    "source": "/assets/images/science-approved/butterfly-2026.png",
+    "source_sha256": "e197e44d5906fe4e77ee11310ba653ddb469baf2ee032e9ee2793119194a8c48",
+    "template": "_operations/science-pages/butterfly-life-cycle.html",
+    "template_sha256": "e39f41bb713ac2edec49c6f2481ef605f302869740d08d46b4a49cc09e60776c",
+    "card": "    <article class=\"science-card\" data-science-id=\"butterfly-2026\">\n      <a href=\"{{ '/science/butterfly-life-cycle/' | relative_url }}\">{% include comic-header.html id='butterfly-2026' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>蝴蝶生命循環</h2><p>依照1到7格，觀察卵、幼蟲、蛹與成蝶的生命循環。</p><a class=\"science-card__link\" href=\"{{ '/science/butterfly-life-cycle/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "solar-eclipse",
+    "title": "日食是什麼？",
+    "scheduled_date": "2026-11-02",
+    "slug": "solar-eclipse",
+    "source": "/assets/images/science-approved/solar-eclipse.png",
+    "source_sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f",
+    "template": "_operations/science-pages/solar-eclipse.html",
+    "template_sha256": "fd4b557245dd8765e278d1dd69bfd0c3511a8185de482c949db4fcba2ae0bf59",
+    "card": "    <article class=\"science-card\" data-science-id=\"solar-eclipse\">\n      <a href=\"{{ '/science/solar-eclipse/' | relative_url }}\">{% include comic-header.html id='solar-eclipse' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>日食是什麼？</h2><p>認識月球的影子、日食種類與安全的模擬實驗。</p><a class=\"science-card__link\" href=\"{{ '/science/solar-eclipse/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "lunar-eclipse",
+    "title": "月食是什麼？",
+    "scheduled_date": "2026-11-09",
+    "slug": "lunar-eclipse",
+    "source": "/assets/images/science-approved/lunar-eclipse.png",
+    "source_sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594",
+    "template": "_operations/science-pages/lunar-eclipse.html",
+    "template_sha256": "ac7fd053fe6cef41e40bdda2372c823226c44bdb29621ffe0b0d7d651f058c3e",
+    "card": "    <article class=\"science-card\" data-science-id=\"lunar-eclipse\">\n      <a href=\"{{ '/science/lunar-eclipse/' | relative_url }}\">{% include comic-header.html id='lunar-eclipse' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>月食是什麼？</h2><p>認識地球的影子，了解月亮為何會變暗或偏紅。</p><a class=\"science-card__link\" href=\"{{ '/science/lunar-eclipse/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "condensation",
+    "title": "冰水杯為什麼會流汗？",
+    "scheduled_date": "2026-11-16",
+    "slug": "why-cold-cups-sweat",
+    "source": "/assets/images/science-approved/condensation.png",
+    "source_sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec",
+    "template": "_operations/science-pages/why-cold-cups-sweat.html",
+    "template_sha256": "a865ad7cdd9f4d6dd0994dc21a1239a00cd958be7282935736872b9429c3a8f6",
+    "card": "    <article class=\"science-card\" data-science-id=\"condensation\">\n      <a href=\"{{ '/science/why-cold-cups-sweat/' | relative_url }}\">{% include comic-header.html id='condensation' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>冰水杯為什麼會流汗？</h2><p>比較冰水與常溫水杯，找出杯外水珠的來源。</p><a class=\"science-card__link\" href=\"{{ '/science/why-cold-cups-sweat/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  }
+]
