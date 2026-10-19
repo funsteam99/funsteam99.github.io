@@ -111,6 +111,20 @@ def main():
         if not args.verify:
             frame.save(qa / (work['id'] + '-bounds.png'))
         manifest[work['id']] = {'title':work['title'], 'source':work['source'], 'items':entries}
+        if 'card_header_box' in work:
+            box = work['card_header_box']
+            assert 0 <= box[0] < box[2] <= source.width and 0 <= box[1] < box[3] <= source.height
+            card = source.crop(box)
+            target = out / 'card-header.png'
+            if not args.verify:
+                card.save(target)
+                card.save(target.with_suffix('.webp'), 'WEBP', lossless=True, method=6)
+            for asset in [target,target.with_suffix('.webp')]:
+                with Image.open(asset) as result:
+                    assert result.size == card.size and ImageChops.difference(result.convert('RGB'),card).getbbox() is None
+            manifest[work['id']]['card_header'] = {'png':'/'+target.relative_to(ROOT).as_posix(),
+                'webp':'/'+target.with_suffix('.webp').relative_to(ROOT).as_posix(),
+                'width':card.width,'height':card.height,'png_sha256':digest(target)}
         report.append({'id':work['id'], 'source_sha256':work['sha256'], 'panels':len(panels), 'all_source_pixels_covered':True,
                        'png_pixels_verified':True,'lossless_webp_verified':True,'outside_edit_regions_unchanged':True})
     if args.verify:

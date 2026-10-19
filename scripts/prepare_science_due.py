@@ -44,7 +44,7 @@ def plan(root, now):
         page=root/'science'/f"{work['slug']}.html"
         index=(root/'science/index.html').read_text('utf-8')
         if work['id'] in state:
-            if not page.exists() or page.read_bytes()!=template.read_bytes() or work['card'].strip() not in index:
+            if not page.exists() or page.read_text('utf-8')!=template.read_text('utf-8') or index.count(work['card'].strip())!=1:
                 raise ValueError('Published/prepared page or index drift: '+work['id'])
             continue
         if '已發布' in status:

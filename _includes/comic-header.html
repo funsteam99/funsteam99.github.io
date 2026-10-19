@@ -1,3 +1,4 @@
 {% assign comic = site.data.comic_panels[include.id] %}
 {% assign header = comic.items | where: 'kind', 'header' | first %}
+{% assign header = comic.card_header | default: header %}
 <picture><source srcset="{{ header.webp | relative_url }} {{ header.width }}w" sizes="(max-width: 760px) calc(100vw - 32px), 552px" type="image/webp"><img src="{{ header.png | relative_url }}" alt="{{ comic.title | escape }}刊頭" width="{{ header.width }}" height="{{ header.height }}" loading="{% if include.eager %}eager{% else %}lazy{% endif %}" decoding="async"></picture>

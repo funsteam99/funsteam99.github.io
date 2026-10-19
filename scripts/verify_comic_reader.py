@@ -51,6 +51,12 @@ for page, ids in pages.items():
         assert hashlib.sha256((root / i['png'].lstrip('/')).read_bytes()).hexdigest() == i['png_sha256']
         assert (root / i['webp'].lstrip('/')).is_file()
     assert 'comic-reader.css' in text
+    for id in ids:
+        card = data[id].get('card_header')
+        if card:
+            index = (root / 'science/index.html').read_text(encoding='utf-8')
+            assert card['png'] in index and card['webp'] in index
+            assert hashlib.sha256((root/card['png'].lstrip('/')).read_bytes()).hexdigest() == card['png_sha256']
     if page == 'modern-journey':
         for episode in episodes:
             assert f'href="#{episode["anchor"]}"' in text

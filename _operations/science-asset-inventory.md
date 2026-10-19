@@ -1,15 +1,17 @@
-# 自然小探險隊 — 素材集中索引（2026-10-14）
+# 自然小探險隊 — 素材集中索引（2026-10-19）
+
+最新狀態：六篇定稿原圖及逐格均已同步GitHub，彩虹、密度已於2026-10-19 14:01台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
 
 用途：ChatGPT 與 Codex 協作時先看本表，再核對官網及素材實體。**找到 ChatGPT 檔案庫附件，不等於圖片已上傳 GitHub，也不等於官網已發布。**
 
 | 預定日期（台灣09:00） | 題名 | ChatGPT 檔案庫找到的圖檔 | 素材狀態 | 發布狀態／待辦 |
 |---|---|---|---|---|
-| 2026-10-12 | 彩虹為什麼會出現？ | `彩虹分光魔術：自然科學探險隊.png`（Library ID `libfile_ac4e5eb793e08191a4e67173c7bf3422`，2026-10-05） | **已找到原始附件**，未確認 GitHub 中有圖片位址 | **逾期優先核對／補發**。先取得圖片實體上傳至官網儲存庫，再做發布頁及連結檢查；不能重發已有頁面 |
-| 2026-10-19 | 密度是什麼？一樣大，不一定一樣重！ | `七格漫畫探索密度奧秘.png`（Library ID `libfile_baac5d7b56348191a61135cbc6838863`，2026-10-05） | **已找到原始附件**，未確認已同步 | 待發布 |
-| 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | **已找到原始附件**，未確認是否網站最新版 | 官網已有對應內容線索；只更新舊頁，不另建同名頁 |
-| 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | **定稿圖已收到；待同步 GitHub** | 待發布；須先核實太陽觀測安全說明 |
-| 2026-11-09 | 月食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳月食七格定稿圖（會話 file ID `file_000000000c488206bbbea001c25440fa`） | **定稿圖已收到；待同步 GitHub** | 待發布 |
-| 2026-11-16（建議） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | **使用者已確認定稿；圖片實體在本次對話，尚待同步 GitHub** | 排定 11/16；發布前核對圖片版本、官網是否重複、網站部署 |
+| 2026-10-12 | 彩虹為什麼會出現？ | `彩虹分光魔術：自然科學探險隊.png`（Library ID `libfile_ac4e5eb793e08191a4e67173c7bf3422`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已補發並正式驗證：https://shezi.org.tw/science/rainbow/；PR #27 |
+| 2026-10-19 | 密度是什麼？一樣大，不一定一樣重！ | `七格漫畫探索密度奧秘.png`（Library ID `libfile_baac5d7b56348191a61135cbc6838863`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/density/；PR #27 |
+| 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 10/26只更新既有蝴蝶頁，範本與逐格已備妥 |
+| 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
+| 2026-11-09 | 月食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳月食七格定稿圖（會話 file ID `file_000000000c488206bbbea001c25440fa`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
+| 2026-11-16（已核定） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
 
 已發布不重發：`https://shezi.org.tw/science/sound-transmission/`（聲音是怎麼傳播的？；共用排程表記錄2026-10-05）。
 
@@ -46,4 +48,6 @@
 | 2026-11-09 | 月食是什麼？ | `assets/images/science-approved/lunar-eclipse.png` | `29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594` | `science/lunar-eclipse.html` | `lunar-eclipse` |
 | 2026-11-16 | 冰水杯為什麼會流汗？ | `assets/images/science-approved/condensation.png` | `62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec` | `science/why-cold-cups-sweat.html` | `condensation` |
 
-未到期文章僅存於 `_operations/science-pages/`，蝴蝶10/26只更新舊頁；彩虹、密度隨本次PR補發。此處素材同步不等於部署完成，正式網址驗證後才更新主日期表。每次發布依 `science-publishing-runbook.md`，既有主排程不另新增。
+未到期文章僅存於 `_operations/science-pages/`，蝴蝶10/26只更新舊頁；彩虹、密度已由PR #27補發並正式驗證；主日期表已依驗證結果更新。每次發布依 `science-publishing-runbook.md`，既有主排程不另新增。
+
+素材同步與文章部署commit：`9b57d1b1066803b61c5839630e5f3dd9dc72dd62`；PR：https://github.com/funsteam99/funsteam99.github.io/pull/27 。正式驗收證據：`science-verification-20261019.json`。後續四篇的素材核定已完成，僅待原排時間到期執行，不需重新要求人工審核。

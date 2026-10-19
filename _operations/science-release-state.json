@@ -1,14 +1,20 @@
 {
   "rainbow": {
     "scheduled_at": "2026-10-12T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/rainbow/",
-    "source_sha256": "6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14"
+    "source_sha256": "6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14",
+    "verified_at": "2026-10-19T14:01:36.812267+08:00",
+    "deployment_commit": "9b57d1b1066803b61c5839630e5f3dd9dc72dd62",
+    "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/27"
   },
   "density": {
     "scheduled_at": "2026-10-19T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/density/",
-    "source_sha256": "a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a"
+    "source_sha256": "a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a",
+    "verified_at": "2026-10-19T14:01:36.812267+08:00",
+    "deployment_commit": "9b57d1b1066803b61c5839630e5f3dd9dc72dd62",
+    "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/27"
   }
 }

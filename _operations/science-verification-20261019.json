@@ -1,0 +1,155 @@
+{
+  "verified_at": "2026-10-19T14:01:36.812267+08:00",
+  "base_url": "https://shezi.org.tw",
+  "releases": [
+    {
+      "id": "rainbow",
+      "url": "https://shezi.org.tw/science/rainbow/",
+      "original": "https://shezi.org.tw/assets/images/science-approved/rainbow.png",
+      "original_sha256": "6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14",
+      "panels": [
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/header.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/header.webp",
+          "png_sha256": "71edd9473b6ac38b8c1dc1660b8a6832b416a64ee991fc815cf72d4e9c46b5c8",
+          "size": [
+            374,
+            646
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-02.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-02.webp",
+          "png_sha256": "1b2f2fb9ca761b8ac4f4485cc27883e935d12b58d3bd113b10538fe1b9a70a53",
+          "size": [
+            334,
+            646
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-03.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-03.webp",
+          "png_sha256": "2321f8490b258fcf65de5f244719fa442a88602463ec50587e0fe805329a2760",
+          "size": [
+            323,
+            646
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-04.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-04.webp",
+          "png_sha256": "8a268d5be5159acb40ef362c286c0d9703077a03bb544d15be46570813e33af9",
+          "size": [
+            281,
+            646
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-05.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-05.webp",
+          "png_sha256": "9e60c7fb484af54541229e63f01141a0b894cc01a243d8b2d72a672c5df63a2a",
+          "size": [
+            562,
+            553
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-06.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-06.webp",
+          "png_sha256": "116b1a6841dee11e67978fbbc735cbf1788086bd0ecb8c75791e0f30e664cff7",
+          "size": [
+            362,
+            553
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/rainbow/panel-07.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/rainbow/panel-07.webp",
+          "png_sha256": "a5c996496f68e33272f7d27b59a7aa5358841ee14a1cf23b590b04b5b67bccef",
+          "size": [
+            388,
+            553
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "density",
+      "url": "https://shezi.org.tw/science/density/",
+      "original": "https://shezi.org.tw/assets/images/science-approved/density.png",
+      "original_sha256": "a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a",
+      "panels": [
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/header.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/header.webp",
+          "png_sha256": "115deab0be0bca0b3d6cbe43df62b733002d8fedd4cde6b0a0b6c0f4d44aa859",
+          "size": [
+            353,
+            637
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-02.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-02.webp",
+          "png_sha256": "468f8a0036b06de181a885a11d9def5ce7a2968385ab0219a796f95ca5c80e49",
+          "size": [
+            323,
+            637
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-03.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-03.webp",
+          "png_sha256": "70965f7484033fe37c38cc34c48d11c5f818646fb0e070c0c66ec6bad9ef07b8",
+          "size": [
+            318,
+            637
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-04.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-04.webp",
+          "png_sha256": "0cdbbacbb1d61b7ff34f308a6d040018a84ba71f29fc209d053536ae2eda922e",
+          "size": [
+            318,
+            637
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-05.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-05.webp",
+          "png_sha256": "d34a8c583e0708d26c7ed9aafc785763a3ccbf3288b29a6d7990cffb6251dc5a",
+          "size": [
+            512,
+            562
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-06.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-06.webp",
+          "png_sha256": "791cd307f967cda2c9d7fa65986e276e1df11e02e8f077d36d17a4ca5bc89699",
+          "size": [
+            382,
+            562
+          ]
+        },
+        {
+          "png": "https://shezi.org.tw/assets/images/panels/density/panel-07.png",
+          "webp": "https://shezi.org.tw/assets/images/panels/density/panel-07.webp",
+          "png_sha256": "a11e3c07524b99d6b17e4522a5ecb4f987066f3afe18a71bf876bdfeefe09f5d",
+          "size": [
+            418,
+            562
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "deployment_commit": "9b57d1b1066803b61c5839630e5f3dd9dc72dd62",
+  "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/27",
+  "pages_run": "https://github.com/funsteam99/funsteam99.github.io/actions/runs/39207412177",
+  "pages_conclusion": "success"
+}
