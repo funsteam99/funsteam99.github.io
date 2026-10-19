@@ -41,6 +41,14 @@ def verify(base):
         assert [i['src'] for i in parser.images]==[i['png'] for i in expected]
         assert len(parser.sources)==len(expected)
         assert w['source'] in parser.links
+        card=data[id].get('card_header')
+        if card:
+            assert card['png'] in index and card['webp'] in index
+            png=get(card['png']); webp=get(card['webp'])
+            assert hashlib.sha256(png).hexdigest()==card['png_sha256']
+            a=Image.open(BytesIO(png)).convert('RGB'); b=Image.open(BytesIO(webp)).convert('RGB')
+            assert a.size==b.size==(card['width'],card['height'])
+            assert ImageChops.difference(a,b).getbbox() is None
         original=get(w['source'])
         assert hashlib.sha256(original).hexdigest()==w['source_sha256']
         Image.open(BytesIO(original)).verify()
@@ -54,7 +62,7 @@ def verify(base):
             assert a.size==b.size==(item['width'],item['height'])
             assert ImageChops.difference(a,b).getbbox() is None
             assets.append({'png':base+item['png'],'webp':base+item['webp'],'png_sha256':item['png_sha256'],'size':list(a.size)})
-        results.append({'id':id,'url':base+path,'original':base+w['source'],'original_sha256':w['source_sha256'],'panels':assets,'passed':True})
+        results.append({'id':id,'url':base+path,'original':base+w['source'],'original_sha256':w['source_sha256'],'panels':assets,'card_header':card,'passed':True})
     return {'verified_at':datetime.now(timezone(timedelta(hours=8))).isoformat(),'base_url':base,'releases':results,'passed':True}
 
 if __name__=='__main__':

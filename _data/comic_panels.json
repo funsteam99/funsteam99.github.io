@@ -1239,7 +1239,14 @@
         "png": "/assets/images/panels/rainbow/panel-07.png",
         "webp": "/assets/images/panels/rainbow/panel-07.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/rainbow/card-header.png",
+      "webp": "/assets/images/panels/rainbow/card-header.webp",
+      "width": 374,
+      "height": 224,
+      "png_sha256": "ebaad6d49ae021225aa0203fa07afa0b010155379a9083e6a6825145220b0dbb"
+    }
   },
   "density": {
     "title": "密度是什麼？一樣大，不一定一樣重！",
@@ -1329,7 +1336,14 @@
         "png": "/assets/images/panels/density/panel-07.png",
         "webp": "/assets/images/panels/density/panel-07.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/density/card-header.png",
+      "webp": "/assets/images/panels/density/card-header.webp",
+      "width": 353,
+      "height": 193,
+      "png_sha256": "2e287b3d22bd5a788a918b08f0669c2fdba97cdcde78b4cf2992a413a7444973"
+    }
   },
   "butterfly-2026": {
     "title": "蝴蝶生命循環",
@@ -1429,7 +1443,14 @@
         "png": "/assets/images/panels/butterfly-2026/footer.png",
         "webp": "/assets/images/panels/butterfly-2026/footer.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/butterfly-2026/card-header.png",
+      "webp": "/assets/images/panels/butterfly-2026/card-header.webp",
+      "width": 385,
+      "height": 231,
+      "png_sha256": "632934e84850bda884aa1f36ec4df1adbb696eff2ad5672190521eb689c41bd3"
+    }
   },
   "condensation": {
     "title": "冰水杯為什麼會流汗？",
@@ -1519,7 +1540,14 @@
         "png": "/assets/images/panels/condensation/panel-07.png",
         "webp": "/assets/images/panels/condensation/panel-07.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/condensation/card-header.png",
+      "webp": "/assets/images/panels/condensation/card-header.webp",
+      "width": 425,
+      "height": 213,
+      "png_sha256": "0b587f6769fd9710da0dceb9f9e607cdcab8088399af2794d6cc6986e0f50a11"
+    }
   },
   "solar-eclipse": {
     "title": "日食是什麼？",
@@ -1609,7 +1637,14 @@
         "png": "/assets/images/panels/solar-eclipse/panel-07.png",
         "webp": "/assets/images/panels/solar-eclipse/panel-07.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/solar-eclipse/card-header.png",
+      "webp": "/assets/images/panels/solar-eclipse/card-header.webp",
+      "width": 357,
+      "height": 203,
+      "png_sha256": "8c4b74102016222d026c1b888dcc89aead67f845735ca83b4155b03619943b32"
+    }
   },
   "lunar-eclipse": {
     "title": "月食是什麼？",
@@ -1699,6 +1734,13 @@
         "png": "/assets/images/panels/lunar-eclipse/panel-07.png",
         "webp": "/assets/images/panels/lunar-eclipse/panel-07.webp"
       }
-    ]
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/lunar-eclipse/card-header.png",
+      "webp": "/assets/images/panels/lunar-eclipse/card-header.webp",
+      "width": 362,
+      "height": 228,
+      "png_sha256": "0948d57516c2beb0c950a23e192d348ce85d155eea2add1b407f989df2614cfd"
+    }
   }
 }
