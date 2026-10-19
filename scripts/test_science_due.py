@@ -15,7 +15,7 @@ with tempfile.TemporaryDirectory(dir=m.ROOT.parent) as tmp:
     # Restore pre-release index from git; preserve the original butterfly page.
     import re
     original=(root/'science/index.html').read_text('utf-8')
-    original=re.sub(r'    <article class="science-card" data-science-id="[^"]+">.*?</article>\s*','',original,flags=re.S)
+    original=re.sub(r'[ \t]*<article class="science-card" data-science-id="[^"]+">.*?</article>','',original,flags=re.S)
     if "id='butterfly'" not in original:
         original=original.replace('    <article class="science-card"', '''    <article class="science-card"><a href="{{ '/science/butterfly-life-cycle/' | relative_url }}">{% include comic-header.html id='butterfly' %}</a><h2>蝴蝶的生命循環</h2></article>
     <article class="science-card"''',1)
