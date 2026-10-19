@@ -78,7 +78,8 @@ def main():
         if not args.verify:
             out.mkdir(parents=True, exist_ok=True)
         entries = []
-        panels = [i for i in work['items'] if i['kind'] == 'panel']
+        # Some approved seven-panel works use panel 1 as their cover/header.
+        panels = [i for i in work['items'] if i['kind'] == 'panel' or i.get('number') is not None]
         assert [i['number'] for i in panels] == list(range(1, len(panels)+1))
         for item in work['items']:
             boxes = [p['box'] for p in item['pieces']] if 'pieces' in item else [item['box']]

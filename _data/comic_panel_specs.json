@@ -1502,5 +1502,634 @@
         "alt": "悟空迷路九份！第12格"
       }
     ]
+  },
+  {
+    "id": "rainbow",
+    "title": "彩虹為什麼會出現？",
+    "source": "/assets/images/science-approved/rainbow.png",
+    "sha256": "6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14",
+    "size": [
+      1312,
+      1199
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          374,
+          646
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "發現天空中的彩虹"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          374,
+          0,
+          708,
+          646
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "白色陽光混合多種顏色"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          708,
+          0,
+          1031,
+          646
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "光進入水滴、反射與離開水滴"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          1031,
+          0,
+          1312,
+          646
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "圓形的彩虹與地平線"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          646,
+          562,
+          1199
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "水杯與白紙的彩虹實驗"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          562,
+          646,
+          924,
+          1199
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "背對太陽觀察水霧彩虹"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          924,
+          646,
+          1312,
+          1199
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "整理彩虹形成的條件"
+      }
+    ]
+  },
+  {
+    "id": "density",
+    "title": "密度是什麼？一樣大，不一定一樣重！",
+    "source": "/assets/images/science-approved/density.png",
+    "sha256": "a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a",
+    "size": [
+      1312,
+      1199
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          353,
+          637
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "海綿和石頭的重量不同"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          353,
+          0,
+          676,
+          637
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "相同體積也可能有不同質量"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          676,
+          0,
+          994,
+          637
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "密度等於質量除以體積"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          994,
+          0,
+          1312,
+          637
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "比較物體與水的平均密度"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          637,
+          512,
+          1199
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "猜測並記錄物體的浮沉"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          512,
+          637,
+          894,
+          1199
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "蜂蜜、水和油的分層實驗"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          894,
+          637,
+          1312,
+          1199
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "觀察、預測與實驗挑戰"
+      }
+    ]
+  },
+  {
+    "id": "butterfly-2026",
+    "title": "蝴蝶生命循環",
+    "source": "/assets/images/science-approved/butterfly-2026.png",
+    "sha256": "e197e44d5906fe4e77ee11310ba653ddb469baf2ee032e9ee2793119194a8c48",
+    "size": [
+      1215,
+      1295
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          385,
+          710
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "從小小的卵開始觀察蝴蝶"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          385,
+          0,
+          662,
+          710
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "蝴蝶將卵產在適合的寄主植物"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          662,
+          0,
+          942,
+          710
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "幼蟲取食、生長與脫皮"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          942,
+          0,
+          1215,
+          710
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "蛹內持續進行變化"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          710,
+          417,
+          1238
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "羽化後翅膀展開與硬化"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          417,
+          710,
+          806,
+          1238
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "成蝶覓食、傳粉與繁殖"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          806,
+          710,
+          1215,
+          1238
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "卵、幼蟲、蛹、成蝶的生命循環"
+      },
+      {
+        "key": "footer",
+        "kind": "footer",
+        "box": [
+          0,
+          1238,
+          1215,
+          1295
+        ],
+        "alt": "觀察、尊重、守護生命"
+      }
+    ]
+  },
+  {
+    "id": "solar-eclipse",
+    "title": "日食是什麼？",
+    "source": "/assets/images/science-approved/solar-eclipse.png",
+    "sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f",
+    "size": [
+      1312,
+      1199
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          357,
+          686
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "發現日食的天文現象"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          357,
+          0,
+          709,
+          686
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "太陽、月球、地球近乎成一直線"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          709,
+          0,
+          1005,
+          686
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "太陽與月球的視直徑"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          1005,
+          0,
+          1312,
+          686
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "日全食、日環食與日偏食"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          686,
+          496,
+          1199
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "軌道傾斜與交點"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          496,
+          686,
+          906,
+          1199
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "用手電筒與球模擬日食"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          906,
+          686,
+          1312,
+          1199
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "日食重點與觀測安全"
+      }
+    ]
+  },
+  {
+    "id": "lunar-eclipse",
+    "title": "月食是什麼？",
+    "source": "/assets/images/science-approved/lunar-eclipse.png",
+    "sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594",
+    "size": [
+      1312,
+      1199
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          362,
+          690
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "發現紅色的月亮"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          362,
+          0,
+          714,
+          690
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "太陽、地球、月球近乎成一直線"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          714,
+          0,
+          1002,
+          690
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "地球的本影與半影"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          1002,
+          0,
+          1312,
+          690
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "月全食、月偏食與半影月食"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          690,
+          487,
+          1199
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "月球軌道傾斜與交點"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          487,
+          690,
+          906,
+          1199
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "月食與日環食的差異"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          906,
+          690,
+          1312,
+          1199
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "月食重點與觀察紀錄"
+      }
+    ]
+  },
+  {
+    "id": "condensation",
+    "title": "冰水杯為什麼會流汗？",
+    "source": "/assets/images/science-approved/condensation.png",
+    "sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec",
+    "size": [
+      1199,
+      1312
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          600,
+          454
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "冰水杯外面為何出現水珠"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          600,
+          0,
+          1199,
+          454
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "空氣裡有看不見的水蒸氣"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          0,
+          454,
+          600,
+          841
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "水蒸氣在冷杯壁凝結"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          600,
+          454,
+          1199,
+          841
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "比較冰水杯與常溫水杯"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          0,
+          841,
+          447,
+          1312
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "記錄兩個杯子外側的水珠"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          447,
+          841,
+          801,
+          1312
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "露珠、窗上水滴與雲"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          801,
+          841,
+          1199,
+          1312
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "整理凝結的發現"
+      }
+    ]
   }
 ]

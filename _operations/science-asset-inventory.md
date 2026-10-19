@@ -27,6 +27,23 @@
 - 日食、月食的更正定稿存在於先前對話，且 2026-10-14 使用者已在當前對話重新提供兩張實體定稿圖片；不需要重做，下一步僅需同步 GitHub 並核對官網。
 - 冰水杯流汗的漫畫由使用者在 2026-10-14 明確確認「已經定稿」；採用該版本，不自行重繪。前述內容審核為編輯建議，不取代使用者的定稿決定。
 
-## 目前明確阻礙
+## 2026-10-14 歷史阻礙（2026-10-19 已解決）
 
-GitHub 連接器在此操作環境可寫入 UTF-8 文字檔，但無法直接將 Library PNG 二進位附件轉存進 GitHub；本次先提供精確 ID 和檔名供素材交接。圖片尚未成功同步到儲存庫時，不得將素材狀態標成「已同步」。
+當時 GitHub 連接器在該操作環境可寫入 UTF-8 文字檔，但無法直接將 Library PNG 二進位附件轉存進 GitHub；本次先提供精確 ID 和檔名供素材交接。圖片尚未成功同步到儲存庫時，不得將素材狀態標成「已同步」。
+
+## 2026-10-19 原圖同步與逐格交接
+
+已從登入的ChatGPT Library下載「自然小探險隊-六篇定稿素材.zip」，ZIP完整性檢查通過；採包內已定稿原圖，沒有重繪或改字。六篇原圖、逐格PNG及無損WebP隨本次修復PR存入儲存庫。原圖SHA256與文章範本校驗值另見 `science-release-manifest.json`；逐格座標、原圖hash在 `_data/comic_panel_specs.json`，輸出圖片與hash在 `_data/comic_panels.json`。
+
+素材包SHA256：`0719a5d50f5ece277f183e62df59cb4802fcaca10833a5bfb4689723ba46015e`。Library來源ID仍作索引線索；發布直接讀GitHub素材，不再等待附件轉移或例行人工審核。
+
+| 原定日期 | 題名 | 真正原圖repository path | 原圖SHA256 | 文章路徑 | 逐格ID |
+|---|---|---|---|---|---|
+| 2026-10-12 | 彩虹為什麼會出現？ | `assets/images/science-approved/rainbow.png` | `6960a6e931e268780a6846be2e32d71a223f576a80dcfd428d8a27875ed2ce14` | `science/rainbow.html` | `rainbow` |
+| 2026-10-19 | 密度是什麼？一樣大，不一定一樣重！ | `assets/images/science-approved/density.png` | `a83c77907795e42cc0075bcf065d5bd61352f3cb8f8d6c1317c512c3e5e2b18a` | `science/density.html` | `density` |
+| 2026-10-26 | 蝴蝶生命循環 | `assets/images/science-approved/butterfly-2026.png` | `e197e44d5906fe4e77ee11310ba653ddb469baf2ee032e9ee2793119194a8c48` | `science/butterfly-life-cycle.html` | `butterfly-2026` |
+| 2026-11-02 | 日食是什麼？ | `assets/images/science-approved/solar-eclipse.png` | `b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f` | `science/solar-eclipse.html` | `solar-eclipse` |
+| 2026-11-09 | 月食是什麼？ | `assets/images/science-approved/lunar-eclipse.png` | `29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594` | `science/lunar-eclipse.html` | `lunar-eclipse` |
+| 2026-11-16 | 冰水杯為什麼會流汗？ | `assets/images/science-approved/condensation.png` | `62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec` | `science/why-cold-cups-sweat.html` | `condensation` |
+
+未到期文章僅存於 `_operations/science-pages/`，蝴蝶10/26只更新舊頁；彩虹、密度隨本次PR補發。此處素材同步不等於部署完成，正式網址驗證後才更新主日期表。每次發布依 `science-publishing-runbook.md`，既有主排程不另新增。

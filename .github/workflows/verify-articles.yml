@@ -14,6 +14,10 @@ jobs:
         run: |
           python3 -m pip install Pillow
           python3 scripts/test_scheduled_comic.py
+          python3 scripts/test_science_due.py
+          for comic in rainbow density butterfly-2026 solar-eclipse lunar-eclipse condensation; do
+            python3 scripts/build_comic_panels.py --verify --only "$comic"
+          done
       - name: Build with GitHub Pages Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

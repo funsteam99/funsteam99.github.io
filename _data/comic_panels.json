@@ -1150,5 +1150,555 @@
         "webp": "/assets/images/panels/journey-04/panel-12.webp"
       }
     ]
+  },
+  "rainbow": {
+    "title": "彩虹為什麼會出現？",
+    "source": "/assets/images/science-approved/rainbow.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "發現天空中的彩虹",
+        "width": 374,
+        "height": 646,
+        "png_sha256": "71edd9473b6ac38b8c1dc1660b8a6832b416a64ee991fc815cf72d4e9c46b5c8",
+        "png": "/assets/images/panels/rainbow/header.png",
+        "webp": "/assets/images/panels/rainbow/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "白色陽光混合多種顏色",
+        "width": 334,
+        "height": 646,
+        "png_sha256": "1b2f2fb9ca761b8ac4f4485cc27883e935d12b58d3bd113b10538fe1b9a70a53",
+        "png": "/assets/images/panels/rainbow/panel-02.png",
+        "webp": "/assets/images/panels/rainbow/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "光進入水滴、反射與離開水滴",
+        "width": 323,
+        "height": 646,
+        "png_sha256": "2321f8490b258fcf65de5f244719fa442a88602463ec50587e0fe805329a2760",
+        "png": "/assets/images/panels/rainbow/panel-03.png",
+        "webp": "/assets/images/panels/rainbow/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "圓形的彩虹與地平線",
+        "width": 281,
+        "height": 646,
+        "png_sha256": "8a268d5be5159acb40ef362c286c0d9703077a03bb544d15be46570813e33af9",
+        "png": "/assets/images/panels/rainbow/panel-04.png",
+        "webp": "/assets/images/panels/rainbow/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "水杯與白紙的彩虹實驗",
+        "width": 562,
+        "height": 553,
+        "png_sha256": "9e60c7fb484af54541229e63f01141a0b894cc01a243d8b2d72a672c5df63a2a",
+        "png": "/assets/images/panels/rainbow/panel-05.png",
+        "webp": "/assets/images/panels/rainbow/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "背對太陽觀察水霧彩虹",
+        "width": 362,
+        "height": 553,
+        "png_sha256": "116b1a6841dee11e67978fbbc735cbf1788086bd0ecb8c75791e0f30e664cff7",
+        "png": "/assets/images/panels/rainbow/panel-06.png",
+        "webp": "/assets/images/panels/rainbow/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "整理彩虹形成的條件",
+        "width": 388,
+        "height": 553,
+        "png_sha256": "a5c996496f68e33272f7d27b59a7aa5358841ee14a1cf23b590b04b5b67bccef",
+        "png": "/assets/images/panels/rainbow/panel-07.png",
+        "webp": "/assets/images/panels/rainbow/panel-07.webp"
+      }
+    ]
+  },
+  "density": {
+    "title": "密度是什麼？一樣大，不一定一樣重！",
+    "source": "/assets/images/science-approved/density.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "海綿和石頭的重量不同",
+        "width": 353,
+        "height": 637,
+        "png_sha256": "115deab0be0bca0b3d6cbe43df62b733002d8fedd4cde6b0a0b6c0f4d44aa859",
+        "png": "/assets/images/panels/density/header.png",
+        "webp": "/assets/images/panels/density/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "相同體積也可能有不同質量",
+        "width": 323,
+        "height": 637,
+        "png_sha256": "468f8a0036b06de181a885a11d9def5ce7a2968385ab0219a796f95ca5c80e49",
+        "png": "/assets/images/panels/density/panel-02.png",
+        "webp": "/assets/images/panels/density/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "密度等於質量除以體積",
+        "width": 318,
+        "height": 637,
+        "png_sha256": "70965f7484033fe37c38cc34c48d11c5f818646fb0e070c0c66ec6bad9ef07b8",
+        "png": "/assets/images/panels/density/panel-03.png",
+        "webp": "/assets/images/panels/density/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "比較物體與水的平均密度",
+        "width": 318,
+        "height": 637,
+        "png_sha256": "0cdbbacbb1d61b7ff34f308a6d040018a84ba71f29fc209d053536ae2eda922e",
+        "png": "/assets/images/panels/density/panel-04.png",
+        "webp": "/assets/images/panels/density/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "猜測並記錄物體的浮沉",
+        "width": 512,
+        "height": 562,
+        "png_sha256": "d34a8c583e0708d26c7ed9aafc785763a3ccbf3288b29a6d7990cffb6251dc5a",
+        "png": "/assets/images/panels/density/panel-05.png",
+        "webp": "/assets/images/panels/density/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "蜂蜜、水和油的分層實驗",
+        "width": 382,
+        "height": 562,
+        "png_sha256": "791cd307f967cda2c9d7fa65986e276e1df11e02e8f077d36d17a4ca5bc89699",
+        "png": "/assets/images/panels/density/panel-06.png",
+        "webp": "/assets/images/panels/density/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "觀察、預測與實驗挑戰",
+        "width": 418,
+        "height": 562,
+        "png_sha256": "a11e3c07524b99d6b17e4522a5ecb4f987066f3afe18a71bf876bdfeefe09f5d",
+        "png": "/assets/images/panels/density/panel-07.png",
+        "webp": "/assets/images/panels/density/panel-07.webp"
+      }
+    ]
+  },
+  "butterfly-2026": {
+    "title": "蝴蝶生命循環",
+    "source": "/assets/images/science-approved/butterfly-2026.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "從小小的卵開始觀察蝴蝶",
+        "width": 385,
+        "height": 710,
+        "png_sha256": "0c311c3ab818acbfdbe6464b7589ebe649c178ea6154ee32438e086a195a75fa",
+        "png": "/assets/images/panels/butterfly-2026/header.png",
+        "webp": "/assets/images/panels/butterfly-2026/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "蝴蝶將卵產在適合的寄主植物",
+        "width": 277,
+        "height": 710,
+        "png_sha256": "5ddda959191f2559a470e7d96406dae325581dc82b9e4fedaf6ad4d672a1209c",
+        "png": "/assets/images/panels/butterfly-2026/panel-02.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "幼蟲取食、生長與脫皮",
+        "width": 280,
+        "height": 710,
+        "png_sha256": "9d93de170fe65e858fa6316bf7b5c1df1b963c9bb709e1eb5aa7e5ad72b0d5e1",
+        "png": "/assets/images/panels/butterfly-2026/panel-03.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "蛹內持續進行變化",
+        "width": 273,
+        "height": 710,
+        "png_sha256": "a82eb204989533ab30d280149decd0951d6ebe1c1eb983f7d70620d76c2f21b8",
+        "png": "/assets/images/panels/butterfly-2026/panel-04.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "羽化後翅膀展開與硬化",
+        "width": 417,
+        "height": 528,
+        "png_sha256": "fdb822f5b52e7440d0c21001d5b4f1b69211f20b93c70d53d4cb995ca94d43af",
+        "png": "/assets/images/panels/butterfly-2026/panel-05.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "成蝶覓食、傳粉與繁殖",
+        "width": 389,
+        "height": 528,
+        "png_sha256": "4d951fed0d61a74450f53f3081fc000e57eb0722a70921784fbba239da325aa8",
+        "png": "/assets/images/panels/butterfly-2026/panel-06.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "卵、幼蟲、蛹、成蝶的生命循環",
+        "width": 409,
+        "height": 528,
+        "png_sha256": "0b499316d22d61a519414b20ceba86b9362c902bb4f6d2bacd7257f9a6755437",
+        "png": "/assets/images/panels/butterfly-2026/panel-07.png",
+        "webp": "/assets/images/panels/butterfly-2026/panel-07.webp"
+      },
+      {
+        "key": "footer",
+        "kind": "footer",
+        "alt": "觀察、尊重、守護生命",
+        "width": 1215,
+        "height": 57,
+        "png_sha256": "b794959029ce9d504aabf98c266bd966c35fdab395c8c6f48b9764adb70bc825",
+        "png": "/assets/images/panels/butterfly-2026/footer.png",
+        "webp": "/assets/images/panels/butterfly-2026/footer.webp"
+      }
+    ]
+  },
+  "condensation": {
+    "title": "冰水杯為什麼會流汗？",
+    "source": "/assets/images/science-approved/condensation.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "冰水杯外面為何出現水珠",
+        "width": 600,
+        "height": 454,
+        "png_sha256": "48b31d53e2b9e8fea6baeb2a4d7b7972856be9dad863e2cd9621b1f17b392107",
+        "png": "/assets/images/panels/condensation/header.png",
+        "webp": "/assets/images/panels/condensation/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "空氣裡有看不見的水蒸氣",
+        "width": 599,
+        "height": 454,
+        "png_sha256": "679b6fdb912b582b6999840c00cb0526db1c4ae1610b268e89600ecced992432",
+        "png": "/assets/images/panels/condensation/panel-02.png",
+        "webp": "/assets/images/panels/condensation/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "水蒸氣在冷杯壁凝結",
+        "width": 600,
+        "height": 387,
+        "png_sha256": "83a5bc3ebadd3a3cbd4dbe9ce64de5add78560eb5163e3ffa6271a8202fcffee",
+        "png": "/assets/images/panels/condensation/panel-03.png",
+        "webp": "/assets/images/panels/condensation/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "比較冰水杯與常溫水杯",
+        "width": 599,
+        "height": 387,
+        "png_sha256": "826f82fe0ccb044df9677eaf51b1e62be7d53c5b70a71dd76cd48271d4593ba6",
+        "png": "/assets/images/panels/condensation/panel-04.png",
+        "webp": "/assets/images/panels/condensation/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "記錄兩個杯子外側的水珠",
+        "width": 447,
+        "height": 471,
+        "png_sha256": "5c70ba330e44da59ddef9646c3e6042c47e6531bd0a9c7708b0e599259f97bf0",
+        "png": "/assets/images/panels/condensation/panel-05.png",
+        "webp": "/assets/images/panels/condensation/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "露珠、窗上水滴與雲",
+        "width": 354,
+        "height": 471,
+        "png_sha256": "024468d6f6164fccd99ea3317b250e279c26161fbfcc962e83435f6fe58a8771",
+        "png": "/assets/images/panels/condensation/panel-06.png",
+        "webp": "/assets/images/panels/condensation/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "整理凝結的發現",
+        "width": 398,
+        "height": 471,
+        "png_sha256": "9eab73827f7e4e00f26f020882bbf12e329eb216a2389b7a59d6f7dff26336fe",
+        "png": "/assets/images/panels/condensation/panel-07.png",
+        "webp": "/assets/images/panels/condensation/panel-07.webp"
+      }
+    ]
+  },
+  "solar-eclipse": {
+    "title": "日食是什麼？",
+    "source": "/assets/images/science-approved/solar-eclipse.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "發現日食的天文現象",
+        "width": 357,
+        "height": 686,
+        "png_sha256": "6658ad5084ed36741715b9667e18cf32bea47e3b1d024baf5d4fe8ddaa22e42b",
+        "png": "/assets/images/panels/solar-eclipse/header.png",
+        "webp": "/assets/images/panels/solar-eclipse/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "太陽、月球、地球近乎成一直線",
+        "width": 352,
+        "height": 686,
+        "png_sha256": "93fb0c1daa1676a354fe4fcfe155fe458f2e0e050f9e3a0222ccc6afce448edb",
+        "png": "/assets/images/panels/solar-eclipse/panel-02.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "太陽與月球的視直徑",
+        "width": 296,
+        "height": 686,
+        "png_sha256": "43ccdbc3001bba6e45af2ce981898d336dfb05a178637968ea06a7b62abb2428",
+        "png": "/assets/images/panels/solar-eclipse/panel-03.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "日全食、日環食與日偏食",
+        "width": 307,
+        "height": 686,
+        "png_sha256": "fd7c3e922bcb51396edc521812b3fc0d33be5c7a840a9867e4197dce272a5a63",
+        "png": "/assets/images/panels/solar-eclipse/panel-04.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "軌道傾斜與交點",
+        "width": 496,
+        "height": 513,
+        "png_sha256": "4fafb7a54f86b85b43b8dd4656d241a2bc3e39eaaac20b32671ebcbe0fd8354e",
+        "png": "/assets/images/panels/solar-eclipse/panel-05.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "用手電筒與球模擬日食",
+        "width": 410,
+        "height": 513,
+        "png_sha256": "6f10d56ef4d3c000a37738c27f9b28bad396fa7eb7cd1efe7f6abcb47087292f",
+        "png": "/assets/images/panels/solar-eclipse/panel-06.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "日食重點與觀測安全",
+        "width": 406,
+        "height": 513,
+        "png_sha256": "a92c96676ccd3dea4b6dbd3054a383bfdb7e2ea543fa3371d9c420889e0df274",
+        "png": "/assets/images/panels/solar-eclipse/panel-07.png",
+        "webp": "/assets/images/panels/solar-eclipse/panel-07.webp"
+      }
+    ]
+  },
+  "lunar-eclipse": {
+    "title": "月食是什麼？",
+    "source": "/assets/images/science-approved/lunar-eclipse.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "number": 1,
+        "show_number": false,
+        "alt": "發現紅色的月亮",
+        "width": 362,
+        "height": 690,
+        "png_sha256": "7a571b41ec8e4f7c34fb12f9503ec27458a3dd68a7c536b256debfbef4a101d3",
+        "png": "/assets/images/panels/lunar-eclipse/header.png",
+        "webp": "/assets/images/panels/lunar-eclipse/header.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "太陽、地球、月球近乎成一直線",
+        "width": 352,
+        "height": 690,
+        "png_sha256": "03c66e87fd71b3854023c2a11f622223076cf37110504350c122b81ef097ae55",
+        "png": "/assets/images/panels/lunar-eclipse/panel-02.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "地球的本影與半影",
+        "width": 288,
+        "height": 690,
+        "png_sha256": "e9d2a042af8c9e535ccc77823f4ebde5a3426abc8067efa6910a312228c7accd",
+        "png": "/assets/images/panels/lunar-eclipse/panel-03.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "月全食、月偏食與半影月食",
+        "width": 310,
+        "height": 690,
+        "png_sha256": "cedfbf56945e17c414c3a526a863a4f679a17855919ae6f7543f2bc656840518",
+        "png": "/assets/images/panels/lunar-eclipse/panel-04.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "月球軌道傾斜與交點",
+        "width": 487,
+        "height": 509,
+        "png_sha256": "aabfe1d90130bee675bd0579679250efc709d6d37d401b27e741ba8f1f686358",
+        "png": "/assets/images/panels/lunar-eclipse/panel-05.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "月食與日環食的差異",
+        "width": 419,
+        "height": 509,
+        "png_sha256": "eb298e32cf5f8cd0df2824aefb77f7b2e8dc213da352e25f54fd1e19c12a7941",
+        "png": "/assets/images/panels/lunar-eclipse/panel-06.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "月食重點與觀察紀錄",
+        "width": 406,
+        "height": 509,
+        "png_sha256": "c062302ff03ea9ac48feaf1e70d2abf079d0328a9931dbc08fb5c28051d117ad",
+        "png": "/assets/images/panels/lunar-eclipse/panel-07.png",
+        "webp": "/assets/images/panels/lunar-eclipse/panel-07.webp"
+      }
+    ]
   }
 }
