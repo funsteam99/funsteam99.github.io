@@ -2167,5 +2167,184 @@
       425,
       213
     ]
+  },
+  {
+    "id": "journey-05",
+    "title": "現代西遊第5集：八戒決戰台南小吃！",
+    "source": "/assets/images/comics/weekly-journey-ep05.png",
+    "sha256": "69c971ef850c5ba18d15e437f05f3efeaf1329ca2cc3365e3dbbf3a7089d962f",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          173
+        ],
+        "alt": "八戒決戰台南小吃！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          173,
+          341,
+          496
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          341,
+          173,
+          688,
+          496
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          688,
+          173,
+          1024,
+          496
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          496,
+          347,
+          798
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          347,
+          496,
+          684,
+          798
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          684,
+          496,
+          1024,
+          798
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          798,
+          349,
+          1105
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          349,
+          798,
+          682,
+          1105
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          682,
+          798,
+          1024,
+          1105
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1105,
+          349,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          349,
+          1105,
+          682,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          682,
+          1105,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第12格"
+      }
+    ]
   }
 ]

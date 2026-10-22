@@ -1742,5 +1742,165 @@
       "height": 228,
       "png_sha256": "0948d57516c2beb0c950a23e192d348ce85d155eea2add1b407f989df2614cfd"
     }
+  },
+  "journey-05": {
+    "title": "現代西遊第5集：八戒決戰台南小吃！",
+    "source": "/assets/images/comics/weekly-journey-ep05.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "alt": "八戒決戰台南小吃！刊頭",
+        "width": 1024,
+        "height": 173,
+        "png_sha256": "38001f53c8a2b50b3104a671a8bc647b32db81d0b0b8977d68ce37300b495e06",
+        "png": "/assets/images/panels/journey-05/header.png",
+        "webp": "/assets/images/panels/journey-05/header.webp"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第1格",
+        "width": 341,
+        "height": 323,
+        "png_sha256": "07121acb0399a3e3c67e0ea6189f5633a26c67cf0ab5d1573a4684beec95e7da",
+        "png": "/assets/images/panels/journey-05/panel-01.png",
+        "webp": "/assets/images/panels/journey-05/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第2格",
+        "width": 347,
+        "height": 323,
+        "png_sha256": "e098a45ea88a5b2157d6ede377c6714503a186658d7f2ce3252dca405ae30290",
+        "png": "/assets/images/panels/journey-05/panel-02.png",
+        "webp": "/assets/images/panels/journey-05/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第3格",
+        "width": 336,
+        "height": 323,
+        "png_sha256": "daadc89bb64f4e45d482fd8e36dca00febe36828dee36ef1f033edbcb5ccd13e",
+        "png": "/assets/images/panels/journey-05/panel-03.png",
+        "webp": "/assets/images/panels/journey-05/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第4格",
+        "width": 347,
+        "height": 302,
+        "png_sha256": "6da52145aadf0ee629e68f8614ff0703838c01d3005d8203ffe72f747335b9e0",
+        "png": "/assets/images/panels/journey-05/panel-04.png",
+        "webp": "/assets/images/panels/journey-05/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第5格",
+        "width": 337,
+        "height": 302,
+        "png_sha256": "ef3939f2a3c3889fda2223775c81aa8e7cbd3946a558e03d19b00df346d952ac",
+        "png": "/assets/images/panels/journey-05/panel-05.png",
+        "webp": "/assets/images/panels/journey-05/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第6格",
+        "width": 340,
+        "height": 302,
+        "png_sha256": "aab4dd97705651034d365ec4b781dabfa1731d4d828245a7501653f029e68b6b",
+        "png": "/assets/images/panels/journey-05/panel-06.png",
+        "webp": "/assets/images/panels/journey-05/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第7格",
+        "width": 349,
+        "height": 307,
+        "png_sha256": "00a5823e1b6d3cfc31296ab762c27ee954aed4d6f53c174c73610a6ddbb19880",
+        "png": "/assets/images/panels/journey-05/panel-07.png",
+        "webp": "/assets/images/panels/journey-05/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第8格",
+        "width": 333,
+        "height": 307,
+        "png_sha256": "64549dcceb5fe3b695e8e732710ef9388746d143ca840faf603be0e70530237a",
+        "png": "/assets/images/panels/journey-05/panel-08.png",
+        "webp": "/assets/images/panels/journey-05/panel-08.webp"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第9格",
+        "width": 342,
+        "height": 307,
+        "png_sha256": "3db30314841d75e047de6b95385ae050bbc91e80090dd6e9f898cb7a1ea50ff7",
+        "png": "/assets/images/panels/journey-05/panel-09.png",
+        "webp": "/assets/images/panels/journey-05/panel-09.webp"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第10格",
+        "width": 349,
+        "height": 431,
+        "png_sha256": "a64d5da50129c837cfe45d374a049b8d107cf6fb07a1605a5d5c1f0bf53e4249",
+        "png": "/assets/images/panels/journey-05/panel-10.png",
+        "webp": "/assets/images/panels/journey-05/panel-10.webp"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第11格",
+        "width": 333,
+        "height": 431,
+        "png_sha256": "850892e40b4fb320789a6b86e5e496c205acf370f82c79b9941e9474b5f522d5",
+        "png": "/assets/images/panels/journey-05/panel-11.png",
+        "webp": "/assets/images/panels/journey-05/panel-11.webp"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "八戒決戰台南小吃！第12格",
+        "width": 342,
+        "height": 431,
+        "png_sha256": "3ff0d00b71dcac3d9deea198274d154abf08e6da69b4da8ab67c1a1f3d028ead",
+        "png": "/assets/images/panels/journey-05/panel-12.png",
+        "webp": "/assets/images/panels/journey-05/panel-12.webp"
+      }
+    ]
   }
 }
