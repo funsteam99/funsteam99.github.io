@@ -1,6 +1,6 @@
-# 自然小探險隊 — 素材集中索引（2026-10-19）
+# 自然小探險隊 — 素材集中索引（2026-10-26）
 
-最新狀態：六篇定稿原圖及逐格均已同步GitHub，彩虹、密度已於2026-10-19 14:01台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
+最新狀態：六篇定稿原圖及逐格均已同步GitHub；彩虹、密度已於2026-10-19驗收，蝴蝶新版已於2026-10-26 09:08台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
 
 用途：ChatGPT 與 Codex 協作時先看本表，再核對官網及素材實體。**找到 ChatGPT 檔案庫附件，不等於圖片已上傳 GitHub，也不等於官網已發布。**
 
@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | 2026-10-12 | 彩虹為什麼會出現？ | `彩虹分光魔術：自然科學探險隊.png`（Library ID `libfile_ac4e5eb793e08191a4e67173c7bf3422`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已補發並正式驗證：https://shezi.org.tw/science/rainbow/；PR #27 |
 | 2026-10-19 | 密度是什麼？一樣大，不一定一樣重！ | `七格漫畫探索密度奧秘.png`（Library ID `libfile_baac5d7b56348191a61135cbc6838863`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/density/；PR #27 |
-| 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 10/26只更新既有蝴蝶頁，範本與逐格已備妥 |
+| 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已更新既有頁並正式驗證：https://shezi.org.tw/science/butterfly-life-cycle/；PR #31 |
 | 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
 | 2026-11-09 | 月食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳月食七格定稿圖（會話 file ID `file_000000000c488206bbbea001c25440fa`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
 | 2026-11-16（已核定） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
@@ -51,3 +51,7 @@
 未到期文章僅存於 `_operations/science-pages/`，蝴蝶10/26只更新舊頁；彩虹、密度已由PR #27補發並正式驗證；主日期表已依驗證結果更新。每次發布依 `science-publishing-runbook.md`，既有主排程不另新增。
 
 素材同步與文章部署commit：`9b57d1b1066803b61c5839630e5f3dd9dc72dd62`；PR：https://github.com/funsteam99/funsteam99.github.io/pull/27 。正式驗收證據：`science-verification-20261019.json`。後續四篇的素材核定已完成，僅待原排時間到期執行，不需重新要求人工審核。
+
+## 2026-10-26 蝴蝶篇正式驗收
+
+蝴蝶新版沿用既有網址，發布PR #31與Pages部署均成功；2026-10-26 09:08台灣時間已驗證正式文章、科學目錄、完整原圖、7格閱讀圖、頁尾及目錄刊頭。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`097b913b9a6ea2c37bf924b6b381207832787bac`；證據：`science-verification-20261026.json`。
