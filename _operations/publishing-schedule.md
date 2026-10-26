@@ -1,8 +1,8 @@
 # 社子基金會共同發佈日期表
 
-更新日期：2026-10-19。時區：Asia/Taipei（台灣時間）。
+更新日期：2026-10-26。時區：Asia/Taipei（台灣時間）。
 
-## 自然小探險隊排程（2026-10-19 核對）
+## 自然小探險隊排程（2026-10-26 核對）
 
 唯一主排程：ChatGPT 每週一09:00（台灣時間；已啟用），其他兩個重複排程停用。素材請查 `_operations/science-asset-inventory.md`。排程喚醒**不等於**官網部署成功。
 
@@ -11,7 +11,7 @@
 | 2026-10-05 | 聲音是怎麼傳播的？ | 已發布：https://shezi.org.tw/science/sound-transmission/ | 已完成 |
 | 2026-10-12 09:00 | 彩虹為什麼會出現？ | 已補發；2026-10-19 14:01（台灣）正式驗證通過；https://shezi.org.tw/science/rainbow/；PR #27；原排週次保留 | ChatGPT |
 | 2026-10-19 09:00 | 密度是什麼？一樣大，不一定一樣重！ | 已發布；2026-10-19 14:01（台灣）正式驗證通過；https://shezi.org.tw/science/density/；PR #27 | ChatGPT |
-| 2026-10-26 09:00 | 蝴蝶生命循環（1～7新版） | 原圖、逐格與範本已同步；到期只更新既有 /science/butterfly-life-cycle/，不另建頁 | ChatGPT |
+| 2026-10-26 09:00 | 蝴蝶生命循環（1～7新版） | 已更新既有頁；2026-10-26 09:08（台灣）正式驗證通過；https://shezi.org.tw/science/butterfly-life-cycle/；PR #31；部署 `097b913b9a6ea2c37bf924b6b381207832787bac` | ChatGPT |
 | 2026-11-02 09:00 | 日食是什麼？ | 定稿原圖、逐格及安全說明範本已同步；依原週次待發布 | ChatGPT |
 | 2026-11-09 09:00 | 月食是什麼？ | 定稿原圖、逐格及範本已同步；依原週次待發布 | ChatGPT |
 | 2026-11-16 09:00 | 冰水杯為什麼會流汗？ | 定稿原圖、逐格及範本已同步；依原週次待發布 | ChatGPT |
@@ -64,3 +64,9 @@
 - 2026-10-19 14:01台灣時間，兩篇正式URL、science/列表、2張完整原圖、14格PNG與14格WebP全部HTTP成功、可解碼，PNG hash／尺寸與原稿一致，WebP與PNG像素一致。證據：`_operations/science-verification-20261019.json`。這是實際驗證時間，不冒充原定09:00準時發布。
 - 唯一ChatGPT主排程 `6ac386f54bc081918c6698b94f23d468` 已在既有任務中儲存更新指示，維持每週一喚醒與啟用狀態，沒有建立第二個排程。使用者已核定稿件及圖片並授權PR、測試、合併及部署，後續不要求例行人工審核；每次讀main主表與 `science-publishing-runbook.md`。
 - 隔離日期測試及官網完整建置通過；保留原定10/26、11/02、11/09、11/16。未來每次發布仍需正式部署驗證，不能以本次測試通過預稱未來已發布。
+
+## 2026-10-26 蝴蝶篇發布驗收
+
+- 依原定週次更新既有 `science/butterfly-life-cycle.html`，未建立第二個網址；日食、月食與冰水杯維持原週次，未提前發布。
+- 發布PR：https://github.com/funsteam99/funsteam99.github.io/pull/31；部署commit：`097b913b9a6ea2c37bf924b6b381207832787bac`；Pages部署成功：https://github.com/funsteam99/funsteam99.github.io/actions/runs/40252230318 。
+- 2026-10-26 09:08台灣時間，正式文章、science/目錄、完整原圖、7格閱讀圖、頁尾及目錄刊頭的PNG／WebP全部HTTP 200且可解碼；尺寸與PNG SHA256符合manifest，WebP與PNG像素一致。證據：`_operations/science-verification-20261026.json`。
