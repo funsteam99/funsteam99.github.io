@@ -16,5 +16,11 @@
     "verified_at": "2026-10-19T14:01:36.812267+08:00",
     "deployment_commit": "9b57d1b1066803b61c5839630e5f3dd9dc72dd62",
     "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/27"
+  },
+  "butterfly-2026": {
+    "scheduled_at": "2026-10-26T09:00:00+08:00",
+    "status": "prepared",
+    "url": "https://shezi.org.tw/science/butterfly-life-cycle/",
+    "source_sha256": "e197e44d5906fe4e77ee11310ba653ddb469baf2ee032e9ee2793119194a8c48"
   }
 }
