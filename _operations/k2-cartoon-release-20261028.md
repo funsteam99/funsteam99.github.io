@@ -20,3 +20,11 @@
 附件內容與 SHA256 清單：`assets/downloads/ai-literacy/k2-cartoon-v3/release-manifest.json`。`scripts/verify_k2_cartoon.py` 檢查附件版本、hash、Word八堂定位、教師包與建置後下載入口，納入既有 Verify Jekyll articles 流程。
 
 本紀錄不宣稱完成課堂試教。部署及正式網址驗證結果另以驗證摘要記錄；不得以本地匯出或 PR 建置代替正式部署驗收。
+
+## 正式發布驗收
+
+2026-10-28 14:25:28 +08:00，正式課程頁、4張預覽、列印指引及10個新版附件均通過驗證；1440、768、390、320像素無橫向溢出。10檔HTTP 200、大小及SHA256均符合發布manifest；既有完整八堂Word／PDF仍可下載。
+
+發布PR：https://github.com/funsteam99/funsteam99.github.io/pull/37 。部署commit：`2fb25efcd75de4414ebe60c9051bf8310dfc9cd4`。Pages部署成功：https://github.com/funsteam99/funsteam99.github.io/actions/runs/40643571659 。驗證證據：`k2-cartoon-verification-20261028.json`。
+
+正式入口：https://shezi.org.tw/articles/k2-ai-teacher-handbook/ 。本次更新既有文章，保留2026-10-16原文章日期；新版教材明列2026-10-28更新。

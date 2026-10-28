@@ -71,3 +71,9 @@
 - 依原定週次更新既有 `science/butterfly-life-cycle.html`，未建立第二個網址；日食、月食與冰水杯維持原週次，未提前發布。
 - 發布PR：https://github.com/funsteam99/funsteam99.github.io/pull/31；部署commit：`097b913b9a6ea2c37bf924b6b381207832787bac`；Pages部署成功：https://github.com/funsteam99/funsteam99.github.io/actions/runs/40252230318 。
 - 2026-10-26 09:08台灣時間，正式文章、science/目錄、完整原圖、7格閱讀圖、頁尾及目錄刊頭的PNG／WebP全部HTTP 200且可解碼；尺寸與PNG SHA256符合manifest，WebP與PNG像素一致。證據：`_operations/science-verification-20261026.json`。
+
+## 2026-10-28 既有 AI 教材更新驗收
+
+- 依使用者即時授權，改善並發布K–2八堂系列中的第1～4堂卡通圖卡版v3.0，更新既有課程頁 https://shezi.org.tw/articles/k2-ai-teacher-handbook/ ，保留原文章日期2026-10-16與原完整八堂手冊。
+- 2026-10-28 14:25:28 +08:00 正式驗收通過：四種螢幕寬度、4張預覽、10個新版PDF／Word／ZIP附件及原八堂手冊下載正常。發布PR #37；部署commit `2fb25efcd75de4414ebe60c9051bf8310dfc9cd4`；證據見 `k2-cartoon-verification-20261028.json`。
+- 本次為既有教材更新，未新增週期任務，也未移動自然小探險隊或現代西遊記既有日期與執行端。
