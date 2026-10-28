@@ -64,5 +64,16 @@
     "template": "_operations/science-pages/why-cold-cups-sweat.html",
     "template_sha256": "a865ad7cdd9f4d6dd0994dc21a1239a00cd958be7282935736872b9429c3a8f6",
     "card": "    <article class=\"science-card\" data-science-id=\"condensation\">\n      <a href=\"{{ '/science/why-cold-cups-sweat/' | relative_url }}\">{% include comic-header.html id='condensation' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>冰水杯為什麼會流汗？</h2><p>比較冰水與常溫水杯，找出杯外水珠的來源。</p><a class=\"science-card__link\" href=\"{{ '/science/why-cold-cups-sweat/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "shadow-size",
+    "title": "影子為什麼會變大？",
+    "scheduled_date": "2026-11-23",
+    "slug": "shadow-size",
+    "source": "/assets/images/science-approved/shadow-size.png",
+    "source_sha256": "c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd",
+    "template": "_operations/science-pages/shadow-size.html",
+    "template_sha256": "e14a349c29166b1adc914959084f5e1d7f25134a3f77f1c95a5ace54d40b87da",
+    "card": "    <article class=\"science-card\" data-science-id=\"shadow-size\">\n      <a href=\"{{ '/science/shadow-size/' | relative_url }}\">{% include comic-header.html id='shadow-size' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>影子為什麼會變大？</h2><p>用手電筒實驗，探索影子大小的變化。</p><a class=\"science-card__link\" href=\"{{ '/science/shadow-size/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
   }
 ]

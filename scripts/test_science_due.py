@@ -39,6 +39,8 @@ with tempfile.TemporaryDirectory(dir=m.ROOT.parent) as tmp:
     assert m.prepare(root,at('2026-11-02T09:00:00'))==['solar-eclipse']
     assert m.prepare(root,at('2026-11-09T09:00:00'))==['lunar-eclipse']
     assert m.prepare(root,at('2026-11-16T09:00:00'))==['condensation']
+    assert m.prepare(root,at('2026-11-23T08:59:59'))==[]
+    assert m.prepare(root,at('2026-11-23T09:00:00'))==['shadow-size']
     assert m.prepare(root,at('2026-11-23T09:00:00'))==[]
     page=root/'science/density.html'; page.write_text('drift','utf-8')
     try: m.prepare(root,at('2026-11-23T09:00:00'))

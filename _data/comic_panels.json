@@ -1902,5 +1902,114 @@
         "webp": "/assets/images/panels/journey-05/panel-12.webp"
       }
     ]
+  },
+  "shadow-size": {
+    "title": "影子為什麼會變大？",
+    "source": "/assets/images/science-approved/shadow-size.png",
+    "items": [
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "alt": "影子為什麼會變大",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "824d9ebb7ed7c739cc7b931b014b90c24ea4b049d84a91ab2de6355c40e5206b",
+        "png": "/assets/images/panels/shadow-size/panel-01.png",
+        "webp": "/assets/images/panels/shadow-size/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "alt": "準備材料",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "3a4ac1e9d2b573ce8b26907241773600bd05a234fe0620ea210853b4cd271560",
+        "png": "/assets/images/panels/shadow-size/panel-02.png",
+        "webp": "/assets/images/panels/shadow-size/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "alt": "光被物體擋住",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "4ec0807cfe82c75116a4e055aad9623d0c8509ee8a48e8a7cc8963b68c077ff4",
+        "png": "/assets/images/panels/shadow-size/panel-03.png",
+        "webp": "/assets/images/panels/shadow-size/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "alt": "手電筒離得遠影子會變小",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "aec9c866ba799e8a6385bb4347a5261504223581fbd9b0d4a6cb7a6469c3cd56",
+        "png": "/assets/images/panels/shadow-size/panel-04.png",
+        "webp": "/assets/images/panels/shadow-size/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "alt": "手電筒靠近影子會變大",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "7291526f680e98653c5e5608cb26fef3ef3d01ba9f1341d21f66d7c8c07af578",
+        "png": "/assets/images/panels/shadow-size/panel-05.png",
+        "webp": "/assets/images/panels/shadow-size/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "alt": "玩具靠近屏幕影子會變小",
+        "show_number": false,
+        "width": 941,
+        "height": 1229,
+        "png_sha256": "a0c614ddebf80c70a19bece616461236df4b809edf5f40a81e113751904ac80a",
+        "png": "/assets/images/panels/shadow-size/panel-06.png",
+        "webp": "/assets/images/panels/shadow-size/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "alt": "在相同位置下物體越大影子越大",
+        "show_number": false,
+        "width": 941,
+        "height": 1180,
+        "png_sha256": "5ab1f18f9224bd78cf07b00d1c464a7da7e23e436648c5d25f0c8668464cfd5e",
+        "png": "/assets/images/panels/shadow-size/panel-07.png",
+        "webp": "/assets/images/panels/shadow-size/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "alt": "影子大小的三個重點",
+        "show_number": false,
+        "width": 941,
+        "height": 1672,
+        "png_sha256": "37004549cb1397cf97378d798c8020aa50c57ac5f56f14329458e7ebfdbce132",
+        "png": "/assets/images/panels/shadow-size/panel-08.png",
+        "webp": "/assets/images/panels/shadow-size/panel-08.webp"
+      }
+    ],
+    "card_header": {
+      "png": "/assets/images/panels/shadow-size/card-header.png",
+      "webp": "/assets/images/panels/shadow-size/card-header.webp",
+      "width": 692,
+      "height": 260,
+      "png_sha256": "7826f10235d605dcff997125993a9f7e77466c0bdd340be9e677029c65a889c6"
+    }
   }
 }

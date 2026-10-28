@@ -55,3 +55,10 @@
 ## 2026-10-26 蝴蝶篇正式驗收
 
 蝴蝶新版沿用既有網址，發布PR #31與Pages部署均成功；2026-10-26 09:08台灣時間已驗證正式文章、科學目錄、完整原圖、7格閱讀圖、頁尾及目錄刊頭。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`097b913b9a6ea2c37bf924b6b381207832787bac`；證據：`science-verification-20261026.json`。
+
+## 2026-10-28 影子篇素材審查
+
+- 題名：影子為什麼會變大？；分類：科學天地／自然小探險隊；依主表2026-11-23 09:00台灣時間發布。
+- 來源：使用者提供 Nature_Explorers_Shadow_ZH_8pages_Page8_Updated-2.docx，八張內嵌漫畫逐頁檢查；第八頁將「改變任何一個條件影子就會變大」修正為「每次只改變一個條件，影子可能變大，也可能變小」。其餘七頁保留。
+- 頁圖：`assets/images/science-approved/shadow-size/page-01.png` 至 `page-08.png`；閱讀圖：`assets/images/panels/shadow-size/`；合集：`assets/images/science-approved/shadow-size.png`；SHA256：`c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd`。
+- 文章範本：`_operations/science-pages/shadow-size.html`；尚未建立公開文章，未聲稱已發布。已補充控制變因、發散光適用條件與實驗安全提醒。第八頁文字以影像編輯工具局部修正並重新目視核對。
