@@ -32,6 +32,11 @@ jobs:
           python3 scripts/verify_comic_reader.py
       - uses: actions/upload-artifact@v4
         with:
+          name: k2-course-preview
+          path: _site/articles/k2-ai-teacher-handbook/index.html
+          retention-days: 7
+      - uses: actions/upload-artifact@v4
+        with:
           name: site-preview
           path: _site/
           retention-days: 7
