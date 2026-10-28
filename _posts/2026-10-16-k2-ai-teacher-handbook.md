@@ -7,13 +7,19 @@ author: 社子文教基金會
 permalink: /articles/k2-ai-teacher-handbook/
 image: /assets/images/articles/k2-ai-teacher-handbook.webp
 image_alt: 老師帶領孩子使用圖卡與積木，學習 AI 素養、思考與查證
-description: "八堂適合幼兒園大班至小二的 AI 素養課程，附教學流程、遊戲活動、學習單與評量，提供教師手冊 PDF 下載。"
+description: "適合幼兒園大班至小二的八堂 AI 素養課程，新增前四堂卡通圖卡版 PDF 與 Word，含教學流程、可剪裁圖卡、學習單及教師評量。"
 tags: [幼小銜接, 低年級, 教師教材]
 ---
 
 AI 會幫忙，孩子也要學會思考與查證。《K–2 AI 素養教師手冊・台灣版》適用於幼兒園大班至國小二年級，透過八堂循序漸進的課程，帶領孩子認識 AI、探索規律與資料，練習查證資訊、保護隱私，並學習公平、誠實且負責任地使用科技。手冊收錄教學流程、遊戲與情境活動、學習單及評量工具，以無設備或低設備活動為主，供教師備課與家長陪伴學習參考。
 
-[下載教師手冊 PDF]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.pdf' | relative_url }})
+{% include k2-cartoon-downloads.html %}
+
+## 既有完整手冊與八堂課程架構
+
+需要完整八堂課、教師導讀及共用附錄，可下載既有《K–2 AI 素養教師手冊・台灣版》。本次前四堂卡通圖卡版另列於上方，方便逐堂備課。
+
+[下載完整八堂手冊 Word]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.docx' | relative_url }}) · [下載完整八堂手冊 PDF]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.pdf' | relative_url }})
 
 ## 適合誰使用
 
@@ -34,6 +40,6 @@ AI 會幫忙，孩子也要學會思考與查證。《K–2 AI 素養教師手�
 
 請先閱讀教師導讀，依學生能力選用活動並準備圖卡與材料。課程以無設備或低設備活動為主，不要求孩子自行申請 AI 帳號；需要工具示範時由教師操作。評量著重觀察、口語說明與情境判斷。
 
-下載檔為本次提供的 PDF 版本，方便教師閱讀與備課；本站尚未宣稱完成課堂試教或成效驗證。
+PDF 方便固定版面閱讀與列印；Word 可供教師依班級調整。本站尚未宣稱完成課堂試教或成效驗證。公開下載不等同開放授權；轉載、改作或商業使用請先洽基金會確認。
 
 [瀏覽「中小學 AI 教育」專欄]({{ '/ai-education/' | relative_url }}) · [查看六堂 AI 素養入門教案]({{ '/ai-literacy/' | relative_url }})

@@ -1,0 +1,76 @@
+{
+  "version": "3.0",
+  "updated": "2026-10-28",
+  "timezone": "Asia/Taipei",
+  "scope": "第1至4堂，八堂系列",
+  "files": [
+    {
+      "name": "k2-ai-lesson-01-cartoon-v3.docx",
+      "bytes": 2077904,
+      "sha256": "59807b4b0feea3782f88ed198f10490e6c0dccb6ffa47bde814d2b5fb74184b0",
+      "lesson": 1,
+      "pages": null
+    },
+    {
+      "name": "k2-ai-lesson-01-cartoon-v3.pdf",
+      "bytes": 568181,
+      "sha256": "cfd0016396aef794d2e5247aba026d0a7961f8c82ee6901a0b2e9c487278d0e9",
+      "lesson": 1,
+      "pages": 8
+    },
+    {
+      "name": "k2-ai-lesson-02-cartoon-v3.docx",
+      "bytes": 1358852,
+      "sha256": "1dcc469a78c3fc2d2cd1d340ffdad71dbba883b4c10cd5781e82692b7f7a7007",
+      "lesson": 2,
+      "pages": null
+    },
+    {
+      "name": "k2-ai-lesson-02-cartoon-v3.pdf",
+      "bytes": 519922,
+      "sha256": "e955fcbbc40e3d134a72c9abf3c6c3ced636a5d0c7da277e887a9812e83556bd",
+      "lesson": 2,
+      "pages": 8
+    },
+    {
+      "name": "k2-ai-lesson-03-cartoon-v3.docx",
+      "bytes": 1148570,
+      "sha256": "3d38aac0010f595a6f262bb2ef61749c853426f3384d64a3fd0a6ad68fa1dec7",
+      "lesson": 3,
+      "pages": null
+    },
+    {
+      "name": "k2-ai-lesson-03-cartoon-v3.pdf",
+      "bytes": 495910,
+      "sha256": "fe3a9a7491c71d88b55be22324979e613430ac0011e00993912dc82f6658fec3",
+      "lesson": 3,
+      "pages": 8
+    },
+    {
+      "name": "k2-ai-lesson-04-cartoon-v3.docx",
+      "bytes": 1407271,
+      "sha256": "763c9dcec6d8f2ccef26f950c63ba35db078eae7243a445b4af434cba94df0c1",
+      "lesson": 4,
+      "pages": null
+    },
+    {
+      "name": "k2-ai-lesson-04-cartoon-v3.pdf",
+      "bytes": 521749,
+      "sha256": "39e11b3fe250bb779653edf397b4f5a4fe1026431a3a0496a5b39a86dfee1b3f",
+      "lesson": 4,
+      "pages": 8
+    },
+    {
+      "name": "k2-ai-lessons-01-04-cartoon-v3.pdf",
+      "bytes": 2002053,
+      "sha256": "2fbd9755dff7a94d4c07b37b8fdaaf4453f98fc11dfd33eb6cae4a0d828f1d15",
+      "pages": 32
+    },
+    {
+      "name": "k2-ai-lessons-01-04-cartoon-v3-teacher-pack.zip",
+      "bytes": 7911211,
+      "sha256": "f8554401987efa6d0bc04f0dd3ccf6bf27611f88bbdd02bd7cbf0024cd4c023c",
+      "contains": "4 DOCX + 4 PDF + instructions"
+    }
+  ]
+}
