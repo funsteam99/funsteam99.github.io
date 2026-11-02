@@ -28,8 +28,11 @@
   },
   "solar-eclipse": {
     "scheduled_at": "2026-11-02T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/solar-eclipse/",
-    "source_sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f"
+    "source_sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f",
+    "verified_at": "2026-11-02T09:04:35.015915+08:00",
+    "deployment_commit": "10afbfceba1f87823899029d7328c637183e5bc8",
+    "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/39"
   }
 }
