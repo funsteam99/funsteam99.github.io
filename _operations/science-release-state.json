@@ -25,5 +25,11 @@
     "verified_at": "2026-10-26T09:08:03+08:00",
     "deployment_commit": "097b913b9a6ea2c37bf924b6b381207832787bac",
     "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/31"
+  },
+  "solar-eclipse": {
+    "scheduled_at": "2026-11-02T09:00:00+08:00",
+    "status": "prepared",
+    "url": "https://shezi.org.tw/science/solar-eclipse/",
+    "source_sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f"
   }
 }
