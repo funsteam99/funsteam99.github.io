@@ -1,6 +1,6 @@
-# 自然小探險隊 — 素材集中索引（2026-10-26）
+# 自然小探險隊 — 素材集中索引（2026-11-02）
 
-最新狀態：六篇定稿原圖及逐格均已同步GitHub；彩虹、密度已於2026-10-19驗收，蝴蝶新版已於2026-10-26 09:08台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
+最新狀態：六篇定稿原圖及逐格均已同步GitHub；彩虹、密度已於2026-10-19驗收，蝴蝶新版已於2026-10-26 09:08驗收，日食已於2026-11-02 09:04台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
 
 用途：ChatGPT 與 Codex 協作時先看本表，再核對官網及素材實體。**找到 ChatGPT 檔案庫附件，不等於圖片已上傳 GitHub，也不等於官網已發布。**
 
@@ -9,7 +9,7 @@
 | 2026-10-12 | 彩虹為什麼會出現？ | `彩虹分光魔術：自然科學探險隊.png`（Library ID `libfile_ac4e5eb793e08191a4e67173c7bf3422`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已補發並正式驗證：https://shezi.org.tw/science/rainbow/；PR #27 |
 | 2026-10-19 | 密度是什麼？一樣大，不一定一樣重！ | `七格漫畫探索密度奧秘.png`（Library ID `libfile_baac5d7b56348191a61135cbc6838863`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/density/；PR #27 |
 | 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已更新既有頁並正式驗證：https://shezi.org.tw/science/butterfly-life-cycle/；PR #31 |
-| 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
+| 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/solar-eclipse/；PR #39 |
 | 2026-11-09 | 月食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳月食七格定稿圖（會話 file ID `file_000000000c488206bbbea001c25440fa`） | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
 | 2026-11-16（已核定） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
 
@@ -62,3 +62,8 @@
 - 來源：使用者提供 Nature_Explorers_Shadow_ZH_8pages_Page8_Updated-2.docx，八張內嵌漫畫逐頁檢查；第八頁將「改變任何一個條件影子就會變大」修正為「每次只改變一個條件，影子可能變大，也可能變小」。其餘七頁保留。
 - 頁圖：`assets/images/science-approved/shadow-size/page-01.png` 至 `page-08.png`；閱讀圖：`assets/images/panels/shadow-size/`；合集：`assets/images/science-approved/shadow-size.png`；SHA256：`c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd`。
 - 文章範本：`_operations/science-pages/shadow-size.html`；尚未建立公開文章，未聲稱已發布。已補充控制變因、發散光適用條件與實驗安全提醒。第八頁文字以影像編輯工具局部修正並重新目視核對。
+
+
+## 2026-11-02 日食篇正式驗收
+
+日食篇依原週次新增文章與目錄卡片，發布PR #39及Pages部署均成功；2026-11-02 09:04台灣時間已驗證正式文章、科學目錄、完整原圖與7格閱讀圖。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`10afbfceba1f87823899029d7328c637183e5bc8`；證據：`science-verification-20261102.json`。
