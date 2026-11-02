@@ -1,0 +1,85 @@
+{
+  "verified_at": "2026-11-02T09:04:35.015915+08:00",
+  "scheduled_at": "2026-11-02T09:00:00+08:00",
+  "id": "solar-eclipse",
+  "title": "日食是什麼？",
+  "url": "https://shezi.org.tw/science/solar-eclipse/",
+  "index_url": "https://shezi.org.tw/science/",
+  "deployment_commit": "10afbfceba1f87823899029d7328c637183e5bc8",
+  "publication_pr": "https://github.com/funsteam99/funsteam99.github.io/pull/39",
+  "source": {
+    "url": "https://shezi.org.tw/assets/images/science-approved/solar-eclipse.png",
+    "http_status": 200,
+    "sha256": "b687825ab5e8304f52f2248bd927877a121f89b28bef70c7b4374e4578f3fb1f",
+    "width": 1312,
+    "height": 1199
+  },
+  "panels": [
+    {
+      "key": "header",
+      "width": 357,
+      "height": 686,
+      "png_sha256": "6658ad5084ed36741715b9667e18cf32bea47e3b1d024baf5d4fe8ddaa22e42b",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-02",
+      "width": 352,
+      "height": 686,
+      "png_sha256": "93fb0c1daa1676a354fe4fcfe155fe458f2e0e050f9e3a0222ccc6afce448edb",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-03",
+      "width": 296,
+      "height": 686,
+      "png_sha256": "43ccdbc3001bba6e45af2ce981898d336dfb05a178637968ea06a7b62abb2428",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-04",
+      "width": 307,
+      "height": 686,
+      "png_sha256": "fd7c3e922bcb51396edc521812b3fc0d33be5c7a840a9867e4197dce272a5a63",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-05",
+      "width": 496,
+      "height": 513,
+      "png_sha256": "4fafb7a54f86b85b43b8dd4656d241a2bc3e39eaaac20b32671ebcbe0fd8354e",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-06",
+      "width": 410,
+      "height": 513,
+      "png_sha256": "6f10d56ef4d3c000a37738c27f9b28bad396fa7eb7cd1efe7f6abcb47087292f",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-07",
+      "width": 406,
+      "height": 513,
+      "png_sha256": "a92c96676ccd3dea4b6dbd3054a383bfdb7e2ea543fa3371d9c420889e0df274",
+      "png_http_status": 200,
+      "webp_http_status": 200,
+      "pixels_equal": true
+    }
+  ],
+  "article_http_status": 200,
+  "index_http_status": 200,
+  "result": "verified"
+}
