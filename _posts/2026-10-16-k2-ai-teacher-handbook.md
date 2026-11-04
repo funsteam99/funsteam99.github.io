@@ -15,6 +15,22 @@ AI 會幫忙，孩子也要學會思考與查證。《K–2 AI 素養教師手�
 
 {% include k2-cartoon-downloads.html %}
 
+
+## 第1～6堂卡通圖卡修訂參考版 V2.1
+
+2026年11月4日補充。以下六份 Word 含可剪裁圖卡、教學步驟、學習單及評量，每堂8頁，尚待試教。這是本次提供文件的修訂版號，並非上方 v3.0 的後續版本；第1～4堂建議優先使用上方已發布的 v3.0，以下同堂文件供比較與備課參考。第5、6堂新增查證及個資保護的分課教材。
+
+- [第1堂 認識 AI Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson01_TW_Cartoon_V2_1.docx' | relative_url }})
+- [第2堂 人、機器與 AI Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson02_TW_Cartoon_V2_1.docx' | relative_url }})
+- [第3堂 規律小偵探 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson03_TW_Cartoon_V2_1.docx' | relative_url }})
+- [第4堂 教教機器人 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson04_TW_Cartoon_V2_1.docx' | relative_url }})
+- [第5堂 AI 事實偵探 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson05_TW_Cartoon_V2_1.docx' | relative_url }})
+- [第6堂 我的資料我要保護 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson06_TW_Cartoon_V2_1.docx' | relative_url }})
+
+[下載第1～6堂 V2.1 整包 ZIP]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lessons01-06_V2_1.zip' | relative_url }})
+
+本次修正課次標示、遊戲操作、材料說明、評量及複選提示。第7、8堂卡通修訂版待補，目前可使用下方完整八堂手冊。
+
 ## 既有完整手冊與八堂課程架構
 
 需要完整八堂課、教師導讀及共用附錄，可下載既有《K–2 AI 素養教師手冊・台灣版》。本次前四堂卡通圖卡版另列於上方，方便逐堂備課。
