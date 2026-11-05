@@ -67,3 +67,13 @@
 ## 2026-11-02 日食篇正式驗收
 
 日食篇依原週次新增文章與目錄卡片，發布PR #39及Pages部署均成功；2026-11-02 09:04台灣時間已驗證正式文章、科學目錄、完整原圖與7格閱讀圖。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`10afbfceba1f87823899029d7328c637183e5bc8`；證據：`science-verification-20261102.json`。
+
+
+## 2026-11-05 浮沉篇雙語清晰重製素材
+
+- 獨立新集《浮起來，還是沉下去？》，維持2026-11-30 09:00台灣原週次；不替換既有密度篇，不新增排程。
+- 已從Library分享ID `libfile_8632a681465c819186da1885ad146f38` 實際下載34,863,002 bytes的單數字頁碼ZIP。原ZIP與16張裁切稿保留本機，SHA256已核對未改動。初稿頁碼重疊及低解析問題已記錄在PR #45。
+- 使用者本次明確授權「必要時重新生成」。逐頁參照原作重製繁中及日文各8頁，保留角色、故事、對白及實驗結果；人工逐頁對照，日文第2頁一度多加的結果列已移除。此版是AI重製閱讀版，不是原生高解析原稿，也不宣稱從低解析圖無損恢復細節。
+- AI原生輸出尺寸與統一1440×2560輸出、各頁hash、原包hash及檢查範圍見 `float-sink-preparation-20261105.json`。重製合集：`assets/images/science-approved/float-sink.png`；逐頁PNG／無損WebP：`assets/images/panels/float-sink/zh-TW-page-01`～`08`及`ja-JP-page-01`～`08`（各有.png、.webp）；兩份8頁PDF：`assets/downloads/science/float-or-sink-zh-TW-regenerated.pdf` 與 `float-or-sink-ja-JP-regenerated.pdf`。
+- 範本：`_operations/science-pages/float-or-sink.html`；manifest ID `float-sink`，未建立公開文章，未加入科學目錄。頁碼各自1～8、語言跳轉、每頁可展開原文與親子實驗補充已備妥。
+- 本機16張PNG與WebP像素一致；兩份PDF共16頁已重新渲染檢視；獨立預覽320／390／768／1440寬度無橫向溢出。未到期閘門與到期準備、重跑測試通過。正式資產須合併部署後另行驗證，不以本機檢查冒充已發布。

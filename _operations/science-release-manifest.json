@@ -75,5 +75,27 @@
     "template": "_operations/science-pages/shadow-size.html",
     "template_sha256": "e14a349c29166b1adc914959084f5e1d7f25134a3f77f1c95a5ace54d40b87da",
     "card": "    <article class=\"science-card\" data-science-id=\"shadow-size\">\n      <a href=\"{{ '/science/shadow-size/' | relative_url }}\">{% include comic-header.html id='shadow-size' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>影子為什麼會變大？</h2><p>用手電筒實驗，探索影子大小的變化。</p><a class=\"science-card__link\" href=\"{{ '/science/shadow-size/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
+  },
+  {
+    "id": "float-sink",
+    "title": "浮起來，還是沉下去？",
+    "scheduled_date": "2026-11-30",
+    "slug": "float-or-sink",
+    "source": "/assets/images/science-approved/float-sink.png",
+    "source_sha256": "05c663bc156a673328c07e4f8d931b6e1fb65829fc893a79422c904d4803f9df",
+    "template": "_operations/science-pages/float-or-sink.html",
+    "template_sha256": "42cd9c1238e58d600b49b3c848d9b0202c1db15b74abbdab854f41edbd1c2508",
+    "card": "    <article class=\"science-card\" data-science-id=\"float-sink\">\n      <a href=\"{{ '/science/float-or-sink/' | relative_url }}\">{% include comic-header.html id='float-sink' %}</a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>浮起來，還是沉下去？</h2><p>用木塊、石頭、瓶蓋和橘子，練習預測與觀察。附繁中、日文各八頁。</p><a class=\"science-card__link\" href=\"{{ '/science/float-or-sink/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n",
+    "downloads": [
+      {
+        "path": "/assets/downloads/science/float-or-sink-zh-TW-regenerated.pdf",
+        "sha256": "f494039ead8e34e346928f9eb0e3f941c0009b88fbecb17518519b59b21d9c18"
+      },
+      {
+        "path": "/assets/downloads/science/float-or-sink-ja-JP-regenerated.pdf",
+        "sha256": "2d6df627617da3063c91bf1ce52ae6266544e1fbce0e6195446a410735c0d293"
+      }
+    ],
+    "source_type": "AI recreation authorized 2026-11-05; original review ZIP retained separately"
   }
 ]

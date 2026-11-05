@@ -42,8 +42,12 @@ with tempfile.TemporaryDirectory(dir=m.ROOT.parent) as tmp:
     assert m.prepare(root,at('2026-11-23T08:59:59'))==[]
     assert m.prepare(root,at('2026-11-23T09:00:00'))==['shadow-size']
     assert m.prepare(root,at('2026-11-23T09:00:00'))==[]
+    assert m.prepare(root,at('2026-11-30T08:59:59'))==[]
+    assert not (root/'science/float-or-sink.html').exists()
+    assert m.prepare(root,at('2026-11-30T09:00:00'))==['float-sink']
+    assert m.prepare(root,at('2026-11-30T09:00:00'))==[]
     page=root/'science/density.html'; page.write_text('drift','utf-8')
     try: m.prepare(root,at('2026-11-23T09:00:00'))
     except ValueError: pass
     else: raise AssertionError('Drift was not blocked')
-print('PASS: due dates, catchup, future isolation, all six releases, butterfly replacement, idempotency and drift')
+print('PASS: due dates, catchup, future isolation including float-sink, butterfly replacement, idempotency and drift')

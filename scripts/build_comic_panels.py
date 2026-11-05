@@ -111,6 +111,8 @@ def main():
         if not args.verify:
             frame.save(qa / (work['id'] + '-bounds.png'))
         manifest[work['id']] = {'title':work['title'], 'source':work['source'], 'items':entries}
+        if 'source_label' in work:
+            manifest[work['id']]['source_label'] = work['source_label']
         if 'card_header_box' in work:
             box = work['card_header_box']
             assert 0 <= box[0] < box[2] <= source.width and 0 <= box[1] < box[3] <= source.height

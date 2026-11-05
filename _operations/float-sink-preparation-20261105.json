@@ -1,0 +1,266 @@
+{
+  "checked_at": "2026-11-05T16:41:37.224694+08:00",
+  "original_zip_sha256": "7056247e474763fc12d53df7a51eeea7798b121d266a281266ff0264f7e9446e",
+  "source_library_id": "libfile_8632a681465c819186da1885ad146f38",
+  "original_sources_retained_and_hash_verified": true,
+  "edition": "AI recreated reading edition, authorized by user 2026-11-05",
+  "generation_method": "AI recreation from each original page; Lanczos fit to 1440x2560; source ZIP retained",
+  "pages": [
+    {
+      "key": "zh-TW-page-01",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "6953384311ef2ca7d97a6849246e9598265babbf3e5bb526c44daed596cfedb1",
+      "normalized_sha256": "41d3e1b903081cd2209fbecd84cb4ef195cc93ca54ea4fb6f687391ece23535b"
+    },
+    {
+      "key": "zh-TW-page-02",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "6e30e130aaeea7cf22508bb7b215ca221ce9282ac4e5f87a49f2981f7f0d52a6",
+      "normalized_sha256": "5ea111a1cc13180037fdb84c234dc104646362126574e09fd5b06a643cbebd20"
+    },
+    {
+      "key": "zh-TW-page-03",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "7af7417ed9792ebec913c1a9a8f85e5ea34b30539b9e4f673dc1ea9d247c8004",
+      "normalized_sha256": "5753a702f337c5b44f656131466cc1c9755a7f3f510de2fbe6858c94bc87eafc"
+    },
+    {
+      "key": "zh-TW-page-04",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "fef3c793999482e52d029a0421b57088ed554a1cf119cff3e2547898a547b2cf",
+      "normalized_sha256": "0c94b3f57c248dd765ef0155f4c5686803c922f16dfc9dc3b28bb07ebd27bca4"
+    },
+    {
+      "key": "zh-TW-page-05",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "40ec00f6d613859b5603ae2848741e6cd425887f30cb7d45bf9cd5a7a783e2ea",
+      "normalized_sha256": "ecddd53300028ae8d16a7ece6d3c86269d9b1fb39f16c5fb6e4760d638877537"
+    },
+    {
+      "key": "zh-TW-page-06",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "9f31738816d30c20f1a2384b9016243a26f84320750601953ca753b8a0bcf902",
+      "normalized_sha256": "22ba0a6e618d2e46b40c82e86aa8d04776690185892335272895283fdac373c1"
+    },
+    {
+      "key": "zh-TW-page-07",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "e9fffbb335bf765e895ed5819557277e052356e8c0a2bd490e7e5b35624bb974",
+      "normalized_sha256": "d0c98dcdd158018eb58063af6f5dca4a1c872eb16c01cc9b28ad0e19d7c787b4"
+    },
+    {
+      "key": "zh-TW-page-08",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "b4883aa5f64636a570f097ad7e686f69b1717249918120fb70ad1b0a78f85bf7",
+      "normalized_sha256": "70918623bfb687fff54857062a708c76799569bfc067dd5f186289346a939df3"
+    },
+    {
+      "key": "ja-JP-page-01",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "f98c7c7c16503d96f4ffcdd3004d47417b5ab94eed7bb05f5ba3334d4ed285ab",
+      "normalized_sha256": "5036cc8bfa625953e2d173e3a84e3becdd87a9fa5fe2a8d260c53ba31def1e5c"
+    },
+    {
+      "key": "ja-JP-page-02",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "b2e3238ee272280b5a021c1648e18ab48182fc8e777db92fd77f47fa239cae12",
+      "normalized_sha256": "a2590ef54387481beeac0124ddf476ff9428779d44f14ec80dface86310de629"
+    },
+    {
+      "key": "ja-JP-page-03",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "e090c07d92441f67515e4554fa7ac16a1b60d058970001863e565d224777b0d0",
+      "normalized_sha256": "560df2c91288cf3325ef94bdf658c02b116318e0b6dbaaead04d67ef2f94fa23"
+    },
+    {
+      "key": "ja-JP-page-04",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "de30f75b27beaa2bb32ce46787cfe43fc29b9dbe9d406b02a9553bc7ea8b4f94",
+      "normalized_sha256": "1d89e307a5395e69add6bfb67a11a34fef4b4597ce974d3479668baed32adf3b"
+    },
+    {
+      "key": "ja-JP-page-05",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "ab19b0f05815707ec2a7c6dc0bce1737255c5ab23deaa0324ab1f9c11df6090c",
+      "normalized_sha256": "89553c5f662c7d7b6a1d9befa7dc2d2e783f5875996b5de4e9a4d2a76592d463"
+    },
+    {
+      "key": "ja-JP-page-06",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "3a1b1ebcf0f7c79f7dceb1c5bb8c6cc7db569e247f782b5d9e0e98a14ef19d8f",
+      "normalized_sha256": "703e3ebb36a7a06a26fefa4472e7e083ec4b610fdb1cfa98421dcb9e43654eeb"
+    },
+    {
+      "key": "ja-JP-page-07",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "a7a66468170aa908f7b060a10855de37c23f939fdbb9192f0c51f62f5b6da213",
+      "normalized_sha256": "e819c432a4574f9d1cb5d1fac5a6ab1ca016886e2773b3e600ddcc4e60d0b9eb"
+    },
+    {
+      "key": "ja-JP-page-08",
+      "native_generated_size": [
+        941,
+        1672
+      ],
+      "output_size": [
+        1440,
+        2560
+      ],
+      "raw_sha256": "d98cf25824be19f5f3653060182a62923ada373bcb1a720bea373997f403e540",
+      "normalized_sha256": "6f0acf5456b7499dc1096d86deb89f8ef5abadbc5724232e879f60e53a4a97ea"
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "float-or-sink-zh-TW-regenerated.pdf",
+      "pages": 8,
+      "sha256": "f494039ead8e34e346928f9eb0e3f941c0009b88fbecb17518519b59b21d9c18",
+      "bytes": 14488462,
+      "rendered_pages": 8,
+      "encoding": "1440x2560 JPEG quality97 4:4:4; lossless PNGs supplied separately"
+    },
+    {
+      "name": "float-or-sink-ja-JP-regenerated.pdf",
+      "pages": 8,
+      "sha256": "2d6df627617da3063c91bf1ce52ae6266544e1fbce0e6195446a410735c0d293",
+      "bytes": 14081625,
+      "rendered_pages": 8,
+      "encoding": "1440x2560 JPEG quality97 4:4:4; lossless PNGs supplied separately"
+    }
+  ],
+  "visual_review": {
+    "all_16_pages": true,
+    "single_digit_numbers_each_language": "1-8",
+    "dialogue_and_results_compared_to_original": true,
+    "rejected_output": "Japanese page2 initially added an answers row; regenerated to remove that row before packaging",
+    "pdf_pages_rendered_and_reviewed": 16
+  },
+  "pixel_checks": {
+    "scope": "Normalized AI recreation mosaic against published PNG/WebP outputs; not a pixel identity claim against chairman original crop",
+    "png_crop_exact": true,
+    "webp_lossless_exact": true
+  },
+  "local_preview": {
+    "standalone_preview_not_deployed_article": true,
+    "viewport_widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "horizontal_overflow": false,
+    "decoded_png_count": 16,
+    "japanese_anchor_and_text_expansion": true
+  },
+  "schedule_tests": "Passed current date gate, 11/30 08:59:59 blocked, 11/30 09:00 prepared, idempotency and prior releases",
+  "article_created_in_science": false,
+  "scheduled_at": "2026-11-30T09:00:00+08:00",
+  "official_asset_verification": "Pending merge/deploy; follow-up report required",
+  "staged_pdf_bytes_match_verified_files": true,
+  "pdf_git_storage": "Scoped binary attributes prevent newline conversion"
+}
