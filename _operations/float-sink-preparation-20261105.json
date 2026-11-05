@@ -260,7 +260,14 @@
   "schedule_tests": "Passed current date gate, 11/30 08:59:59 blocked, 11/30 09:00 prepared, idempotency and prior releases",
   "article_created_in_science": false,
   "scheduled_at": "2026-11-30T09:00:00+08:00",
-  "official_asset_verification": "Pending merge/deploy; follow-up report required",
+  "official_asset_verification": {
+    "passed": true,
+    "verified_at": "2026-11-05T16:53:20.385202+08:00",
+    "report": "float-sink-assets-verified-20261105.json",
+    "asset_url_count": 37,
+    "deployment_commit": "afaa0360409f049002fd56023f01117da1e81fd3",
+    "article_published": false
+  },
   "staged_pdf_bytes_match_verified_files": true,
   "pdf_git_storage": "Scoped binary attributes prevent newline conversion"
 }

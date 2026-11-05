@@ -1,0 +1,202 @@
+{
+  "verified_at": "2026-11-05T16:53:20.385202+08:00",
+  "scope": "Staged assets; NOT article publication",
+  "assets": [
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-01.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-01.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "41d3e1b903081cd2209fbecd84cb4ef195cc93ca54ea4fb6f687391ece23535b",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-02.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-02.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "5ea111a1cc13180037fdb84c234dc104646362126574e09fd5b06a643cbebd20",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-03.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-03.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "5753a702f337c5b44f656131466cc1c9755a7f3f510de2fbe6858c94bc87eafc",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-04.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-04.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "0c94b3f57c248dd765ef0155f4c5686803c922f16dfc9dc3b28bb07ebd27bca4",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-05.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-05.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "ecddd53300028ae8d16a7ece6d3c86269d9b1fb39f16c5fb6e4760d638877537",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-06.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-06.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "22ba0a6e618d2e46b40c82e86aa8d04776690185892335272895283fdac373c1",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-07.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-07.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "d0c98dcdd158018eb58063af6f5dca4a1c872eb16c01cc9b28ad0e19d7c787b4",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-08.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/zh-TW-page-08.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "70918623bfb687fff54857062a708c76799569bfc067dd5f186289346a939df3",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-01.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-01.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "5036cc8bfa625953e2d173e3a84e3becdd87a9fa5fe2a8d260c53ba31def1e5c",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-02.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-02.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "a2590ef54387481beeac0124ddf476ff9428779d44f14ec80dface86310de629",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-03.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-03.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "560df2c91288cf3325ef94bdf658c02b116318e0b6dbaaead04d67ef2f94fa23",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-04.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-04.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "1d89e307a5395e69add6bfb67a11a34fef4b4597ce974d3479668baed32adf3b",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-05.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-05.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "89553c5f662c7d7b6a1d9befa7dc2d2e783f5875996b5de4e9a4d2a76592d463",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-06.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-06.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "703e3ebb36a7a06a26fefa4472e7e083ec4b610fdb1cfa98421dcb9e43654eeb",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-07.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-07.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "e819c432a4574f9d1cb5d1fac5a6ab1ca016886e2773b3e600ddcc4e60d0b9eb",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-08.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/ja-JP-page-08.webp",
+      "size": [
+        1440,
+        2560
+      ],
+      "png_sha256": "6f0acf5456b7499dc1096d86deb89f8ef5abadbc5724232e879f60e53a4a97ea",
+      "passed": true
+    },
+    {
+      "png": "https://shezi.org.tw/assets/images/panels/float-sink/card-header.png",
+      "webp": "https://shezi.org.tw/assets/images/panels/float-sink/card-header.webp",
+      "size": [
+        1095,
+        700
+      ],
+      "png_sha256": "0e49dfc20a7e417e7584a42730d1387cb9bd8207f4c4cb5765bda2b191cc2553",
+      "passed": true
+    }
+  ],
+  "source": {
+    "url": "https://shezi.org.tw/assets/images/science-approved/float-sink.png",
+    "sha256": "05c663bc156a673328c07e4f8d931b6e1fb65829fc893a79422c904d4803f9df",
+    "passed": true
+  },
+  "downloads": [
+    {
+      "url": "https://shezi.org.tw/assets/downloads/science/float-or-sink-zh-TW-regenerated.pdf",
+      "sha256": "f494039ead8e34e346928f9eb0e3f941c0009b88fbecb17518519b59b21d9c18",
+      "pages": 8,
+      "passed": true
+    },
+    {
+      "url": "https://shezi.org.tw/assets/downloads/science/float-or-sink-ja-JP-regenerated.pdf",
+      "sha256": "2d6df627617da3063c91bf1ce52ae6266544e1fbce0e6195446a410735c0d293",
+      "pages": 8,
+      "passed": true
+    }
+  ],
+  "article_http_status": 404,
+  "index_contains_future_article": false,
+  "scheduled_at": "2026-11-30T09:00:00+08:00",
+  "passed": true,
+  "deployment_commit": "afaa0360409f049002fd56023f01117da1e81fd3",
+  "preparation_pr": "https://github.com/funsteam99/funsteam99.github.io/pull/46",
+  "deployment_run": "https://github.com/funsteam99/funsteam99.github.io/actions/runs/41997515813"
+}
