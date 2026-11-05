@@ -77,3 +77,8 @@
 - AI原生輸出尺寸與統一1440×2560輸出、各頁hash、原包hash及檢查範圍見 `float-sink-preparation-20261105.json`。重製合集：`assets/images/science-approved/float-sink.png`；逐頁PNG／無損WebP：`assets/images/panels/float-sink/zh-TW-page-01`～`08`及`ja-JP-page-01`～`08`（各有.png、.webp）；兩份8頁PDF：`assets/downloads/science/float-or-sink-zh-TW-regenerated.pdf` 與 `float-or-sink-ja-JP-regenerated.pdf`。
 - 範本：`_operations/science-pages/float-or-sink.html`；manifest ID `float-sink`，未建立公開文章，未加入科學目錄。頁碼各自1～8、語言跳轉、每頁可展開原文與親子實驗補充已備妥。
 - 本機16張PNG與WebP像素一致；兩份PDF共16頁已重新渲染檢視；獨立預覽320／390／768／1440寬度無橫向溢出。未到期閘門與到期準備、重跑測試通過。正式資產須合併部署後另行驗證，不以本機檢查冒充已發布。
+
+
+### 浮沉篇正式素材驗收
+
+2026-11-05T16:53:20.385202+08:00 已完成正式素材驗證：16頁PNG／無損WebP、刊頭PNG／WebP、重製合集與兩份8頁PDF共37項網址HTTP成功，hash一致，PNG／WebP尺寸及像素一致。素材PR #46已通過Verify Jekyll articles並合併，Pages部署commit `afaa0360409f049002fd56023f01117da1e81fd3` 成功；驗收證據：`float-sink-assets-verified-20261105.json`。正式文章仍HTTP404，科學目錄尚無本集連結，維持2026-11-30 09:00原週次。這是素材同步及準備完成，不是文章已發布。
