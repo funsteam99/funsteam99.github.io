@@ -166,10 +166,10 @@
       {
         "key": "header",
         "kind": "header",
-        "alt": "悟空去岡山佛光山朝聖刊頭",
+        "alt": "悟空去大樹佛光山朝聖刊頭",
         "width": 1536,
         "height": 148,
-        "png_sha256": "93e846d23ecb42db968f8e9b07f989ea84ceb5c300f065c893fafd5a31b2ca70",
+        "png_sha256": "a0331fd823304dcc5a5a3549db2979590962246b5f37783fb4dc5660b9fe4c91",
         "png": "/assets/images/panels/journey-02/header.png",
         "webp": "/assets/images/panels/journey-02/header.webp"
       },
@@ -178,144 +178,144 @@
         "kind": "panel",
         "alt": "出發前往高雄",
         "number": 1,
+        "show_number": false,
         "width": 385,
         "height": 320,
-        "png_sha256": "6fb4d9b11b3980ca15bc2725751a050b8fc16031b7cb5d8675355bad2b41a655",
+        "png_sha256": "cee3e380ea64f22f05a2898e0a67d9aa3f234f40fc9b2ed099892f500f9a733c",
         "png": "/assets/images/panels/journey-02/panel-01.png",
-        "webp": "/assets/images/panels/journey-02/panel-01.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-01.webp"
       },
       {
         "key": "panel-02",
         "kind": "panel",
         "alt": "抵達佛光山",
         "number": 2,
+        "show_number": false,
         "width": 329,
         "height": 320,
         "png_sha256": "be40cb287a1e20b5dcaac0cb73bfed1358593307c40343d672ca29d56380ef37",
         "png": "/assets/images/panels/journey-02/panel-02.png",
-        "webp": "/assets/images/panels/journey-02/panel-02.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-02.webp"
       },
       {
         "key": "panel-03",
         "kind": "panel",
         "alt": "參觀大佛",
         "number": 3,
+        "show_number": false,
         "width": 394,
         "height": 320,
         "png_sha256": "9c575d648f6945cfb67294f7c3b1debb1088cd23b5118d8ada059318c20f819d",
         "png": "/assets/images/panels/journey-02/panel-03.png",
-        "webp": "/assets/images/panels/journey-02/panel-03.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-03.webp"
       },
       {
         "key": "panel-04",
         "kind": "panel",
         "alt": "體驗佛館文化",
         "number": 4,
+        "show_number": false,
         "width": 428,
         "height": 320,
         "png_sha256": "bf9f0bac75138c00afc054d438b32d8a6005836f09c6f93f5b6107fc5159c5ce",
         "png": "/assets/images/panels/journey-02/panel-04.png",
-        "webp": "/assets/images/panels/journey-02/panel-04.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-04.webp"
       },
       {
         "key": "panel-05",
         "kind": "panel",
         "alt": "抄經體驗",
         "number": 5,
+        "show_number": false,
         "width": 350,
         "height": 266,
         "png_sha256": "44cb3fbfbe559707b6238bcd04e5655f67a12fa0bc654c56966f6cb8dfba98fc",
         "png": "/assets/images/panels/journey-02/panel-05.png",
-        "webp": "/assets/images/panels/journey-02/panel-05.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-05.webp"
       },
       {
         "key": "panel-06",
         "kind": "panel",
         "alt": "法師開示",
         "number": 6,
+        "show_number": false,
         "width": 313,
         "height": 266,
         "png_sha256": "a2d257321df988b5371a2e5ed95cf5ff1b50085b16715b40efa70ca8bd0c9d61",
         "png": "/assets/images/panels/journey-02/panel-06.png",
-        "webp": "/assets/images/panels/journey-02/panel-06.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-06.webp"
       },
       {
         "key": "panel-07",
         "kind": "panel",
         "alt": "佛光山美景",
         "number": 7,
+        "show_number": false,
         "width": 251,
         "height": 266,
         "png_sha256": "d78dcb60b48b2702a2e1f02f03044e6d21cf9c033ea7bba0ac13e08a8e0a6398",
         "png": "/assets/images/panels/journey-02/panel-07.png",
-        "webp": "/assets/images/panels/journey-02/panel-07.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-07.webp"
       },
       {
         "key": "panel-08",
         "kind": "panel",
         "alt": "素食午餐",
         "number": 8,
+        "show_number": false,
         "width": 326,
         "height": 266,
         "png_sha256": "a74e69ec6c293c56c88243ab677369c86a94013eb8903e63b1ad38d0114ba09f",
         "png": "/assets/images/panels/journey-02/panel-08.png",
-        "webp": "/assets/images/panels/journey-02/panel-08.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-08.webp"
       },
       {
         "key": "panel-09",
         "kind": "panel",
         "alt": "做好事的小任務",
         "number": 9,
+        "show_number": false,
         "width": 296,
         "height": 266,
         "png_sha256": "a5e025941fe815ef3f8ebeb9c263de320e075ef844f92daa722f011860710b74",
         "png": "/assets/images/panels/journey-02/panel-09.png",
-        "webp": "/assets/images/panels/journey-02/panel-09.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-09.webp"
       },
       {
         "key": "panel-10",
         "kind": "panel",
         "alt": "帶著收穫回家",
         "number": 10,
+        "show_number": false,
         "width": 412,
         "height": 290,
         "png_sha256": "a29f0d2f11b6460d23349b9ab48eeb58fb73dbdb838d39164c0ba7329aed22cc",
         "png": "/assets/images/panels/journey-02/panel-10.png",
-        "webp": "/assets/images/panels/journey-02/panel-10.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-10.webp"
       },
       {
         "key": "panel-11",
         "kind": "panel",
         "alt": "神秘地圖",
         "number": 11,
+        "show_number": false,
         "width": 389,
         "height": 290,
         "png_sha256": "161497fb150c42fe8552d1f29f9d4b5fe28402ac7b780860de4d4398e85b625a",
         "png": "/assets/images/panels/journey-02/panel-11.png",
-        "webp": "/assets/images/panels/journey-02/panel-11.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-11.webp"
       },
       {
         "key": "panel-12",
         "kind": "panel",
         "alt": "台灣冒險地圖",
         "number": 12,
+        "show_number": false,
         "width": 735,
         "height": 290,
         "png_sha256": "4079ecf72c4de2f006e91923429da583bdc7bc470f292dd812c403beb75e364f",
         "png": "/assets/images/panels/journey-02/panel-12.png",
-        "webp": "/assets/images/panels/journey-02/panel-12.webp",
-        "show_number": false
+        "webp": "/assets/images/panels/journey-02/panel-12.webp"
       }
     ]
   },
