@@ -2468,5 +2468,437 @@
       692,
       260
     ]
+  },
+  {
+    "id": "journey-06",
+    "title": "現代西遊第6集：悟空搭高鐵大冒險！",
+    "source": "/assets/images/comics/weekly-journey-ep06.png",
+    "sha256": "1d1c4ba333a996cc00367b0516978f20fbf3183fc964ff6ab271c4b76aed5572",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          180
+        ],
+        "alt": "悟空搭高鐵大冒險！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          180,
+          385,
+          499
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          385,
+          180,
+          699,
+          499
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          699,
+          180,
+          1024,
+          499
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          499,
+          380,
+          808
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          380,
+          499,
+          692,
+          808
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          692,
+          499,
+          1024,
+          808
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          808,
+          347,
+          1118
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          347,
+          808,
+          669,
+          1118
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          669,
+          808,
+          1024,
+          1118
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1118,
+          345,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          345,
+          1118,
+          678,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第11格",
+        "pieces": [
+          {
+            "box": [
+              345,
+              1118,
+              678,
+              1536
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              678,
+              1305,
+              695,
+              1395
+            ],
+            "at": [
+              333,
+              187
+            ]
+          }
+        ],
+        "canvas_size": [
+          350,
+          418
+        ],
+        "reason": "保留跨至地圖邊緣的完整對話框"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          678,
+          1118,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第12格",
+        "pieces": [
+          {
+            "box": [
+              678,
+              1118,
+              1024,
+              1305
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              695,
+              1305,
+              1024,
+              1395
+            ],
+            "at": [
+              17,
+              187
+            ]
+          },
+          {
+            "box": [
+              678,
+              1395,
+              1024,
+              1536
+            ],
+            "at": [
+              0,
+              277
+            ]
+          }
+        ],
+        "canvas_size": [
+          346,
+          418
+        ],
+        "reason": "跨界對話歸前一格，地圖其餘像素完整保留"
+      }
+    ]
+  },
+  {
+    "id": "journey-07",
+    "title": "現代西遊第7集：悟空與AI的奇妙體驗！",
+    "source": "/assets/images/comics/weekly-journey-ep07.png",
+    "sha256": "7f918e49126a63e1459905d23006861d21d77d4df2c749af33f5a60b59ca6dd8",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          179
+        ],
+        "alt": "悟空與AI的奇妙體驗！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          179,
+          346,
+          502
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          346,
+          179,
+          681,
+          502
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          681,
+          179,
+          1024,
+          502
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          502,
+          346,
+          833
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          346,
+          502,
+          681,
+          833
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          681,
+          502,
+          1024,
+          833
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          833,
+          345,
+          1165
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          345,
+          833,
+          681,
+          1165
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          681,
+          833,
+          1024,
+          1165
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1165,
+          347,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          347,
+          1165,
+          680,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          680,
+          1165,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第12格"
+      }
+    ]
   }
 ]
