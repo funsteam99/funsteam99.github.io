@@ -444,22 +444,22 @@
   "/assets/images/comics/weekly-journey-ep02.png": {
     "width": 1536,
     "height": 1024,
-    "original_bytes": 3576053,
+    "original_bytes": 3102151,
     "variants": [
       {
         "url": "/assets/images/comics/weekly-journey-ep02-640.webp",
         "width": 640,
-        "bytes": 134306
+        "bytes": 134464
       },
       {
         "url": "/assets/images/comics/weekly-journey-ep02-1280.webp",
         "width": 1280,
-        "bytes": 421674
+        "bytes": 418920
       },
       {
         "url": "/assets/images/comics/weekly-journey-ep02-1536.webp",
         "width": 1536,
-        "bytes": 560856
+        "bytes": 561426
       }
     ],
     "full": "/assets/images/comics/weekly-journey-ep02-1536.webp"
