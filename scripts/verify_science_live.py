@@ -62,7 +62,13 @@ def verify(base):
             assert a.size==b.size==(item['width'],item['height'])
             assert ImageChops.difference(a,b).getbbox() is None
             assets.append({'png':base+item['png'],'webp':base+item['webp'],'png_sha256':item['png_sha256'],'size':list(a.size)})
-        results.append({'id':id,'url':base+path,'original':base+w['source'],'original_sha256':w['source_sha256'],'panels':assets,'card_header':card,'passed':True})
+        downloads=[]
+        for download in w.get('downloads', []):
+            assert download['path'] in html, 'Missing download link'
+            body=get(download['path'])
+            assert body.startswith(b'%PDF-') and hashlib.sha256(body).hexdigest()==download['sha256']
+            downloads.append({'url':base+download['path'],'sha256':download['sha256'],'passed':True})
+        results.append({'id':id,'url':base+path,'original':base+w['source'],'original_sha256':w['source_sha256'],'panels':assets,'card_header':card,'downloads':downloads,'passed':True})
     return {'verified_at':datetime.now(timezone(timedelta(hours=8))).isoformat(),'base_url':base,'releases':results,'passed':True}
 
 if __name__=='__main__':

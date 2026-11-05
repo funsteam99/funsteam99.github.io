@@ -2900,5 +2900,268 @@
         "alt": "悟空與AI的奇妙體驗！第12格"
       }
     ]
+  },
+  {
+    "id": "float-sink",
+    "title": "浮起來，還是沉下去？",
+    "source": "/assets/images/science-approved/float-sink.png",
+    "sha256": "05c663bc156a673328c07e4f8d931b6e1fb65829fc893a79422c904d4803f9df",
+    "size": [
+      5760,
+      10240
+    ],
+    "card_header_box": [
+      175,
+      0,
+      1270,
+      700
+    ],
+    "items": [
+      {
+        "key": "zh-TW-page-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "繁體中文 1：浮起來，還是沉下去？",
+        "language": "zh-Hant",
+        "transcript": "浮起來，還是沉下去？\n木塊浮著，石頭卻沉下去了！為什麼呢？",
+        "box": [
+          0,
+          0,
+          1440,
+          2560
+        ],
+        "section_heading": "繁體中文",
+        "section_id": "zh"
+      },
+      {
+        "key": "zh-TW-page-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "繁體中文 2：我們先猜猜看！哪些會浮？哪些會沉？",
+        "language": "zh-Hant",
+        "transcript": "我們先猜猜看！哪些會浮？哪些會沉？\n猜完後，再用實驗來確認答案！\n木塊　石頭　瓶蓋　橘子",
+        "box": [
+          1440,
+          0,
+          2880,
+          2560
+        ]
+      },
+      {
+        "key": "zh-TW-page-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "繁體中文 3：我把木塊放入水中……它浮起來了！",
+        "language": "zh-Hant",
+        "transcript": "我把木塊放入水中……它浮起來了！",
+        "box": [
+          2880,
+          0,
+          4320,
+          2560
+        ]
+      },
+      {
+        "key": "zh-TW-page-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "繁體中文 4：我把石頭放入水中……它沉進去了！",
+        "language": "zh-Hant",
+        "transcript": "我把石頭放入水中……它沉進去了！",
+        "box": [
+          4320,
+          0,
+          5760,
+          2560
+        ]
+      },
+      {
+        "key": "zh-TW-page-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "繁體中文 5：瓶蓋和橘子也浮在水面上！它們的大小差很多呢！",
+        "language": "zh-Hant",
+        "transcript": "瓶蓋和橘子也浮在水面上！它們的大小差很多呢！",
+        "box": [
+          0,
+          2560,
+          1440,
+          5120
+        ]
+      },
+      {
+        "key": "zh-TW-page-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "繁體中文 6：浮沉不只看重量，還要看物體的平均密度，以及水的浮力。",
+        "language": "zh-Hant",
+        "transcript": "浮沉不只看重量，還要看物體的平均密度，以及水的浮力。\n密度較小（比水輕）→ 容易浮\n密度較大（比水重）→ 容易沉",
+        "box": [
+          1440,
+          2560,
+          2880,
+          5120
+        ]
+      },
+      {
+        "key": "zh-TW-page-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "繁體中文 7：我們來整理觀察結果！",
+        "language": "zh-Hant",
+        "transcript": "我們來整理觀察結果！\n物品／結果\n木塊／浮起來\n石頭／沉下去\n瓶蓋／浮起來\n橘子／浮起來",
+        "box": [
+          2880,
+          2560,
+          4320,
+          5120
+        ]
+      },
+      {
+        "key": "zh-TW-page-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "繁體中文 8：小結論：物體會浮還是沉，不能只看大小或重量。要考慮它的平均密度和水的浮力！",
+        "language": "zh-Hant",
+        "transcript": "小結論：物體會浮還是沉，不能只看大小或重量。要考慮它的平均密度和水的浮力！\n我們的發現：\n木塊、瓶蓋、橘子浮在水中。\n石頭沉下去。\n物體的浮沉和「平均密度」有關。",
+        "box": [
+          4320,
+          2560,
+          5760,
+          5120
+        ]
+      },
+      {
+        "key": "ja-JP-page-01",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "日本語 1：うくかな？ しずむかな？",
+        "language": "ja",
+        "transcript": "うくかな？ しずむかな？\n木は ういているのに、石は しずんでいるよ！",
+        "box": [
+          0,
+          5120,
+          1440,
+          7680
+        ],
+        "section_heading": "日本語",
+        "section_id": "ja"
+      },
+      {
+        "key": "ja-JP-page-02",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "日本語 2：まずは よそうして みよう！ どれが うくかな？",
+        "language": "ja",
+        "transcript": "まずは よそうして みよう！ どれが うくかな？\nよそうした あとで、じっけんで たしかめよう！\n木のブロック　石　キャップ　みかん",
+        "box": [
+          1440,
+          5120,
+          2880,
+          7680
+        ]
+      },
+      {
+        "key": "ja-JP-page-03",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "日本語 3：木のブロックを水に入れると… ういたよ！",
+        "language": "ja",
+        "transcript": "木のブロックを水に入れると… ういたよ！",
+        "box": [
+          2880,
+          5120,
+          4320,
+          7680
+        ]
+      },
+      {
+        "key": "ja-JP-page-04",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "日本語 4：石を水に入れると… そこまでしずんだ！",
+        "language": "ja",
+        "transcript": "石を水に入れると… そこまでしずんだ！",
+        "box": [
+          4320,
+          5120,
+          5760,
+          7680
+        ]
+      },
+      {
+        "key": "ja-JP-page-05",
+        "kind": "panel",
+        "number": 13,
+        "show_number": false,
+        "alt": "日本語 5：キャップとみかんも ういている！ 大きさは ぜんぜん ちがうね！",
+        "language": "ja",
+        "transcript": "キャップとみかんも ういている！ 大きさは ぜんぜん ちがうね！",
+        "box": [
+          0,
+          7680,
+          1440,
+          10240
+        ]
+      },
+      {
+        "key": "ja-JP-page-06",
+        "kind": "panel",
+        "number": 14,
+        "show_number": false,
+        "alt": "日本語 6：うくか しずむかは、おもさだけでは きまらないよ。ものの みつどと、水の うかせる力（うきりょく）が かかわるんだ。",
+        "language": "ja",
+        "transcript": "うくか しずむかは、おもさだけでは きまらないよ。ものの みつどと、水の うかせる力（うきりょく）が かかわるんだ。\nみつどが小さい（水より軽い）→ うきやすい\nみつどが大きい（水より重い）→ しずみやすい",
+        "box": [
+          1440,
+          7680,
+          2880,
+          10240
+        ]
+      },
+      {
+        "key": "ja-JP-page-07",
+        "kind": "panel",
+        "number": 15,
+        "show_number": false,
+        "alt": "日本語 7：かんさつしたことを まとめよう！",
+        "language": "ja",
+        "transcript": "かんさつしたことを まとめよう！\nもの／けっか\n木のブロック／ういた\n石／しずんだ\nキャップ／ういた\nみかん／ういた",
+        "box": [
+          2880,
+          7680,
+          4320,
+          10240
+        ]
+      },
+      {
+        "key": "ja-JP-page-08",
+        "kind": "panel",
+        "number": 16,
+        "show_number": false,
+        "alt": "日本語 8：まとめ：ものが うくか しずむかは、大きさや おもさだけでは わからない。へいきんみつどと 水の うきりょくを かんがえよう！",
+        "language": "ja",
+        "transcript": "まとめ：ものが うくか しずむかは、大きさや おもさだけでは わからない。へいきんみつどと 水の うきりょくを かんがえよう！\nわたしたちの はっけん：\n木、キャップ、みかんは ういた。\n石は しずんだ。\nうくか しずむかは、ものの へいきんみつどに かかわる。",
+        "box": [
+          4320,
+          7680,
+          5760,
+          10240
+        ]
+      }
+    ],
+    "source_label": "查看雙語重製頁合集"
   }
 ]

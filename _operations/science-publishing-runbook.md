@@ -22,3 +22,11 @@
 `python scripts/test_science_due.py` 在隔離副本檢查六篇日期、提前阻擋、逾期追回、蝴蝶覆寫、重跑與內容變更防護。每個PR均執行既有官網建置／文章／圖片／逐格閱讀檢查，加上此日期測試與六篇原圖裁切像素驗證。部署後才更新日期表；若中途失敗，依prepared/verified狀態接續正式站驗證，不重複建稿。
 
 GitHub Actions目前不能自行建立PR（can_approve_pull_request_reviews=false），因此沿用已授權的ChatGPT主排程與GitHub連接器來建立、檢查、合併PR；不擴大權限、不新增PAT或第二個喚醒排程。
+
+## 浮沉篇雙語清晰重製版（2026-11-05）
+
+本集是董事長提供的獨立新集，不合併或替換既有密度篇。使用者已授權必要時依原稿重新生成，繁中與日文各八頁，單數字頁碼各自1～8，統一輸出1440×2560。這是AI參照原稿重製的清晰閱讀版，不冒充董事長原始高解析原稿；原始待審ZIP及裁切稿保留在本機。
+
+素材與範本沿用現有pipeline：manifest ID `float-sink`，slug `float-or-sink`；前八張繁中、後八張日文。閱讀圖、PNG hash與無損WebP在 `_data/comic_panels.json`；每頁附原文閱讀區及語言跳轉。`source`是重製頁合集，連結已明示；不是原始拼貼圖。兩份八頁PDF在manifest的 `downloads`，發布後須一併檢查下載連結、HTTP成功及SHA256。
+
+日期維持主表2026-11-30 09:00 Asia/Taipei。僅將待發布範本存入 `_operations/science-pages/float-or-sink.html`；未到期不建立公開文章或目錄卡片。沿用唯一ChatGPT週一排程，執行 `prepare_science_due.py` 時會按主表準備到期篇目，不另新增喚醒。素材同步及清晰重製完成不等於文章已發布，仍須既有PR、建置、部署及正式文章／目錄／全素材驗收。

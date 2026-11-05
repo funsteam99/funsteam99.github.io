@@ -15,7 +15,7 @@ jobs:
           python3 -m pip install Pillow
           python3 scripts/test_scheduled_comic.py
           python3 scripts/test_science_due.py
-          for comic in rainbow density butterfly-2026 solar-eclipse lunar-eclipse condensation; do
+          for comic in rainbow density butterfly-2026 solar-eclipse lunar-eclipse condensation float-sink; do
             python3 scripts/build_comic_panels.py --verify --only "$comic"
           done
       - name: Build with GitHub Pages Jekyll
