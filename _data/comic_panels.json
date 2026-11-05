@@ -2011,5 +2011,325 @@
       "height": 260,
       "png_sha256": "7826f10235d605dcff997125993a9f7e77466c0bdd340be9e677029c65a889c6"
     }
+  },
+  "journey-06": {
+    "title": "現代西遊第6集：悟空搭高鐵大冒險！",
+    "source": "/assets/images/comics/weekly-journey-ep06.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "alt": "悟空搭高鐵大冒險！刊頭",
+        "width": 1024,
+        "height": 180,
+        "png_sha256": "ebcffc98af086806ec5d64508a5b3d0af7585386b43818badb6f15c27b72c641",
+        "png": "/assets/images/panels/journey-06/header.png",
+        "webp": "/assets/images/panels/journey-06/header.webp"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第1格",
+        "width": 385,
+        "height": 319,
+        "png_sha256": "073f0ebd075a65f8f4eed5e70a157dc6636b2503a6ebb7619a170fff6718aa03",
+        "png": "/assets/images/panels/journey-06/panel-01.png",
+        "webp": "/assets/images/panels/journey-06/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第2格",
+        "width": 314,
+        "height": 319,
+        "png_sha256": "f1a6a35c0bfbb59e310579dd4c7a6bf037d17acab1f980923920fdc28d8bea3e",
+        "png": "/assets/images/panels/journey-06/panel-02.png",
+        "webp": "/assets/images/panels/journey-06/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第3格",
+        "width": 325,
+        "height": 319,
+        "png_sha256": "54b9a640d636cd87de596deecefc42283d672fe5efb8b68353cb3ba52c4a4f5c",
+        "png": "/assets/images/panels/journey-06/panel-03.png",
+        "webp": "/assets/images/panels/journey-06/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第4格",
+        "width": 380,
+        "height": 309,
+        "png_sha256": "381948cb9530a019d599e25b3aa2ae578341b20cc99bb2a79d5ca158e5311a4f",
+        "png": "/assets/images/panels/journey-06/panel-04.png",
+        "webp": "/assets/images/panels/journey-06/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第5格",
+        "width": 312,
+        "height": 309,
+        "png_sha256": "e31fbb0bb04357efb8b906c070f4957b0a342cc7ed56b6f79e23520ae32a9411",
+        "png": "/assets/images/panels/journey-06/panel-05.png",
+        "webp": "/assets/images/panels/journey-06/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第6格",
+        "width": 332,
+        "height": 309,
+        "png_sha256": "d077b53bb6f53162ffbb1517f2d5b24fa09a8ac4f8b117ce71acbe782ff909c7",
+        "png": "/assets/images/panels/journey-06/panel-06.png",
+        "webp": "/assets/images/panels/journey-06/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第7格",
+        "width": 347,
+        "height": 310,
+        "png_sha256": "4bcd2c618c75bea3f5ebeecc5839e1d10eac72ea8c8eb9f71d20283faaa38b90",
+        "png": "/assets/images/panels/journey-06/panel-07.png",
+        "webp": "/assets/images/panels/journey-06/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第8格",
+        "width": 322,
+        "height": 310,
+        "png_sha256": "687392e9082e3acd4f8bd85f13c6c548b349160b84f1d0c86b828ace74c858ab",
+        "png": "/assets/images/panels/journey-06/panel-08.png",
+        "webp": "/assets/images/panels/journey-06/panel-08.webp"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第9格",
+        "width": 355,
+        "height": 310,
+        "png_sha256": "05a4ff1e59593c692bdb73b9ff58301dc489c850b38c1142b09d2d16af9c3190",
+        "png": "/assets/images/panels/journey-06/panel-09.png",
+        "webp": "/assets/images/panels/journey-06/panel-09.webp"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第10格",
+        "width": 345,
+        "height": 418,
+        "png_sha256": "ace04895e7863256c3b6b301d451cd28bf5b55a9fed54bfc002cf6015740e702",
+        "png": "/assets/images/panels/journey-06/panel-10.png",
+        "webp": "/assets/images/panels/journey-06/panel-10.webp"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第11格",
+        "width": 350,
+        "height": 418,
+        "png_sha256": "884551db9b72dd8b7d9f8106252e97f45b2635f4986b981ebcd5baf4b64d638e",
+        "png": "/assets/images/panels/journey-06/panel-11.png",
+        "webp": "/assets/images/panels/journey-06/panel-11.webp"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空搭高鐵大冒險！第12格",
+        "width": 346,
+        "height": 418,
+        "png_sha256": "f087e887d39a33d6aa72c750eefc840e12913d7a048708c931fe9ac0a6f18e9f",
+        "png": "/assets/images/panels/journey-06/panel-12.png",
+        "webp": "/assets/images/panels/journey-06/panel-12.webp"
+      }
+    ]
+  },
+  "journey-07": {
+    "title": "現代西遊第7集：悟空與AI的奇妙體驗！",
+    "source": "/assets/images/comics/weekly-journey-ep07.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "alt": "悟空與AI的奇妙體驗！刊頭",
+        "width": 1024,
+        "height": 179,
+        "png_sha256": "98609c8821d5dc7f344b1d0ad51cb95cd7d344dd8f9a2bac003f75144a4471f4",
+        "png": "/assets/images/panels/journey-07/header.png",
+        "webp": "/assets/images/panels/journey-07/header.webp"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第1格",
+        "width": 346,
+        "height": 323,
+        "png_sha256": "c9f45c189331cccf8846b79b1b69da3dbdc2f9213acd7f47b784250d3de4b4c0",
+        "png": "/assets/images/panels/journey-07/panel-01.png",
+        "webp": "/assets/images/panels/journey-07/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第2格",
+        "width": 335,
+        "height": 323,
+        "png_sha256": "824242ecb78a08a285800c9ccbdfb8f05a3916554554db1ff386c1ec574df3d8",
+        "png": "/assets/images/panels/journey-07/panel-02.png",
+        "webp": "/assets/images/panels/journey-07/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第3格",
+        "width": 343,
+        "height": 323,
+        "png_sha256": "e42db56d1c59b06d951e7c7bd6016e8db4be9c58428da739afb8d313ec68cf05",
+        "png": "/assets/images/panels/journey-07/panel-03.png",
+        "webp": "/assets/images/panels/journey-07/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第4格",
+        "width": 346,
+        "height": 331,
+        "png_sha256": "8be80e61ab11cb7797cec39131ab30b0cb2f7dbdbac959da092c9e9f6e18c80f",
+        "png": "/assets/images/panels/journey-07/panel-04.png",
+        "webp": "/assets/images/panels/journey-07/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第5格",
+        "width": 335,
+        "height": 331,
+        "png_sha256": "fc82a9ef6fad0aa7b2ed0df74a5286462e9ceba449ef3272983f274b7f178d1d",
+        "png": "/assets/images/panels/journey-07/panel-05.png",
+        "webp": "/assets/images/panels/journey-07/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第6格",
+        "width": 343,
+        "height": 331,
+        "png_sha256": "f9899918373c5276d99829dc9c353a5fc8010b87e3319ead86bfaf9478d2cdd1",
+        "png": "/assets/images/panels/journey-07/panel-06.png",
+        "webp": "/assets/images/panels/journey-07/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第7格",
+        "width": 345,
+        "height": 332,
+        "png_sha256": "7fb6cb3c708f7c966d78d38183cefe8abaccb3d5c4edae98a2da98bb430a128e",
+        "png": "/assets/images/panels/journey-07/panel-07.png",
+        "webp": "/assets/images/panels/journey-07/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第8格",
+        "width": 336,
+        "height": 332,
+        "png_sha256": "faf6560099bf5137d77ff5205dc8aca956b56137129ddb071343181aa4517731",
+        "png": "/assets/images/panels/journey-07/panel-08.png",
+        "webp": "/assets/images/panels/journey-07/panel-08.webp"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第9格",
+        "width": 343,
+        "height": 332,
+        "png_sha256": "26e15ddec5a151b6cc93d65ec57223bbed656684b464677fe311f126a5ce674b",
+        "png": "/assets/images/panels/journey-07/panel-09.png",
+        "webp": "/assets/images/panels/journey-07/panel-09.webp"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第10格",
+        "width": 347,
+        "height": 371,
+        "png_sha256": "a7260ecaa06296cee734d28c997d278f71f4798ec0fd349360c490942deccf77",
+        "png": "/assets/images/panels/journey-07/panel-10.png",
+        "webp": "/assets/images/panels/journey-07/panel-10.webp"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第11格",
+        "width": 333,
+        "height": 371,
+        "png_sha256": "37d979048a116b7b3114dc11dbc5a6b08501683446e21e8ba8eabeb4977d27fd",
+        "png": "/assets/images/panels/journey-07/panel-11.png",
+        "webp": "/assets/images/panels/journey-07/panel-11.webp"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空與AI的奇妙體驗！第12格",
+        "width": 344,
+        "height": 371,
+        "png_sha256": "567e3fbc279926ebfb8c6a1514bca40ce5bc2aee71b201f791d62f9d57c9b60f",
+        "png": "/assets/images/panels/journey-07/panel-12.png",
+        "webp": "/assets/images/panels/journey-07/panel-12.webp"
+      }
+    ]
   }
 }
