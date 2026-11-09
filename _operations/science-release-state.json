@@ -34,5 +34,11 @@
     "verified_at": "2026-11-02T09:04:35.015915+08:00",
     "deployment_commit": "10afbfceba1f87823899029d7328c637183e5bc8",
     "pr": "https://github.com/funsteam99/funsteam99.github.io/pull/39"
+  },
+  "lunar-eclipse": {
+    "scheduled_at": "2026-11-09T09:00:00+08:00",
+    "status": "prepared",
+    "url": "https://shezi.org.tw/science/lunar-eclipse/",
+    "source_sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594"
   }
 }
