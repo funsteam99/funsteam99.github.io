@@ -1,0 +1,140 @@
+{
+  "article_id": "lunar-eclipse",
+  "title": "月食是什麼？",
+  "scheduled_at": "2026-11-09T09:00:00+08:00",
+  "verified_at": "2026-11-09T09:09:19+08:00",
+  "result": "verified",
+  "publication_pr": 51,
+  "deployment_commit": "f151728b4063a30974704ec9981dc0406b9eb94a",
+  "article": {
+    "url": "https://shezi.org.tw/science/lunar-eclipse/",
+    "status": 200,
+    "title_present": true
+  },
+  "index": {
+    "url": "https://shezi.org.tw/science/",
+    "status": 200,
+    "card_present": true
+  },
+  "source": {
+    "url": "https://shezi.org.tw/assets/images/science-approved/lunar-eclipse.png",
+    "status": 200,
+    "width": 1312,
+    "height": 1199,
+    "sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594",
+    "expected_sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594"
+  },
+  "panels": [
+    {
+      "key": "header",
+      "png": "/assets/images/panels/lunar-eclipse/header.png",
+      "webp": "/assets/images/panels/lunar-eclipse/header.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 362,
+      "height": 690,
+      "expected_width": 362,
+      "expected_height": 690,
+      "png_sha256": "7a571b41ec8e4f7c34fb12f9503ec27458a3dd68a7c536b256debfbef4a101d3",
+      "expected_png_sha256": "7a571b41ec8e4f7c34fb12f9503ec27458a3dd68a7c536b256debfbef4a101d3",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-02",
+      "png": "/assets/images/panels/lunar-eclipse/panel-02.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-02.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 352,
+      "height": 690,
+      "expected_width": 352,
+      "expected_height": 690,
+      "png_sha256": "03c66e87fd71b3854023c2a11f622223076cf37110504350c122b81ef097ae55",
+      "expected_png_sha256": "03c66e87fd71b3854023c2a11f622223076cf37110504350c122b81ef097ae55",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-03",
+      "png": "/assets/images/panels/lunar-eclipse/panel-03.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-03.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 288,
+      "height": 690,
+      "expected_width": 288,
+      "expected_height": 690,
+      "png_sha256": "e9d2a042af8c9e535ccc77823f4ebde5a3426abc8067efa6910a312228c7accd",
+      "expected_png_sha256": "e9d2a042af8c9e535ccc77823f4ebde5a3426abc8067efa6910a312228c7accd",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-04",
+      "png": "/assets/images/panels/lunar-eclipse/panel-04.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-04.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 310,
+      "height": 690,
+      "expected_width": 310,
+      "expected_height": 690,
+      "png_sha256": "cedfbf56945e17c414c3a526a863a4f679a17855919ae6f7543f2bc656840518",
+      "expected_png_sha256": "cedfbf56945e17c414c3a526a863a4f679a17855919ae6f7543f2bc656840518",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-05",
+      "png": "/assets/images/panels/lunar-eclipse/panel-05.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-05.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 487,
+      "height": 509,
+      "expected_width": 487,
+      "expected_height": 509,
+      "png_sha256": "aabfe1d90130bee675bd0579679250efc709d6d37d401b27e741ba8f1f686358",
+      "expected_png_sha256": "aabfe1d90130bee675bd0579679250efc709d6d37d401b27e741ba8f1f686358",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-06",
+      "png": "/assets/images/panels/lunar-eclipse/panel-06.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-06.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 419,
+      "height": 509,
+      "expected_width": 419,
+      "expected_height": 509,
+      "png_sha256": "eb298e32cf5f8cd0df2824aefb77f7b2e8dc213da352e25f54fd1e19c12a7941",
+      "expected_png_sha256": "eb298e32cf5f8cd0df2824aefb77f7b2e8dc213da352e25f54fd1e19c12a7941",
+      "pixels_equal": true
+    },
+    {
+      "key": "panel-07",
+      "png": "/assets/images/panels/lunar-eclipse/panel-07.png",
+      "webp": "/assets/images/panels/lunar-eclipse/panel-07.webp",
+      "png_status": 200,
+      "webp_status": 200,
+      "width": 406,
+      "height": 509,
+      "expected_width": 406,
+      "expected_height": 509,
+      "png_sha256": "c062302ff03ea9ac48feaf1e70d2abf079d0328a9931dbc08fb5c28051d117ad",
+      "expected_png_sha256": "c062302ff03ea9ac48feaf1e70d2abf079d0328a9931dbc08fb5c28051d117ad",
+      "pixels_equal": true
+    }
+  ],
+  "card_header": {
+    "png": "/assets/images/panels/lunar-eclipse/card-header.png",
+    "webp": "/assets/images/panels/lunar-eclipse/card-header.webp",
+    "png_status": 200,
+    "webp_status": 200,
+    "width": 362,
+    "height": 228,
+    "expected_width": 362,
+    "expected_height": 228,
+    "png_sha256": "0948d57516c2beb0c950a23e192d348ce85d155eea2add1b407f989df2614cfd",
+    "expected_png_sha256": "0948d57516c2beb0c950a23e192d348ce85d155eea2add1b407f989df2614cfd",
+    "pixels_equal": true
+  }
+}

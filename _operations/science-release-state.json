@@ -37,8 +37,11 @@
   },
   "lunar-eclipse": {
     "scheduled_at": "2026-11-09T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/lunar-eclipse/",
-    "source_sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594"
+    "source_sha256": "29ff03c5ecfafa2da8ef32438a101ad9e1d637da470be936381dfe289d485594",
+    "verified_at": "2026-11-09T09:09:19+08:00",
+    "deployment_commit": "f151728b4063a30974704ec9981dc0406b9eb94a",
+    "pr": 51
   }
 }
