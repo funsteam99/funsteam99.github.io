@@ -2573,5 +2573,165 @@
       "height": 700,
       "png_sha256": "0e49dfc20a7e417e7584a42730d1387cb9bd8207f4c4cb5765bda2b191cc2553"
     }
+  },
+  "journey-08": {
+    "title": "現代西遊第8集：悟空守護海洋大作戰！",
+    "source": "/assets/images/comics/weekly-journey-ep08.png",
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "alt": "悟空守護海洋大作戰！刊頭",
+        "width": 1024,
+        "height": 174,
+        "png_sha256": "6c1db31ab4f5d7b5f89f1d273b0898775ed7aa93b277544675b4d9ec24d3625d",
+        "png": "/assets/images/panels/journey-08/header.png",
+        "webp": "/assets/images/panels/journey-08/header.webp"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第1格",
+        "width": 346,
+        "height": 325,
+        "png_sha256": "2bb1920cee20136241c9f255b0b698c45ed8b144878785920f6865245babe6b5",
+        "png": "/assets/images/panels/journey-08/panel-01.png",
+        "webp": "/assets/images/panels/journey-08/panel-01.webp"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第2格",
+        "width": 334,
+        "height": 325,
+        "png_sha256": "cd36e1a434552ee0688bd645d409621d7bcf63d1e6cdb702db1d1ad03b205048",
+        "png": "/assets/images/panels/journey-08/panel-02.png",
+        "webp": "/assets/images/panels/journey-08/panel-02.webp"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第3格",
+        "width": 344,
+        "height": 325,
+        "png_sha256": "1dc568db200b9a1c6669085ab61908a00fb8b53de8131cf21d1fdb1d142b75d0",
+        "png": "/assets/images/panels/journey-08/panel-03.png",
+        "webp": "/assets/images/panels/journey-08/panel-03.webp"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第4格",
+        "width": 346,
+        "height": 334,
+        "png_sha256": "5677adba9760ab2670834b774456fb9de9c52eeb2608569359841a8fb49c06f1",
+        "png": "/assets/images/panels/journey-08/panel-04.png",
+        "webp": "/assets/images/panels/journey-08/panel-04.webp"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第5格",
+        "width": 334,
+        "height": 334,
+        "png_sha256": "e7251d9f05e6566950812bf7efb8f9e66942b206c185e511be3e12a3974c590b",
+        "png": "/assets/images/panels/journey-08/panel-05.png",
+        "webp": "/assets/images/panels/journey-08/panel-05.webp"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第6格",
+        "width": 344,
+        "height": 334,
+        "png_sha256": "b5f858f716e0dd14d636cbc54eec5306c424c1ddb50c2ce2242cae2b39a37a65",
+        "png": "/assets/images/panels/journey-08/panel-06.png",
+        "webp": "/assets/images/panels/journey-08/panel-06.webp"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第7格",
+        "width": 346,
+        "height": 323,
+        "png_sha256": "7f3427e66726a0b3837993231b70a74a78bdb0163d4ce6bac81908a9eb184531",
+        "png": "/assets/images/panels/journey-08/panel-07.png",
+        "webp": "/assets/images/panels/journey-08/panel-07.webp"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第8格",
+        "width": 334,
+        "height": 323,
+        "png_sha256": "5a0b81c7ba52cfe9d112673f4c53ae97dcd1e3f570e13b774f9f911bc01c082f",
+        "png": "/assets/images/panels/journey-08/panel-08.png",
+        "webp": "/assets/images/panels/journey-08/panel-08.webp"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第9格",
+        "width": 344,
+        "height": 323,
+        "png_sha256": "4dde728b37a35867dc395c5f0098b408e43750acc1a2c1f7f35a5ed3b2ceba63",
+        "png": "/assets/images/panels/journey-08/panel-09.png",
+        "webp": "/assets/images/panels/journey-08/panel-09.webp"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第10格",
+        "width": 346,
+        "height": 380,
+        "png_sha256": "43fc45fae01a9a267a61b2242dbad72e49a69c85e9a26ea236ec48768232b055",
+        "png": "/assets/images/panels/journey-08/panel-10.png",
+        "webp": "/assets/images/panels/journey-08/panel-10.webp"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第11格",
+        "width": 334,
+        "height": 380,
+        "png_sha256": "30148c0e23ed4ad3bb3f8107c20db82323e92c3c1bb2e8ca2a67a6a5a6aa6d3b",
+        "png": "/assets/images/panels/journey-08/panel-11.png",
+        "webp": "/assets/images/panels/journey-08/panel-11.webp"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第12格",
+        "width": 344,
+        "height": 380,
+        "png_sha256": "495d53fc192171d31ec247d0b779a7a7ea46769468ae9abcd706b129a2d0d8bf",
+        "png": "/assets/images/panels/journey-08/panel-12.png",
+        "webp": "/assets/images/panels/journey-08/panel-12.webp"
+      }
+    ]
   }
 }

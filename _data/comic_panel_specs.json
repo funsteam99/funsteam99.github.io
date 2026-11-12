@@ -3163,5 +3163,184 @@
       }
     ],
     "source_label": "查看雙語重製頁合集"
+  },
+  {
+    "id": "journey-08",
+    "title": "現代西遊第8集：悟空守護海洋大作戰！",
+    "source": "/assets/images/comics/weekly-journey-ep08.png",
+    "sha256": "d45d38818c3d8d6fa308a4996d5d54a081f1d055fa0ff179b326868d519f7c1b",
+    "size": [
+      1024,
+      1536
+    ],
+    "items": [
+      {
+        "key": "header",
+        "kind": "header",
+        "box": [
+          0,
+          0,
+          1024,
+          174
+        ],
+        "alt": "悟空守護海洋大作戰！刊頭"
+      },
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "box": [
+          0,
+          174,
+          346,
+          499
+        ],
+        "number": 1,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第1格"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "box": [
+          346,
+          174,
+          680,
+          499
+        ],
+        "number": 2,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第2格"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "box": [
+          680,
+          174,
+          1024,
+          499
+        ],
+        "number": 3,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第3格"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "box": [
+          0,
+          499,
+          346,
+          833
+        ],
+        "number": 4,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第4格"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "box": [
+          346,
+          499,
+          680,
+          833
+        ],
+        "number": 5,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第5格"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "box": [
+          680,
+          499,
+          1024,
+          833
+        ],
+        "number": 6,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第6格"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "box": [
+          0,
+          833,
+          346,
+          1156
+        ],
+        "number": 7,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第7格"
+      },
+      {
+        "key": "panel-08",
+        "kind": "panel",
+        "box": [
+          346,
+          833,
+          680,
+          1156
+        ],
+        "number": 8,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第8格"
+      },
+      {
+        "key": "panel-09",
+        "kind": "panel",
+        "box": [
+          680,
+          833,
+          1024,
+          1156
+        ],
+        "number": 9,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第9格"
+      },
+      {
+        "key": "panel-10",
+        "kind": "panel",
+        "box": [
+          0,
+          1156,
+          346,
+          1536
+        ],
+        "number": 10,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第10格"
+      },
+      {
+        "key": "panel-11",
+        "kind": "panel",
+        "box": [
+          346,
+          1156,
+          680,
+          1536
+        ],
+        "number": 11,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第11格"
+      },
+      {
+        "key": "panel-12",
+        "kind": "panel",
+        "box": [
+          680,
+          1156,
+          1024,
+          1536
+        ],
+        "number": 12,
+        "show_number": false,
+        "alt": "悟空守護海洋大作戰！第12格"
+      }
+    ]
   }
 ]
