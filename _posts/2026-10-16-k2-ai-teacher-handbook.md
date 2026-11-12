@@ -29,7 +29,14 @@ AI 會幫忙，孩子也要學會思考與查證。《K–2 AI 素養教師手�
 
 [下載第1～6堂 V2.1 整包 ZIP]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lessons01-06_V2_1.zip' | relative_url }})
 
-本次修正課次標示、遊戲操作、材料說明、評量及複選提示。第7、8堂卡通修訂版待補，目前可使用下方完整八堂手冊。
+本次修正課次標示、遊戲操作、材料說明、評量及複選提示。
+
+## 第7～8堂卡通圖卡修訂參考版
+
+以下 PDF 根據 V2 審閱草稿修訂課堂流程，並調整第8堂選擇不使用 AI 時的評分方式；保留原有圖卡與學習單。每堂8頁，供備課參考，尚未完成課堂試教或成效驗證。時間不足時可依教師指引分次進行。檔案其他頁面仍保留 V2 草稿標示。
+
+- [第7堂 善良公平誠實 PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson07_TW_Cartoon_revised.pdf' | relative_url }})
+- [第8堂 人＋AI PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson08_TW_Cartoon_revised.pdf' | relative_url }})
 
 ## 既有完整手冊與八堂課程架構
 
