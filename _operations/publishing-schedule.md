@@ -31,7 +31,7 @@
 
 ## 已確認的現代西遊記排程
 
-排程名稱：現代西遊記每週四連載。Codex自動化ID：`automation`。狀態：ACTIVE（已啟用）。每週四09:00執行，第二至第八集全部正式發布後停用，不自行新增集數。
+排程名稱：現代西遊記每週四連載。Codex自動化ID：`automation`。狀態：已完成並刪除排程（原ID automation，最後一次執行2026-11-12）。原每週四09:00執行；第二至第八集均已正式發布及驗證，依授權結束排程，不自行新增集數。
 
 工作區：`C:/Users/user/Documents/ChatGPT/社子基金會`。素材路徑相對於此工作區；2026-10-06已核對七張本機圖片存在，第三至第八集素材尚未上傳GitHub。發布腳本：`serial-assets/publish-due.ps1`；官網副本：`serial-publish`。正式專頁：https://shezi.org.tw/modern-journey/
 
@@ -44,7 +44,7 @@
 | 2026-10-22 09:00 | 05 | 八戒決戰台南小吃！ | serial-assets/episode-05.png | 已發布（分格版）；實際台灣時間 2026-10-22 09:04；https://shezi.org.tw/modern-journey/#weekly-journey-ep05；刊頭、12格、原圖及索引驗證通過 | Codex本機排程 |
 | 2026-10-29 09:00 | 06 | 悟空搭高鐵大冒險！ | serial-assets/episode-06.png | 已發布（分格版）；實際台灣驗證時間 2026-11-05 09:08:38 +08:00；https://shezi.org.tw/modern-journey/#weekly-journey-ep06；PR #42 | Codex本機排程 |
 | 2026-11-05 09:00 | 07 | 悟空與AI的奇妙體驗！ | serial-assets/episode-07.png | 已發布（分格版）；實際台灣驗證時間 2026-11-05 09:08:38 +08:00；https://shezi.org.tw/modern-journey/#weekly-journey-ep07；PR #42 | Codex本機排程 |
-| 2026-11-12 09:00 | 08 | 悟空守護海洋大作戰！ | serial-assets/episode-08.png | 待發布 | Codex本機排程 |
+| 2026-11-12 09:00 | 08 | 悟空守護海洋大作戰！ | serial-assets/episode-08.png | 已發布（分格版）；實際台灣驗證時間 2026-11-12 09:09:05 +08:00；https://shezi.org.tw/modern-journey/#weekly-journey-ep08；PR #53 | Codex本機排程 |
 <!-- modern-journey-schedule:end -->
 
 ## 2026-10-06核對結果與執行約定
