@@ -1,5 +1,26 @@
 # 社子基金會 Codex 自動化狀態
 
+## 2026-11-12 最後執行與停用快照（優先於下方歷史快照）
+
+同步整理時間：2026-11-12 09:09:05 +08:00；本紀錄實際合併時間以PR merged_at為準。
+
+| 欄位 | 最後紀錄 |
+|---|---|
+| 名稱／ID | 現代西遊記每週四連載／automation（已刪除，保留歷史ID） |
+| 啟用狀態 | DELETED；automation_update mode=delete 回傳 deleted，本輪連載結束，不再喚醒 |
+| 原時間與時區 | 每週四09:00；Asia/Taipei（UTC+08:00）；未改發布日期 |
+| 工作目錄 | C:/Users/user/Documents/ChatGPT/社子基金會；serial-publish；serial-assets/publish-due.ps1 |
+| 執行摘要 | 讀取最新main表及AGENTS，來源SHA256核對、刊頭及12格PNG/WebP像素驗證、分格頁與索引；PR建置與隔離測試通過後合併並驗證正式Pages |
+| 最近真實開始 | 2026-11-12 09:03:21.692 +08:00（heartbeat時戳，不是發布時間） |
+| 最近真實完成／結果 | 2026-11-12 09:09:05 +08:00 前完成正式驗收並刪除排程。第八集發布PR #53已合併；Pages run 43132153300成功；第1～8集分格、索引、完整原圖入口及全部216個正式圖片SHA256與main一致。本欄為業務驗收完成，聊天最終結束時刻未知 |
+| 重新盤點 | 刪除前讀取8份TOML，基金會唯一automation ACTIVE；刪除後現存7份，無基金會週期任務；其他獨立教材專案未改動。現存ID/狀態：automation-2=PAUSED; automation-3=PAUSED; automation-4=PAUSED; automation-5=PAUSED; automation-6=ACTIVE; diagnosis=PAUSED; workbook-18-8=PAUSED。本次未讀資料庫，不臆造排程器欄位 |
+| 日期表核對 | 第02～08集均已發布；第八集依11/12 09:00到期處理，沒有提前發布。日期不變；依既定完成停用規則更新狀態。第二集main現為大樹佛光山，沿用最新main，不回退舊版本 |
+| 最後停用 | 2026-11-12 09:09:05 +08:00 前automation_update已刪除，保留最後結果與ID。本次未新增第九集或其他任務 |
+| 執行端／保留 | 自然小探險隊仍由ChatGPT負責；保留official-site、website草稿與所有原始素材及其他專案 |
+
+正式網址：https://shezi.org.tw/modern-journey/#weekly-journey-ep08 。所有既定庫存已發布，本輪排程已停止。未提交原始聊天、完整日誌、密碼、Token或憑證。
+
+
 ## 2026-11-05 連載執行最新快照（優先於下方歷史快照）
 
 同步整理時間：2026-11-05 09:08:38 +08:00；實際合併時間以本次紀錄 PR merged_at 為準。
