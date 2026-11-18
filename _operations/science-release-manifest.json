@@ -97,5 +97,16 @@
       }
     ],
     "source_type": "AI recreation authorized 2026-11-05; original review ZIP retained separately"
+  },
+  {
+    "id": "paper-bridge",
+    "title": "紙橋大挑戰：怎樣讓紙更堅固？",
+    "scheduled_date": "2026-12-07",
+    "slug": "paper-bridge",
+    "source": "/assets/images/science-approved/paper-bridge/panel-01.png",
+    "source_sha256": "b6a729b15c4695045584655fd381b559adaa7eb3821ab0d0b43955ae0510120f",
+    "template": "_operations/science-pages/paper-bridge.html",
+    "template_sha256": "01234b7712bae9c2a5fbb28fd1fcac1a8d5d15d25c98961d76832b271d04454f",
+    "card": "    <article class=\"science-card\" data-science-id=\"paper-bridge\">\n      <a href=\"{{ '/science/paper-bridge/' | relative_url }}\"><img src=\"{{ '/assets/images/science-approved/paper-bridge/panel-01.png' | relative_url }}\" alt=\"紙橋大挑戰\" loading=\"lazy\"></a>\n      <div class=\"science-card__body\"><p>自然小探險隊</p><h2>紙橋大挑戰：怎樣讓紙更堅固？</h2><p>改變紙的形狀，比較紙橋的承重能力。</p><a class=\"science-card__link\" href=\"{{ '/science/paper-bridge/' | relative_url }}\">閱讀分格漫畫 →</a></div>\n    </article>\n"
   }
 ]

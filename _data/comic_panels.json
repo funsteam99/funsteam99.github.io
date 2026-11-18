@@ -2733,5 +2733,110 @@
         "webp": "/assets/images/panels/journey-08/panel-12.webp"
       }
     ]
+  },
+  "paper-bridge": {
+    "title": "紙橋大挑戰：怎樣讓紙更堅固？",
+    "source": "/assets/images/science-approved/paper-bridge/panel-01.png",
+    "source_label": "查看第一格圖片",
+    "items": [
+      {
+        "key": "panel-01",
+        "kind": "panel",
+        "alt": "第1格：這是一張平放的紙橋！它能承受小玩具嗎？會不會很快就垮下去呢？",
+        "number": 1,
+        "width": 232,
+        "height": 464,
+        "png_sha256": "b6a729b15c4695045584655fd381b559adaa7eb3821ab0d0b43955ae0510120f",
+        "png": "/assets/images/science-approved/paper-bridge/panel-01.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-01.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "這是一張平放的紙橋！它能承受小玩具嗎？會不會很快就垮下去呢？"
+      },
+      {
+        "key": "panel-02",
+        "kind": "panel",
+        "alt": "第2格：我們用兩張一樣大的紙、相同的支撐架，和一樣輕的塑膠圓片，來做實驗！太好了！我們來試試看！",
+        "number": 2,
+        "width": 232,
+        "height": 464,
+        "png_sha256": "3da568039a82ee6142504b0bf20636eb20922908277cfc46760ecd556b77309a",
+        "png": "/assets/images/science-approved/paper-bridge/panel-02.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-02.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "我們用兩張一樣大的紙、相同的支撐架，和一樣輕的塑膠圓片，來做實驗！太好了！我們來試試看！"
+      },
+      {
+        "key": "panel-03",
+        "kind": "panel",
+        "alt": "第3格：我們先試平放的紙橋！放上一個塑膠圓片……哇！紙橋中間往下彎了！",
+        "number": 3,
+        "width": 232,
+        "height": 464,
+        "png_sha256": "21e28196081a9aeedc3d6d571c2a0225086a5ad5bbf9057b1888f662c8a051c8",
+        "png": "/assets/images/science-approved/paper-bridge/panel-03.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-03.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "我們先試平放的紙橋！放上一個塑膠圓片……哇！紙橋中間往下彎了！"
+      },
+      {
+        "key": "panel-04",
+        "kind": "panel",
+        "alt": "第4格：現在，我把另一張紙折成像波浪一樣的「手風琴摺」！這樣可以讓紙更不容易彎曲。",
+        "number": 4,
+        "width": 232,
+        "height": 464,
+        "png_sha256": "1b44484ae0f68d12a73f31dc47bf30d3c06c96b71030d47e47ff9bc6f2fc656a",
+        "png": "/assets/images/science-approved/paper-bridge/panel-04.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-04.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "現在，我把另一張紙折成像波浪一樣的「手風琴摺」！這樣可以讓紙更不容易彎曲。"
+      },
+      {
+        "key": "panel-05",
+        "kind": "panel",
+        "alt": "第5格：把摺好的紙橋架在相同的支撐架上，再放一個塑膠圓片……耶！這次沒有下彎！好像更堅固了！",
+        "number": 5,
+        "width": 610,
+        "height": 880,
+        "png_sha256": "bb98ef49256c1a38aa76115aa69d5e7f554ac0a4419778621641c1222de16f7c",
+        "png": "/assets/images/science-approved/paper-bridge/panel-05.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-05.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "把摺好的紙橋架在相同的支撐架上，再放一個塑膠圓片……耶！這次沒有下彎！好像更堅固了！"
+      },
+      {
+        "key": "panel-06",
+        "kind": "panel",
+        "alt": "第6格：我們一個一個地增加塑膠圓片，數數看可以放幾個！一個、兩個、三個、四個！還是很穩！",
+        "number": 6,
+        "width": 610,
+        "height": 880,
+        "png_sha256": "95b2b763542dbb28402c0ad820d75fd603a674e330d05de50115398452a8d538",
+        "png": "/assets/images/science-approved/paper-bridge/panel-06.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-06.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "我們一個一個地增加塑膠圓片，數數看可以放幾個！一個、兩個、三個、四個！還是很穩！"
+      },
+      {
+        "key": "panel-07",
+        "kind": "panel",
+        "alt": "第7格：改變紙的形狀，可以讓紙更不容易彎曲，變得更堅固！這個結果是在我們這次的材料和條件下得到的喔！",
+        "number": 7,
+        "width": 232,
+        "height": 464,
+        "png_sha256": "8aa5140db9f4fac73bf3033782787a877e4c58e98d86dcd499e019ccc956b28e",
+        "png": "/assets/images/science-approved/paper-bridge/panel-07.png",
+        "webp": "/assets/images/science-approved/paper-bridge/panel-07.webp",
+        "show_number": false,
+        "language": "zh-Hant",
+        "transcript": "改變紙的形狀，可以讓紙更不容易彎曲，變得更堅固！這個結果是在我們這次的材料和條件下得到的喔！"
+      }
+    ]
   }
 }
