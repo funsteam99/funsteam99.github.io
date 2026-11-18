@@ -87,3 +87,8 @@
 ## 2026-11-09 月食篇正式驗收
 
 月食篇依原週次新增文章與目錄卡片，發布PR #51及Pages部署均成功；2026-11-09 09:09台灣時間已驗證正式文章、科學目錄、完整原圖、7格閱讀圖及目錄刊頭。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`f151728b4063a30974704ec9981dc0406b9eb94a`；證據：`science-verification-20261109.json`。
+
+## 紙橋大挑戰待發布素材
+
+- 2026-12-07 09:00 Asia/Taipei；七格繁中已核准，素材位於 `assets/images/science-approved/paper-bridge/panel-01.png` 至 `panel-07.png`。第5、6格為摺紙方向修正版，第5格文字已修正。
+- 待發布範本 `_operations/science-pages/paper-bridge.html`；發布資料見 `_operations/science-release-manifest.json` 的 `paper-bridge`。不得提前發布。
