@@ -7,7 +7,7 @@ author: 社子文教基金會
 permalink: /articles/k2-ai-teacher-handbook/
 image: /assets/images/articles/k2-ai-teacher-handbook.webp
 image_alt: 老師帶領孩子使用圖卡與積木，學習 AI 素養、思考與查證
-description: "適合幼兒園大班至小二的八堂 AI 素養課程，新增前四堂卡通圖卡版 PDF 與 Word，含教學流程、可剪裁圖卡、學習單及教師評量。"
+description: "適合幼兒園大班至小二的八堂 AI 素養課程，提供第1～8堂分課教材及完整手冊下載，含教學流程、可剪裁圖卡、學習單及教師評量。"
 tags: [幼小銜接, 低年級, 教師教材]
 ---
 
@@ -16,33 +16,42 @@ AI 會幫忙，孩子也要學會思考與查證。《K–2 AI 素養教師手�
 {% include k2-cartoon-downloads.html %}
 
 
-## 第1～6堂卡通圖卡修訂參考版 V2.1
+## 第5～8堂下載
 
-2026年11月4日補充。以下六份 Word 含可剪裁圖卡、教學步驟、學習單及評量，每堂8頁，尚待試教。這是本次提供文件的修訂版號，並非上方 v3.0 的後續版本；第1～4堂建議優先使用上方已發布的 v3.0，以下同堂文件供比較與備課參考。第5、6堂新增查證及個資保護的分課教材。
+接續上方第1～4堂，依課次選用以下教材。每堂8頁、約40分鐘；第5、6堂提供 Word，第7、8堂提供 PDF，皆為修訂參考教材，尚待試教。各課版本分別標示，並非統一版號。
+
+| 課次 | 主題 | 下載 | 版本與狀態 |
+|---|---|---|---|
+| 第5堂 | AI 事實偵探 | [Word]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson05_TW_Cartoon_V2_1.docx' | relative_url }}) | V2.1・修訂參考版 |
+| 第6堂 | 我的資料，我要保護 | [Word]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson06_TW_Cartoon_V2_1.docx' | relative_url }}) | V2.1・修訂參考版 |
+| 第7堂 | 善良、公平、誠實 | [PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson07_TW_Cartoon_revised.pdf' | relative_url }}) | 修訂參考版・待試教 |
+| 第8堂 | 人＋AI | [PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson08_TW_Cartoon_revised.pdf' | relative_url }}) | 修訂參考版・待試教 |
+
+<span id="第78堂卡通圖卡修訂參考版"></span>
+
+第7、8堂依 V2 審閱草稿調整活動流程；第8堂明確說明選擇不用 AI 也可得滿分。圖卡與學習單保留原稿，部分頁面仍標示 V2 審閱草稿。2026年11月19日修正 PDF 中文字型對應，內容與頁數不變。
+
+## 既有完整手冊與八堂課程架構
+
+需要完整八堂課、教師導讀及共用附錄，可下載既有《K–2 AI 素養教師手冊・台灣版》。分課教材按第1～8堂列於上方，方便逐堂備課。
+
+[下載完整八堂手冊 Word]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.docx' | relative_url }}) · [下載完整八堂手冊 PDF]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.pdf' | relative_url }})
+
+<details markdown="1">
+<summary>其他版本與修訂紀錄（備課比較用）</summary>
+
+第1～4堂建議優先使用上方 v3.0。以下 V2.1 為2026年11月4日補充的 Word 參考稿，並非 v3.0 的後續版本。
 
 - [第1堂 認識 AI Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson01_TW_Cartoon_V2_1.docx' | relative_url }})
 - [第2堂 人、機器與 AI Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson02_TW_Cartoon_V2_1.docx' | relative_url }})
 - [第3堂 規律小偵探 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson03_TW_Cartoon_V2_1.docx' | relative_url }})
 - [第4堂 教教機器人 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson04_TW_Cartoon_V2_1.docx' | relative_url }})
-- [第5堂 AI 事實偵探 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson05_TW_Cartoon_V2_1.docx' | relative_url }})
-- [第6堂 我的資料我要保護 Word V2.1]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lesson06_TW_Cartoon_V2_1.docx' | relative_url }})
 
-[下載第1～6堂 V2.1 整包 ZIP]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lessons01-06_V2_1.zip' | relative_url }})
+[下載第1～6堂 V2.1 整包 ZIP]({{ '/assets/downloads/ai-literacy/k2-cartoon-v2-1/K2_AI_Lessons01-06_V2_1.zip' | relative_url }})（含上方第5、6堂 Word）
 
-本次修正課次標示、遊戲操作、材料說明、評量及複選提示。
+V2.1 調整課次標示、遊戲操作、材料說明、評量及複選提示。完整八堂手冊保留教師導讀與共用附錄，與分課修訂教材分別提供。
 
-## 第7～8堂卡通圖卡修訂參考版
-
-以下 PDF 根據 V2 審閱草稿修訂課堂流程，並調整第8堂選擇不使用 AI 時的評分方式；保留原有圖卡與學習單。每堂8頁，供備課參考，尚未完成課堂試教或成效驗證。時間不足時可依教師指引分次進行。檔案其他頁面仍保留 V2 草稿標示。
-
-- [第7堂 善良公平誠實 PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson07_TW_Cartoon_revised.pdf' | relative_url }})
-- [第8堂 人＋AI PDF]({{ '/assets/downloads/ai-literacy/k2-cartoon-07-08/K2_AI_Lesson08_TW_Cartoon_revised.pdf' | relative_url }})
-
-## 既有完整手冊與八堂課程架構
-
-需要完整八堂課、教師導讀及共用附錄，可下載既有《K–2 AI 素養教師手冊・台灣版》。本次前四堂卡通圖卡版另列於上方，方便逐堂備課。
-
-[下載完整八堂手冊 Word]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.docx' | relative_url }}) · [下載完整八堂手冊 PDF]({{ '/assets/downloads/ai-literacy/k2-ai-teacher-handbook-taiwan.pdf' | relative_url }})
+</details>
 
 ## 適合誰使用
 
