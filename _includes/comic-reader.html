@@ -13,3 +13,5 @@
   {% endfor %}
   <p class="panel-reader__original"><a href="{{ comic.source | relative_url }}" target="_blank" rel="noopener">{{ comic.source_label | default: '查看完整原圖' | escape }}</a></p>
 </section>
+{% assign comic_video = site.data.comic_videos[include.id] %}
+{% if comic_video %}{% include comic-video.html video=comic_video %}{% endif %}
