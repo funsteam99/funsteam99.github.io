@@ -1,0 +1,45 @@
+{% assign v = include.video %}
+{% if v and v.youtube_id %}
+<div class="comic-video" aria-label="動畫版：{{ v.title | escape }}">
+  <div class="comic-video__header">
+    <div class="comic-video__meta">
+      <span class="comic-video__badge">{{ v.label | default: '動畫版' | escape }}</span>
+      <h3 class="comic-video__title">{{ v.title | escape }}</h3>
+    </div>
+    <a class="comic-video__ext" href="https://www.youtube.com/watch?v={{ v.youtube_id | escape }}" target="_blank" rel="noopener">前往 YouTube 觀看 ↗</a>
+  </div>
+  <div class="comic-video__stage">
+    <button type="button" class="comic-video__trigger" data-youtube-id="{{ v.youtube_id | escape }}" data-youtube-title="{{ v.title | escape }}" aria-label="播放動畫：{{ v.title | escape }}">
+      <img class="comic-video__thumb" src="https://i.ytimg.com/vi/{{ v.youtube_id | escape }}/hqdefault.jpg" alt="{{ v.title | escape }} 動畫縮圖" width="480" height="360" loading="lazy" decoding="async">
+      <span class="comic-video__play" aria-hidden="true">
+        <svg viewBox="0 0 68 48" width="68" height="48" focusable="false">
+          <path class="comic-video__play-bg" d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55C3.97 2.33 2.27 4.81 1.48 7.74.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z"/>
+          <path d="M45 24 27 14v20" fill="#fff"/>
+        </svg>
+      </span>
+      <span class="comic-video__hint">點擊播放動畫</span>
+    </button>
+  </div>
+</div>
+<script>
+(function () {
+  if (window.__comicVideoInit) return;
+  window.__comicVideoInit = true;
+  document.addEventListener('click', function (event) {
+    var btn = event.target.closest('.comic-video__trigger');
+    if (!btn) return;
+    var id = btn.getAttribute('data-youtube-id');
+    if (!id || !/^[A-Za-z0-9_-]{11}$/.test(id)) return;
+    var title = btn.getAttribute('data-youtube-title') || 'YouTube 動畫';
+    var iframe = document.createElement('iframe');
+    iframe.className = 'comic-video__iframe';
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0';
+    iframe.title = title;
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    iframe.allowFullscreen = true;
+    btn.replaceWith(iframe);
+  });
+})();
+</script>
+{% endif %}

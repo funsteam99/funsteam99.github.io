@@ -14,3 +14,29 @@
   .panel-reader { margin-top:1rem; }
   .panel-reader__item { margin-bottom:1.25rem; }
 }
+.comic-video { width:100%; max-width:680px; margin:0 auto 3rem; padding:1.25rem; background:#fff; border:1px solid #e2e8f0; border-radius:1rem; box-shadow:0 4px 16px rgba(15,23,42,.06); }
+.comic-video__header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.5rem 1rem; margin:0 0 1rem; }
+.comic-video__meta { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem .75rem; min-width:0; }
+.comic-video__badge { display:inline-flex; align-items:center; padding:.25rem .65rem; border-radius:999px; background:#dc2626; color:#fff; font:700 .8rem/1.2 system-ui,sans-serif; letter-spacing:.04em; }
+.comic-video__title { margin:0; color:#0f172a; font:800 1.1rem/1.4 system-ui,sans-serif; }
+.comic-video__ext { color:#164e63; font:700 .9rem/1.4 system-ui,sans-serif; text-decoration:underline; text-underline-offset:3px; white-space:nowrap; }
+.comic-video__stage { position:relative; width:100%; aspect-ratio:16/9; border-radius:.75rem; overflow:hidden; background:#0f172a; }
+.comic-video__trigger { position:relative; display:block; width:100%; height:100%; padding:0; border:0; background:#0f172a; cursor:pointer; }
+.comic-video__thumb { display:block; width:100%; height:100%; object-fit:cover; opacity:.92; transition:opacity .2s ease, transform .25s ease; }
+.comic-video__trigger:hover .comic-video__thumb,
+.comic-video__trigger:focus-visible .comic-video__thumb { opacity:1; transform:scale(1.02); }
+.comic-video__play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:flex; align-items:center; justify-content:center; filter:drop-shadow(0 4px 12px rgba(0,0,0,.45)); transition:transform .2s ease; }
+.comic-video__play-bg { fill:rgba(15,23,42,.82); transition:fill .2s ease; }
+.comic-video__trigger:hover .comic-video__play,
+.comic-video__trigger:focus-visible .comic-video__play { transform:translate(-50%,-50%) scale(1.08); }
+.comic-video__trigger:hover .comic-video__play-bg,
+.comic-video__trigger:focus-visible .comic-video__play-bg { fill:#dc2626; }
+.comic-video__hint { position:absolute; right:.75rem; bottom:.75rem; padding:.3rem .7rem; border-radius:999px; background:rgba(15,23,42,.78); color:#fff; font:700 .8rem/1.2 system-ui,sans-serif; }
+.comic-video__trigger:focus-visible,
+.comic-video__ext:focus-visible { outline:3px solid #d97706; outline-offset:3px; }
+.comic-video__iframe { display:block; width:100%; height:100%; border:0; }
+.comic-video-pill { display:inline-block; margin-left:.4rem; padding:.1rem .45rem; border-radius:999px; background:#fee2e2; color:#b91c1c; font:700 .75rem/1.3 system-ui,sans-serif; vertical-align:middle; }
+@media(max-width:600px) {
+  .comic-video { padding:1rem; margin-bottom:2rem; }
+  .comic-video__title { font-size:1rem; }
+}

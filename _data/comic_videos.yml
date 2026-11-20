@@ -1,0 +1,85 @@
+# 漫畫對應 YouTube 動畫清單（@steamfun3507）
+# key 必須對應 _data/comic_panels.json 中的 comic_id。
+# 新增動畫時，只要在此補上對應 comic_id 與 youtube_id，網頁即會自動在漫畫下方顯示動畫播放器。
+
+# ── 現代西遊記（/modern-journey/）──
+journey-01:
+  youtube_id: Zj25nJ1f4oQ
+  title: "現代西遊記 第一集｜悟空今天又闖禍了！"
+
+journey-02:
+  youtube_id: KZVfKcU9ox0
+  title: "現代西遊記 第二集｜悟空去大樹佛光山朝聖！"
+
+journey-03:
+  youtube_id: ryUCl8xlY_I
+  title: "現代西遊記 第三集｜悟空夜闖故宮！"
+
+journey-04:
+  youtube_id: bN8oEerMSCc
+  title: "現代西遊記 第四集｜悟空迷路九份！"
+
+journey-05:
+  youtube_id: wvUbz_0VKwY
+  title: "現代西遊記 第五集｜八戒決戰台南小吃！"
+
+journey-06:
+  youtube_id: B6oS6Bs0mVI
+  title: "現代西遊記 第六集｜悟空搭高鐵大冒險！"
+
+journey-07:
+  youtube_id: jWZC3O7OCNc
+  title: "現代西遊記 第七集｜悟空與AI的奇妙體驗！"
+
+# ── 科學天地／自然小探險隊（/science/*）──
+sound:
+  youtube_id: 3mabS_0ueiw
+  title: "聲音是怎麼傳播的？｜自然小探險隊"
+
+butterfly:
+  youtube_id: -WWMGh67vYg
+  title: "毛毛蟲怎麼變成蝴蝶？2 分鐘看懂蝴蝶生命循環"
+
+butterfly-2026:
+  youtube_id: -WWMGh67vYg
+  title: "毛毛蟲怎麼變成蝴蝶？2 分鐘看懂蝴蝶生命循環"
+
+seasons:
+  youtube_id: eE45mUEBiUc
+  title: "為什麼會有四季？｜地球斜斜的，世界就有了春夏秋冬"
+
+battery:
+  youtube_id: KAyH_HvAdWM
+  title: "電池＋燈泡的冒險故事｜電壓、電流、電阻、功率一次搞懂"
+
+airplanes:
+  youtube_id: qSjdFsi2iqI
+  title: "飛飛和貓頭鷹機長：飛機是怎麼飛的？｜四種力的平衡"
+
+rainbow:
+  youtube_id: OGIWHAclRcY
+  title: "彩虹為什麼會出現？｜自然小探險隊"
+
+density:
+  youtube_id: n9Nwx1lEPvY
+  title: "海綿比石頭大，為什麼比較輕？3 分鐘看懂密度"
+
+solar-eclipse:
+  youtube_id: ch9CuPFSRAE
+  title: "日食是什麼？太陽為什麼會變黑？｜兒童科學動畫"
+
+lunar-eclipse:
+  youtube_id: bG0EsXs27RA
+  title: "月食是什麼？月亮為什麼會變紅？｜兒童科學動畫"
+
+condensation:
+  youtube_id: MKqHvJTLbw8
+  title: "冰水杯為什麼會「流汗」？｜兒童科學動畫"
+
+shadow-size:
+  youtube_id: 2FZ_KkTVQbY
+  title: "影子為什麼會變大？｜兒童科學動畫"
+
+paper-bridge:
+  youtube_id: iG4jUmKoScQ
+  title: "紙橋大挑戰：怎樣讓紙更堅固？｜自然小探險隊"

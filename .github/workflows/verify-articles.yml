@@ -30,6 +30,7 @@ jobs:
           python3 scripts/verify_k2_cartoon.py
           python3 scripts/verify_image_variants.py
           python3 scripts/verify_comic_reader.py
+          python3 scripts/verify_comic_videos.py
       - uses: actions/upload-artifact@v4
         with:
           name: k2-course-preview

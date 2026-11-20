@@ -21,7 +21,7 @@ permalink: /modern-journey/
       {% for episode in site.data.journey_episodes %}
       <li class="science-card">
         <a href="#{{ episode.anchor }}">{% include comic-header.html id=episode.id %}</a>
-        <div class="science-card__body"><p>第 {{ episode.number }} 集</p><h3>{{ episode.title | escape }}</h3><a class="science-card__link" href="#{{ episode.anchor }}">閱讀第 {{ episode.number }} 集 →</a></div>
+        <div class="science-card__body"><p>第 {{ episode.number }} 集{% if site.data.comic_videos[episode.id] %}<span class="comic-video-pill">附動畫</span>{% endif %}</p><h3>{{ episode.title | escape }}</h3><a class="science-card__link" href="#{{ episode.anchor }}">閱讀第 {{ episode.number }} 集 →</a></div>
       </li>
       {% endfor %}
     </ol>
