@@ -1133,7 +1133,7 @@
         "alt": "悟空迷路九份！第11格",
         "width": 331,
         "height": 379,
-        "png_sha256": "0cc79539272d6049c22dc37d0d2f3bcecd5a54109aff5bd329ece4b154faa89c",
+        "png_sha256": "a61a27aed94e471689536092aa87ab5ed006d9ab6bb3e1c9d183af6317d1cb06",
         "png": "/assets/images/panels/journey-04/panel-11.png",
         "webp": "/assets/images/panels/journey-04/panel-11.webp"
       },
@@ -1145,7 +1145,7 @@
         "alt": "悟空迷路九份！第12格",
         "width": 332,
         "height": 379,
-        "png_sha256": "722e6d621e1fd7df641064ea19f8764dd8d933ffc212e53cd4054d4271720f3a",
+        "png_sha256": "96db55b4f3b67cc40ccc28b5b7562e00454291f0c6ebbb9f8f851f6dc63aa30a",
         "png": "/assets/images/panels/journey-04/panel-12.png",
         "webp": "/assets/images/panels/journey-04/panel-12.webp"
       }
@@ -1885,7 +1885,7 @@
         "alt": "八戒決戰台南小吃！第11格",
         "width": 333,
         "height": 431,
-        "png_sha256": "850892e40b4fb320789a6b86e5e496c205acf370f82c79b9941e9474b5f522d5",
+        "png_sha256": "04e6fe9bb6e0507550bb0911a3db4d1f982aa572b837f7292d2fe908de7eaf60",
         "png": "/assets/images/panels/journey-05/panel-11.png",
         "webp": "/assets/images/panels/journey-05/panel-11.webp"
       },
@@ -1897,7 +1897,7 @@
         "alt": "八戒決戰台南小吃！第12格",
         "width": 342,
         "height": 431,
-        "png_sha256": "3ff0d00b71dcac3d9deea198274d154abf08e6da69b4da8ab67c1a1f3d028ead",
+        "png_sha256": "2f965d7693147a3b1564bf37d7d7bd7db2e5d868c3533d2ed3d75ba5b42c3bfd",
         "png": "/assets/images/panels/journey-05/panel-12.png",
         "webp": "/assets/images/panels/journey-05/panel-12.webp"
       }
@@ -2034,7 +2034,7 @@
         "alt": "悟空搭高鐵大冒險！第1格",
         "width": 385,
         "height": 319,
-        "png_sha256": "073f0ebd075a65f8f4eed5e70a157dc6636b2503a6ebb7619a170fff6718aa03",
+        "png_sha256": "88492056da05a31a4463bea880d9d3bed76ae81806a108b045e92f02ed345d7d",
         "png": "/assets/images/panels/journey-06/panel-01.png",
         "webp": "/assets/images/panels/journey-06/panel-01.webp"
       },
@@ -2154,7 +2154,7 @@
         "alt": "悟空搭高鐵大冒險！第11格",
         "width": 350,
         "height": 418,
-        "png_sha256": "884551db9b72dd8b7d9f8106252e97f45b2635f4986b981ebcd5baf4b64d638e",
+        "png_sha256": "309e1a26c635849fa2536077019637e0ee5c1dbe51914d1f99689f1a8777e217",
         "png": "/assets/images/panels/journey-06/panel-11.png",
         "webp": "/assets/images/panels/journey-06/panel-11.webp"
       },
@@ -2166,7 +2166,7 @@
         "alt": "悟空搭高鐵大冒險！第12格",
         "width": 346,
         "height": 418,
-        "png_sha256": "f087e887d39a33d6aa72c750eefc840e12913d7a048708c931fe9ac0a6f18e9f",
+        "png_sha256": "f31838331f1739a336a5178ac6562cc47b3bbb95272a85544518a7d9276a8dd0",
         "png": "/assets/images/panels/journey-06/panel-12.png",
         "webp": "/assets/images/panels/journey-06/panel-12.webp"
       }
@@ -2194,7 +2194,7 @@
         "alt": "悟空與AI的奇妙體驗！第1格",
         "width": 346,
         "height": 323,
-        "png_sha256": "c9f45c189331cccf8846b79b1b69da3dbdc2f9213acd7f47b784250d3de4b4c0",
+        "png_sha256": "708ac0579ff98035926257c36bf8992052fe9466943359bcf6aabef1da7543f5",
         "png": "/assets/images/panels/journey-07/panel-01.png",
         "webp": "/assets/images/panels/journey-07/panel-01.webp"
       },
@@ -2314,7 +2314,7 @@
         "alt": "悟空與AI的奇妙體驗！第11格",
         "width": 333,
         "height": 371,
-        "png_sha256": "37d979048a116b7b3114dc11dbc5a6b08501683446e21e8ba8eabeb4977d27fd",
+        "png_sha256": "a703e0bde27c857392bb8c3f96698aa9b3562f2dae13d2f8be9fe8c152d26c7c",
         "png": "/assets/images/panels/journey-07/panel-11.png",
         "webp": "/assets/images/panels/journey-07/panel-11.webp"
       },
@@ -2326,7 +2326,7 @@
         "alt": "悟空與AI的奇妙體驗！第12格",
         "width": 344,
         "height": 371,
-        "png_sha256": "567e3fbc279926ebfb8c6a1514bca40ce5bc2aee71b201f791d62f9d57c9b60f",
+        "png_sha256": "9f7fe2d7866453a4d75893b68877eeeff400db1137f72773f3f75cfc928f346b",
         "png": "/assets/images/panels/journey-07/panel-12.png",
         "webp": "/assets/images/panels/journey-07/panel-12.webp"
       }
@@ -2584,7 +2584,7 @@
         "alt": "悟空守護海洋大作戰！刊頭",
         "width": 1024,
         "height": 174,
-        "png_sha256": "6c1db31ab4f5d7b5f89f1d273b0898775ed7aa93b277544675b4d9ec24d3625d",
+        "png_sha256": "4b7b91b4e000f51132047836f05fea837b9b1aef56e4b8cbae7ec8063786e4a7",
         "png": "/assets/images/panels/journey-08/header.png",
         "webp": "/assets/images/panels/journey-08/header.webp"
       },
@@ -2596,7 +2596,7 @@
         "alt": "悟空守護海洋大作戰！第1格",
         "width": 346,
         "height": 325,
-        "png_sha256": "1d644ff7a75d2e77efd23575e8b94dad7327f0dce18f88d3f2f84339aeab2e5b",
+        "png_sha256": "28b6652dc243c8afed9506c189d356e434ad439d63363c6874169151af4ee7e6",
         "png": "/assets/images/panels/journey-08/panel-01.png",
         "webp": "/assets/images/panels/journey-08/panel-01.webp"
       },
@@ -2716,7 +2716,7 @@
         "alt": "悟空守護海洋大作戰！第11格",
         "width": 334,
         "height": 380,
-        "png_sha256": "d3498ef8d5f0c557b512ffb52c770545b8cdc479ac11f0cba1d485fe1481aa7c",
+        "png_sha256": "acb59a36ca142982e95c109737a478797c90b193856b1760267cd12b72f6542d",
         "png": "/assets/images/panels/journey-08/panel-11.png",
         "webp": "/assets/images/panels/journey-08/panel-11.webp"
       },
@@ -2728,7 +2728,7 @@
         "alt": "悟空守護海洋大作戰！第12格",
         "width": 344,
         "height": 380,
-        "png_sha256": "61154266625a399fb3cdda829522446eb354e5f8155bf1d663eb59ae1a2e0724",
+        "png_sha256": "edbc8b07232ee67d4d05f16a0ac3d907c02cdf3c1088745156672a65c4e0f817",
         "png": "/assets/images/panels/journey-08/panel-12.png",
         "webp": "/assets/images/panels/journey-08/panel-12.webp"
       }
