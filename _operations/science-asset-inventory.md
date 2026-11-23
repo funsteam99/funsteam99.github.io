@@ -1,6 +1,6 @@
-# 自然小探險隊 — 素材集中索引（2026-11-09）
+# 自然小探險隊 — 素材集中索引（2026-11-23）
 
-最新狀態：六篇定稿原圖及逐格均已同步GitHub；彩虹、密度已於2026-10-19驗收，蝴蝶新版已於2026-10-26 09:08驗收，日食已於2026-11-02 09:04驗收，月食已於2026-11-09 09:09台灣時間通過正式部署驗收；下表保留原附件定位，實際GitHub路徑及hash見文末。
+最新狀態：彩虹、密度、蝴蝶、日食、月食、冰水杯與影子篇均已正式發布驗收；冰水杯為2026-11-16原週次補發，影子篇於2026-11-23 09:10台灣時間驗收。浮沉篇維持2026-11-30原週次；下表保留原附件定位，實際GitHub路徑及hash見文末。
 
 用途：ChatGPT 與 Codex 協作時先看本表，再核對官網及素材實體。**找到 ChatGPT 檔案庫附件，不等於圖片已上傳 GitHub，也不等於官網已發布。**
 
@@ -11,7 +11,7 @@
 | 2026-10-26 | 蝴蝶生命循環 | `自然小探險隊：蝴蝶生命循環.png`（Library ID `libfile_d2c2e1bb76048191b646cce8e3484989`，2026-10-05） | 已同步GitHub真正PNG與逐格PNG/WebP | 已更新既有頁並正式驗證：https://shezi.org.tw/science/butterfly-life-cycle/；PR #31 |
 | 2026-11-02 | 日食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳日食七格定稿圖（會話 file ID `file_00000000e2b48206bc45698fe4a16829`） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/solar-eclipse/；PR #39 |
 | 2026-11-09 | 月食是什麼？ | 2026-10-14 使用者已在當前對話重新上傳月食七格定稿圖（會話 file ID `file_000000000c488206bbbea001c25440fa`） | 已同步GitHub真正PNG與逐格PNG/WebP | 已發布並正式驗證：https://shezi.org.tw/science/lunar-eclipse/；PR #51 |
-| 2026-11-16（已核定） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | 已同步GitHub真正PNG與逐格PNG/WebP | 依原排週次待發布；範本與逐格已備妥 |
+| 2026-11-16（已核定） | 冰水杯為什麼會流汗？ | 2026-10-14 本次對話生成七格漫畫；會話圖檔 ID `file_00000000b03c82098568c28aa0d80b82` | 已同步GitHub真正PNG與逐格PNG/WebP | 已補發並正式驗證：https://shezi.org.tw/science/why-cold-cups-sweat/；PR #66 |
 
 已發布不重發：`https://shezi.org.tw/science/sound-transmission/`（聲音是怎麼傳播的？；共用排程表記錄2026-10-05）。
 
@@ -61,7 +61,7 @@
 - 題名：影子為什麼會變大？；分類：科學天地／自然小探險隊；依主表2026-11-23 09:00台灣時間發布。
 - 來源：使用者提供 Nature_Explorers_Shadow_ZH_8pages_Page8_Updated-2.docx，八張內嵌漫畫逐頁檢查；第八頁將「改變任何一個條件影子就會變大」修正為「每次只改變一個條件，影子可能變大，也可能變小」。其餘七頁保留。
 - 頁圖：`assets/images/science-approved/shadow-size/page-01.png` 至 `page-08.png`；閱讀圖：`assets/images/panels/shadow-size/`；合集：`assets/images/science-approved/shadow-size.png`；SHA256：`c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd`。
-- 文章範本：`_operations/science-pages/shadow-size.html`；尚未建立公開文章，未聲稱已發布。已補充控制變因、發散光適用條件與實驗安全提醒。第八頁文字以影像編輯工具局部修正並重新目視核對。
+- 文章範本：`_operations/science-pages/shadow-size.html`；已發布並正式驗證：https://shezi.org.tw/science/shadow-size/；PR #66。已補充控制變因、發散光適用條件與實驗安全提醒。第八頁文字以影像編輯工具局部修正並重新目視核對。
 
 
 ## 2026-11-02 日食篇正式驗收
@@ -92,3 +92,8 @@
 
 - 2026-12-07 09:00 Asia/Taipei；七格繁中已核准，素材位於 `assets/images/science-approved/paper-bridge/panel-01.png` 至 `panel-07.png`。第5、6格為摺紙方向修正版，第5格文字已修正。
 - 待發布範本 `_operations/science-pages/paper-bridge.html`；發布資料見 `_operations/science-release-manifest.json` 的 `paper-bridge`。不得提前發布。
+
+
+## 2026-11-23 冰水杯篇與影子篇正式驗收
+
+冰水杯篇依原定2026-11-16週次補發，影子篇依2026-11-23原週次發布；發布PR #66及Pages部署均成功。2026-11-23 09:10台灣時間已驗證兩篇正式文章、科學目錄、兩張完整原圖、冰水杯7格與影子8頁閱讀圖及兩張目錄刊頭。PNG／WebP均HTTP 200且可解碼，尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。部署commit：`cbf3e4cfa4de7188d7a67d25491b73188a93ddf2`；證據：`science-verification-20261123.json`。
