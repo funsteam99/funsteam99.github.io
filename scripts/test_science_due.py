@@ -10,7 +10,7 @@ with tempfile.TemporaryDirectory(dir=m.ROOT.parent) as tmp:
         shutil.copytree(m.ROOT/name,root/name)
     state=root/'_operations/science-release-state.json'
     if state.exists(): state.unlink()
-    for slug in ['rainbow','density','solar-eclipse','lunar-eclipse','why-cold-cups-sweat']:
+    for slug in ['rainbow','density','solar-eclipse','lunar-eclipse','why-cold-cups-sweat','shadow-size','float-or-sink']:
         (root/'science'/f'{slug}.html').unlink(missing_ok=True)
     # Restore pre-release index from git; preserve the original butterfly page.
     import re
