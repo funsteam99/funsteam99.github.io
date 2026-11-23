@@ -1,6 +1,6 @@
 # 社子基金會共同發佈日期表
 
-更新日期：2026-11-09。時區：Asia/Taipei（台灣時間）。
+更新日期：2026-11-23。時區：Asia/Taipei（台灣時間）。
 
 ## 自然小探險隊排程（2026-10-26 核對）
 
@@ -14,8 +14,8 @@
 | 2026-10-26 09:00 | 蝴蝶生命循環（1～7新版） | 已更新既有頁；2026-10-26 09:08（台灣）正式驗證通過；https://shezi.org.tw/science/butterfly-life-cycle/；PR #31；部署 `097b913b9a6ea2c37bf924b6b381207832787bac` | ChatGPT |
 | 2026-11-02 09:00 | 日食是什麼？ | 已發布；2026-11-02 09:04（台灣）正式驗證通過；https://shezi.org.tw/science/solar-eclipse/；PR #39；部署 `10afbfceba1f87823899029d7328c637183e5bc8` | ChatGPT |
 | 2026-11-09 09:00 | 月食是什麼？ | 已發布；2026-11-09 09:09（台灣）正式驗證通過；https://shezi.org.tw/science/lunar-eclipse/；PR #51；部署 `f151728b4063a30974704ec9981dc0406b9eb94a` | ChatGPT |
-| 2026-11-16 09:00 | 冰水杯為什麼會流汗？ | 定稿原圖、逐格及範本已同步；依原週次待發布 | ChatGPT |
-| 2026-11-23 09:00 | 影子為什麼會變大？ | 八頁已審查並修正第八頁；原圖、逐頁與文章範本已同步，依週次待發布 | ChatGPT |
+| 2026-11-16 09:00 | 冰水杯為什麼會流汗？ | 已補發；2026-11-23 09:10（台灣）正式驗證通過；https://shezi.org.tw/science/why-cold-cups-sweat/；PR #66；部署 `cbf3e4cfa4de7188d7a67d25491b73188a93ddf2` | ChatGPT |
+| 2026-11-23 09:00 | 影子為什麼會變大？ | 已發布；2026-11-23 09:10（台灣）正式驗證通過；https://shezi.org.tw/science/shadow-size/；PR #66；部署 `cbf3e4cfa4de7188d7a67d25491b73188a93ddf2` | ChatGPT |
 | 2026-11-30 09:00 | 浮起來，還是沉下去？（董事長提供原稿；繁中8頁＋日文8頁，頁碼1～8） | AI清晰重製閱讀版：繁中8頁＋日文8頁，1440×2560，頁碼各1～8；原稿內容、角色與對白已對照，兩份PDF及待發布範本已備妥。2026-11-05 16:53台灣時間已通過正式素材驗證（37項URL、PR #46）；依原週次待發布，不冒充董事長原始高解析稿，未提前建立文章 | ChatGPT |
 | 2026-12-07 09:00 | 紙橋大挑戰：怎樣讓紙更堅固？ | 繁中七格已審閱；第5、6格已修正摺紙方向，第5格文字已修正。七格、待發布範本與發布資料已備妥；依原排週次發布 | ChatGPT |
 
@@ -93,3 +93,10 @@
 - 依原定週次新增 `science/lunar-eclipse.html` 與科學目錄卡片；冰水杯、影子與浮沉篇維持原週次，未提前發布。
 - 發布PR：https://github.com/funsteam99/funsteam99.github.io/pull/51；部署commit：`f151728b4063a30974704ec9981dc0406b9eb94a`。
 - 2026-11-09 09:09台灣時間，正式文章、science/目錄、完整原圖、7格PNG／WebP及目錄刊頭全部HTTP 200且可解碼；尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。證據：`_operations/science-verification-20261109.json`。
+
+
+## 2026-11-23 冰水杯篇補發與影子篇發布驗收
+
+- 依逾期補發規則補發原定2026-11-16的 `science/why-cold-cups-sweat.html`，並依原定週次發布2026-11-23的 `science/shadow-size.html`；兩篇各自保留原週次，浮沉篇維持2026-11-30，未提前發布。
+- 發布PR：https://github.com/funsteam99/funsteam99.github.io/pull/66；部署commit：`cbf3e4cfa4de7188d7a67d25491b73188a93ddf2`。
+- 2026-11-23 09:10台灣時間，兩篇正式文章、science/目錄、兩張完整原圖、15格PNG／WebP及兩張目錄刊頭全部HTTP 200且可解碼；尺寸與PNG SHA256符合資料檔，WebP與PNG像素一致。影子篇採8頁已審查版本，第八頁修正內容已保留。證據：`_operations/science-verification-20261123.json`。

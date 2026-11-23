@@ -46,14 +46,20 @@
   },
   "condensation": {
     "scheduled_at": "2026-11-16T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/why-cold-cups-sweat/",
-    "source_sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec"
+    "source_sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec",
+    "verified_at": "2026-11-23T09:10:26+08:00",
+    "deployment_commit": "cbf3e4cfa4de7188d7a67d25491b73188a93ddf2",
+    "pr": 66
   },
   "shadow-size": {
     "scheduled_at": "2026-11-23T09:00:00+08:00",
-    "status": "prepared",
+    "status": "verified",
     "url": "https://shezi.org.tw/science/shadow-size/",
-    "source_sha256": "c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd"
+    "source_sha256": "c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd",
+    "verified_at": "2026-11-23T09:10:26+08:00",
+    "deployment_commit": "cbf3e4cfa4de7188d7a67d25491b73188a93ddf2",
+    "pr": 66
   }
 }
