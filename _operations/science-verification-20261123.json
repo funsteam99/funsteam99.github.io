@@ -1,0 +1,294 @@
+{
+  "verified_at": "2026-11-23T09:10:26+08:00",
+  "result": "verified",
+  "publication_pr": 66,
+  "deployment_commit": "cbf3e4cfa4de7188d7a67d25491b73188a93ddf2",
+  "works": {
+    "condensation": {
+      "title": "冰水杯為什麼會流汗？",
+      "scheduled_at": "2026-11-16T09:00:00+08:00",
+      "result": "verified",
+      "article": {
+        "url": "https://shezi.org.tw/science/why-cold-cups-sweat/",
+        "status": 200,
+        "title_present": true
+      },
+      "index": {
+        "url": "https://shezi.org.tw/science/",
+        "status": 200,
+        "card_present": true
+      },
+      "source": {
+        "url": "https://shezi.org.tw/assets/images/science-approved/condensation.png",
+        "status": 200,
+        "width": 1199,
+        "height": 1312,
+        "sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec",
+        "expected_sha256": "62c2f8e23ce9d95a8c3fdeff9c65b2a2a70394b553d171f30ec4b1927b634eec"
+      },
+      "panels": [
+        {
+          "key": "header",
+          "png": "/assets/images/panels/condensation/header.png",
+          "webp": "/assets/images/panels/condensation/header.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 600,
+          "height": 454,
+          "expected_width": 600,
+          "expected_height": 454,
+          "png_sha256": "48b31d53e2b9e8fea6baeb2a4d7b7972856be9dad863e2cd9621b1f17b392107",
+          "expected_png_sha256": "48b31d53e2b9e8fea6baeb2a4d7b7972856be9dad863e2cd9621b1f17b392107",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-02",
+          "png": "/assets/images/panels/condensation/panel-02.png",
+          "webp": "/assets/images/panels/condensation/panel-02.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 599,
+          "height": 454,
+          "expected_width": 599,
+          "expected_height": 454,
+          "png_sha256": "679b6fdb912b582b6999840c00cb0526db1c4ae1610b268e89600ecced992432",
+          "expected_png_sha256": "679b6fdb912b582b6999840c00cb0526db1c4ae1610b268e89600ecced992432",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-03",
+          "png": "/assets/images/panels/condensation/panel-03.png",
+          "webp": "/assets/images/panels/condensation/panel-03.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 600,
+          "height": 387,
+          "expected_width": 600,
+          "expected_height": 387,
+          "png_sha256": "83a5bc3ebadd3a3cbd4dbe9ce64de5add78560eb5163e3ffa6271a8202fcffee",
+          "expected_png_sha256": "83a5bc3ebadd3a3cbd4dbe9ce64de5add78560eb5163e3ffa6271a8202fcffee",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-04",
+          "png": "/assets/images/panels/condensation/panel-04.png",
+          "webp": "/assets/images/panels/condensation/panel-04.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 599,
+          "height": 387,
+          "expected_width": 599,
+          "expected_height": 387,
+          "png_sha256": "826f82fe0ccb044df9677eaf51b1e62be7d53c5b70a71dd76cd48271d4593ba6",
+          "expected_png_sha256": "826f82fe0ccb044df9677eaf51b1e62be7d53c5b70a71dd76cd48271d4593ba6",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-05",
+          "png": "/assets/images/panels/condensation/panel-05.png",
+          "webp": "/assets/images/panels/condensation/panel-05.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 447,
+          "height": 471,
+          "expected_width": 447,
+          "expected_height": 471,
+          "png_sha256": "5c70ba330e44da59ddef9646c3e6042c47e6531bd0a9c7708b0e599259f97bf0",
+          "expected_png_sha256": "5c70ba330e44da59ddef9646c3e6042c47e6531bd0a9c7708b0e599259f97bf0",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-06",
+          "png": "/assets/images/panels/condensation/panel-06.png",
+          "webp": "/assets/images/panels/condensation/panel-06.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 354,
+          "height": 471,
+          "expected_width": 354,
+          "expected_height": 471,
+          "png_sha256": "024468d6f6164fccd99ea3317b250e279c26161fbfcc962e83435f6fe58a8771",
+          "expected_png_sha256": "024468d6f6164fccd99ea3317b250e279c26161fbfcc962e83435f6fe58a8771",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-07",
+          "png": "/assets/images/panels/condensation/panel-07.png",
+          "webp": "/assets/images/panels/condensation/panel-07.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 398,
+          "height": 471,
+          "expected_width": 398,
+          "expected_height": 471,
+          "png_sha256": "9eab73827f7e4e00f26f020882bbf12e329eb216a2389b7a59d6f7dff26336fe",
+          "expected_png_sha256": "9eab73827f7e4e00f26f020882bbf12e329eb216a2389b7a59d6f7dff26336fe",
+          "pixels_equal": true
+        }
+      ],
+      "card_header": {
+        "png": "/assets/images/panels/condensation/card-header.png",
+        "webp": "/assets/images/panels/condensation/card-header.webp",
+        "png_status": 200,
+        "webp_status": 200,
+        "width": 425,
+        "height": 213,
+        "expected_width": 425,
+        "expected_height": 213,
+        "png_sha256": "0b587f6769fd9710da0dceb9f9e607cdcab8088399af2794d6cc6986e0f50a11",
+        "expected_png_sha256": "0b587f6769fd9710da0dceb9f9e607cdcab8088399af2794d6cc6986e0f50a11",
+        "pixels_equal": true
+      }
+    },
+    "shadow-size": {
+      "title": "影子為什麼會變大？",
+      "scheduled_at": "2026-11-23T09:00:00+08:00",
+      "result": "verified",
+      "article": {
+        "url": "https://shezi.org.tw/science/shadow-size/",
+        "status": 200,
+        "title_present": true
+      },
+      "index": {
+        "url": "https://shezi.org.tw/science/",
+        "status": 200,
+        "card_present": true
+      },
+      "source": {
+        "url": "https://shezi.org.tw/assets/images/science-approved/shadow-size.png",
+        "status": 200,
+        "width": 941,
+        "height": 10226,
+        "sha256": "c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd",
+        "expected_sha256": "c663ffb084ef161cc26d9cadfb86ea970ca8679cc4099b2a76d85753ea5c3dfd"
+      },
+      "panels": [
+        {
+          "key": "panel-01",
+          "png": "/assets/images/panels/shadow-size/panel-01.png",
+          "webp": "/assets/images/panels/shadow-size/panel-01.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "824d9ebb7ed7c739cc7b931b014b90c24ea4b049d84a91ab2de6355c40e5206b",
+          "expected_png_sha256": "824d9ebb7ed7c739cc7b931b014b90c24ea4b049d84a91ab2de6355c40e5206b",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-02",
+          "png": "/assets/images/panels/shadow-size/panel-02.png",
+          "webp": "/assets/images/panels/shadow-size/panel-02.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "3a4ac1e9d2b573ce8b26907241773600bd05a234fe0620ea210853b4cd271560",
+          "expected_png_sha256": "3a4ac1e9d2b573ce8b26907241773600bd05a234fe0620ea210853b4cd271560",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-03",
+          "png": "/assets/images/panels/shadow-size/panel-03.png",
+          "webp": "/assets/images/panels/shadow-size/panel-03.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "4ec0807cfe82c75116a4e055aad9623d0c8509ee8a48e8a7cc8963b68c077ff4",
+          "expected_png_sha256": "4ec0807cfe82c75116a4e055aad9623d0c8509ee8a48e8a7cc8963b68c077ff4",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-04",
+          "png": "/assets/images/panels/shadow-size/panel-04.png",
+          "webp": "/assets/images/panels/shadow-size/panel-04.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "aec9c866ba799e8a6385bb4347a5261504223581fbd9b0d4a6cb7a6469c3cd56",
+          "expected_png_sha256": "aec9c866ba799e8a6385bb4347a5261504223581fbd9b0d4a6cb7a6469c3cd56",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-05",
+          "png": "/assets/images/panels/shadow-size/panel-05.png",
+          "webp": "/assets/images/panels/shadow-size/panel-05.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "7291526f680e98653c5e5608cb26fef3ef3d01ba9f1341d21f66d7c8c07af578",
+          "expected_png_sha256": "7291526f680e98653c5e5608cb26fef3ef3d01ba9f1341d21f66d7c8c07af578",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-06",
+          "png": "/assets/images/panels/shadow-size/panel-06.png",
+          "webp": "/assets/images/panels/shadow-size/panel-06.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1229,
+          "expected_width": 941,
+          "expected_height": 1229,
+          "png_sha256": "a0c614ddebf80c70a19bece616461236df4b809edf5f40a81e113751904ac80a",
+          "expected_png_sha256": "a0c614ddebf80c70a19bece616461236df4b809edf5f40a81e113751904ac80a",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-07",
+          "png": "/assets/images/panels/shadow-size/panel-07.png",
+          "webp": "/assets/images/panels/shadow-size/panel-07.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1180,
+          "expected_width": 941,
+          "expected_height": 1180,
+          "png_sha256": "5ab1f18f9224bd78cf07b00d1c464a7da7e23e436648c5d25f0c8668464cfd5e",
+          "expected_png_sha256": "5ab1f18f9224bd78cf07b00d1c464a7da7e23e436648c5d25f0c8668464cfd5e",
+          "pixels_equal": true
+        },
+        {
+          "key": "panel-08",
+          "png": "/assets/images/panels/shadow-size/panel-08.png",
+          "webp": "/assets/images/panels/shadow-size/panel-08.webp",
+          "png_status": 200,
+          "webp_status": 200,
+          "width": 941,
+          "height": 1672,
+          "expected_width": 941,
+          "expected_height": 1672,
+          "png_sha256": "37004549cb1397cf97378d798c8020aa50c57ac5f56f14329458e7ebfdbce132",
+          "expected_png_sha256": "37004549cb1397cf97378d798c8020aa50c57ac5f56f14329458e7ebfdbce132",
+          "pixels_equal": true
+        }
+      ],
+      "card_header": {
+        "png": "/assets/images/panels/shadow-size/card-header.png",
+        "webp": "/assets/images/panels/shadow-size/card-header.webp",
+        "png_status": 200,
+        "webp_status": 200,
+        "width": 692,
+        "height": 260,
+        "expected_width": 692,
+        "expected_height": 260,
+        "png_sha256": "7826f10235d605dcff997125993a9f7e77466c0bdd340be9e677029c65a889c6",
+        "expected_png_sha256": "7826f10235d605dcff997125993a9f7e77466c0bdd340be9e677029c65a889c6",
+        "pixels_equal": true
+      }
+    }
+  }
+}
