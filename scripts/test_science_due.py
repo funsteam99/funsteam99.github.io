@@ -24,7 +24,7 @@ with tempfile.TemporaryDirectory(dir=m.ROOT.parent) as tmp:
     text=table.read_text('utf-8')
     lines=[]
     for line in text.splitlines():
-        if re.match(r'\| 2026-(10-(12|19|26)|11-(02|09|16)) 09:00',line):
+        if re.match(r'\| 2026-(10-(12|19|26)|11-(02|09|16|23|30)) 09:00',line):
             cells=line.split('|'); cells[3]=' 待發布 '; line='|'.join(cells)
         lines.append(line)
     table.write_text('\n'.join(lines)+'\n','utf-8')
