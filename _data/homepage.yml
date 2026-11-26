@@ -33,9 +33,9 @@ services:
 
 resources:
   - icon: "✏️"
-    tag: "數學練習・注音展示"
+    tag: "國小數學練習"
     title: "國小數學練習入口"
-    desc: "一至三年級注音示範，選擇年級、輸入練習編號，在網頁上練習作答。展示內容持續增加中。"
+    desc: "選擇一年級、二年級或三年級，直接進入各年級練習頁。內容持續增加中。"
     provider: "社子文教基金會"
     link: "/home-learning-math-pilot/zhuyin-demo-20261125.html"
   - icon: "💡"
