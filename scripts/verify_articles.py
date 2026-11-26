@@ -2,6 +2,7 @@
 from pathlib import Path
 import re
 from urllib.parse import unquote
+from urllib.request import urlopen
 
 root = Path("_site")
 home = (root / "index.html").read_text(encoding="utf-8")
@@ -40,6 +41,13 @@ for grade in range(1, 7):
 assert "此篇改由首頁" not in home + archive
 for html in (home, archive, old_post, post, placement):
     for url in re.findall(r'(?:href|src)="(/[^"#?]*)', html):
+        if url.startswith("/home-learning-math-pilot/"):
+            # This project is deployed separately as a GitHub Pages project site.
+            filename = url.removeprefix("/home-learning-math-pilot/")
+            assert filename in {"index.html", "g2-learning-u01-u04-v1.html", "g3-trial.html", "zhuyin-demo-20261125.html"}, f"Unknown project URL: {url}"
+            with urlopen(f"https://raw.githubusercontent.com/funsteam99/home-learning-math-pilot/main/{filename}", timeout=20) as response:
+                assert response.status == 200, f"Missing project URL: {url}"
+            continue
         path = root / unquote(url).lstrip("/")
         assert path.exists() or (path / "index.html").exists(), f"Missing local URL: {url}"
 print("PASS: Pages build, article routes, retained news, complete content, local links")
